@@ -8,7 +8,18 @@ Blueprints for Satisfactory game.
    - prod-foundation-inner - 4x1 1 m foundation
    - prod-foundation-inner_corner - 1x1 1 m foundation
    - prod-foundation-stairs - 4x1 1 m foundation, catwalk stairs
-   - prod-foundation-module - 4x4 1 m foundation
+
+- Module Foundation - two layers of 1 m foundation, 8 m vertical in between
+   - prod-mod_found-empty - 4x4 1 m foundation
+   - prod-mod_found-1_1 - 4x4 1 m foundation, 1 input hole, 1 output hole
+   - prod-mod_found-2_1 - 4x4 1 m foundation, 2 input hole, 1 output hole
+
+- Module
+   - prod-module-stairs - catwalk stairs between modules
+   - prod-module-stairs_top - catwalk stairs between modules, top floor
+   - prod-module-stairs_outside - catwalk stairs between modules, outermost
+   - prod-module-stairs_outside_top - catwalk stairs between modules, outermost, top floor
+
 
 ## Fluid
 
