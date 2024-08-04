@@ -3,6 +3,13 @@ Blueprints for Satisfactory game.
 
 ## Production Foundations etc
 
+### Parts
+- prod-parts-module_floor
+- prod-parts-wall
+- prod-parts-wall_doors
+- prod-parts-empty_module_floor
+- prod-parts-empty_module
+
 ### Foundation - two layers of 1 m foundation, 8 m vertical in between
 - prod-foundation-pillar - 1x1 1 m foundation, pillar support, 4 wall outlet mk1, wires
 - prod-foundation-inner - 4x1 1 m foundation
