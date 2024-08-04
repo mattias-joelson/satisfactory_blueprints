@@ -70,22 +70,22 @@ Blueprints for Satisfactory game.
 - prod-mk3-quartz_crystal
 - prod-mk3-silica
 
-### Production mk5
+## Production mk5
 
-#### Smelter mk5
+### Smelter mk5
 - prod-mk5-iron_ingot
 - prod-mk5-copper_ingot
 - prod-mk5-caterium_ingot
 
-#### Foundry mk5
+### Foundry mk5
 - prod-mk5-steel_ingot
 - prod-mk5-aluminum_ingot
 - prod-mk5-aluminum_ingot_top
 
-#### Constructor mk5
+### Constructor mk5
 - prod-mk5-iron_rod
 
-#### Assembler mk5
+### Assembler mk5
 - prod-mk5-steel_beam
 - prod-mk5-steel_pipe
 - prod-mk5-alclad_aluminum_sheet
