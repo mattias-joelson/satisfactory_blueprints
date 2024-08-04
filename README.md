@@ -1,6 +1,15 @@
 # satisfactory_blueprints
 Blueprints for Satisfactory game.
 
+## Production
+
+- Foundation - two layers of 1 m foundation, 8 m vertical in between
+   - prod-foundation-pillar - 1x1 1 m foundation, pillar support, 4 wall outlet mk1, wires
+   - prod-foundation-inner - 4x1 1 m foundation
+   - prod-foundation-inner_corner - 1x1 1 m foundation
+   - prod-foundation-stairs - 4x1 1 m foundation, catwalk stairs
+   - prod-foundation-module - 4x4 1 m foundation
+
 ## Fluid
 
 - Buffer
@@ -23,4 +32,4 @@ Blueprints for Satisfactory game.
    - rail-junction-entrance - 4x4 2 m foundations, railways
    - rail-junction-back - 4x4 2 m foundations, for connecting branching direction
    - rail-junction-branch - 4x4 2 m foundations, for branching direction
-   - rail-junction-corner - Inner Corner Extension 2 m
+   - rail-junction-corner - inner corner extension 2 m
