@@ -20,6 +20,63 @@ Blueprints for Satisfactory game.
    - prod-module-stairs_outside - catwalk stairs between modules, outermost
    - prod-module-stairs_outside_top - catwalk stairs between modules, outermost, top floor
 
+- Production mk2
+   - Smelter mk2
+      - prod-mk2-iron_ingot
+      - prod-mk2-copper_ingot
+	  - prod-mk2-steel_ingot
+   - Constructor mk2
+      - prod-mk2-iron_plate
+	  - prod-mk2-iron_rod
+      - prod-mk2-copper_sheet
+      - prod-mk2-concrete
+   - Assembler mk2
+      - prod-mk2-modular_frame
+	  - prod-mk2-steel_beam
+	  - prod-mk2-steel_pipe
+      - prod-mk2-encased_industrial_beam
+
+- Production mk3
+   - Smelter mk3
+      - prod-mk3-iron_ingot
+      - prod-mk3-copper_ingot
+	  - prod-mk3-caterium_ingot
+   - Foundry mk3
+	  - prod-mk3-steel_ingot
+	  - prod-mk3-aluminum_ingot
+	  - prod-mk3-aluminum_ingot_top
+   - Constructor mk3
+      - prod-mk3-iron_rod
+      - prod-mk3-concrete
+   - Assembler mk3
+      - prod-mk3-steel_beam
+	  - prod-mk3-steel_pipe
+	  - prod-mk3-motor
+	  - prod-mk3-circuit_board
+	  - prod-mk3-alclad_aluminum_sheet
+	  - prod-mk3-black_powder
+	  - prod-mk3-nobelisk
+	  - prod-mk3-quartz_crystal
+	  - prod-mk3-silica
+
+- Production mk5
+   - Smelter mk5
+      - prod-mk5-iron_ingot
+      - prod-mk5-copper_ingot
+	  - prod-mk5-caterium_ingot
+   - Foundry mk5
+	  - prod-mk5-steel_ingot
+	  - prod-mk5-aluminum_ingot
+	  - prod-mk5-aluminum_ingot_top
+   - Constructor mk5
+      - prod-mk5-iron_rod
+   - Assembler mk5
+      - prod-mk5-steel_beam
+	  - prod-mk5-steel_pipe
+	  - prod-mk5-alclad_aluminum_sheet
+	  - prod-mk5-aluminum_casing
+	  - prod-mk5-quartz_crystal
+	  - prod-mk5-silica
 
 ## Fluid
 
