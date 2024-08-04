@@ -93,6 +93,16 @@ Blueprints for Satisfactory game.
 - prod-mk5-quartz_crystal
 - prod-mk5-silica
 
+## Logistics
+
+### Parts
+- logi-parts-vertical_splitter_mk2
+- logi-parts-vertical_splitter_mk3
+- logi-parts-vertical_splitter_mk5
+- logi-parts-vertical_merger_mk2
+- logi-parts-vertical_merger_mk3
+- logi-parts-vertical_merger_mk5
+
 ## Fluid
 
 ### Buffer
