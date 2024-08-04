@@ -1,6 +1,12 @@
 # satisfactory_blueprints
 Blueprints for Satisfactory game.
 
+## Fluid
+
+- Buffer
+   - fluid-buffer-mk1 - 4 fluid buffer, pipes mk1 (300)
+   - fluid-buffer-mk2 - 4 fluid buffer, pipes mk2 (600)
+
 ## Railways
 
 - Parts
