@@ -105,3 +105,8 @@ Blueprints for Satisfactory game.
    - rail-junction-back - 4x4 2 m foundations, for connecting branching direction
    - rail-junction-branch - 4x4 2 m foundations, for branching direction
    - rail-junction-corner - inner corner extension 2 m
+
+## Experiments
+
+- experiment-straight
+- experiment-straight_magic - possible to put parts outside of Blueprint Designer.
