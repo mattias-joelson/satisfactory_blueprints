@@ -116,6 +116,12 @@ Blueprints for Satisfactory game.
 - logi-parts-vertical_merger_mk3
 - logi-parts-vertical_merger_mk5
 
+### Balancer
+- logi-balancer-2_2_mk3
+- logi-balancer-2_2_mk3_high
+- logi-balancer-4_4_mk3
+- logi-balancer-4_4_mk5
+
 ## Fluid
 
 ### Buffer
