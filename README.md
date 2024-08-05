@@ -99,6 +99,10 @@ Blueprints for Satisfactory game.
 - prod-mk3-plastic_R
 - prod-mk3-rubber_R
 - prod-mk3-smokeless_powder_L_R
+- prod-mk3-alumina_solution_L_R
+- prod-mk3-alumina_solution_R_L
+- prod-mk3-aluminum_scrap_L_R
+- prod-mk3-aluminum_scrap_R_L
 
 ## Production mk5
 
@@ -122,6 +126,12 @@ Blueprints for Satisfactory game.
 
 ### Assembler mk5
 - prod-mk5-alclad_aluminum_sheet
+
+### Refinery
+- prod-mk5-alumina_solution_L_R
+- prod-mk5-alumina_solution_R_L
+- prod-mk5-aluminum_scrap_L_R
+- prod-mk5-aluminum_scrap_R_L
 
 ## Logistics
 
