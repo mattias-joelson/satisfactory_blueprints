@@ -21,6 +21,7 @@ Blueprints for Satisfactory game.
 - prod-mod_found-1_1 - 4x4 1 m foundation, 1 input hole, 1 output hole
 - prod-mod_found-wire_cable - 4x4 1 m foundation, 1 input hole, 2 output hole
 - prod-mod_found-2_1 - 4x4 1 m foundation, 2 input hole, 1 output hole
+- prod-mod_found-screws - 4x4 1 m foundation, 1 input hole (iron rods), 1 input hole, 1 output hole
 
 ### Module
 - prod-module-stairs - catwalk stairs between modules
@@ -42,11 +43,13 @@ Blueprints for Satisfactory game.
 - prod-mk2-cable_wire_bottom
 - prod-mk2-copper_sheet
 - prod-mk2-concrete
-
-### Assembler mk2
-- prod-mk2-modular_frame
 - prod-mk2-steel_beam
 - prod-mk2-steel_pipe
+
+### Assembler mk2
+- prod-mk2-reinforced_plate
+- prod-mk2-rotor
+- prod-mk2-modular_frame
 - prod-mk2-encased_industrial_beam
 
 ## Production mk3
@@ -65,17 +68,20 @@ Blueprints for Satisfactory game.
 - prod-mk3-iron_rod
 - prod-mk3-cable
 - prod-mk3-concrete
-
-### Assembler mk3
 - prod-mk3-steel_beam
 - prod-mk3-steel_pipe
+- prod-mk3-quartz_crystal
+- prod-mk3-silica
+
+### Assembler mk3
+- prod-mk3-reinforced_plate
+- prod-mk3-stator
 - prod-mk3-motor
 - prod-mk3-circuit_board
 - prod-mk3-alclad_aluminum_sheet
+- prod-mk3-ai_limiter
 - prod-mk3-black_powder
 - prod-mk3-nobelisk
-- prod-mk3-quartz_crystal
-- prod-mk3-silica
 
 ## Production mk5
 
@@ -91,14 +97,14 @@ Blueprints for Satisfactory game.
 
 ### Constructor mk5
 - prod-mk5-iron_rod
-
-### Assembler mk5
 - prod-mk5-steel_beam
 - prod-mk5-steel_pipe
-- prod-mk5-alclad_aluminum_sheet
 - prod-mk5-aluminum_casing
 - prod-mk5-quartz_crystal
 - prod-mk5-silica
+
+### Assembler mk5
+- prod-mk5-alclad_aluminum_sheet
 
 ## Logistics
 
