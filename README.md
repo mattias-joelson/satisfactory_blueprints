@@ -95,6 +95,11 @@ Blueprints for Satisfactory game.
 - prod-mk3-computer
 - prod-mk3-crystal_oscillator
 
+### Refinery mk3
+- prod-mk3-plastic_R
+- prod-mk3-rubber_R
+- prod-mk3-smokeless_powder_L_R
+
 ## Production mk5
 
 ### Smelter mk5
