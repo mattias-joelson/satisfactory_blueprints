@@ -9,6 +9,8 @@ Blueprints for Satisfactory game.
 - prod-parts-wall_doors
 - prod-parts-empty_module_floor
 - prod-parts-empty_module
+- prod-mk3-manufacturer_3
+- prod-mk3-manufacturer
 
 ### Foundation - two layers of 1 m foundation, 8 m vertical in between
 - prod-foundation-pillar - 1x1 1 m foundation, pillar support, 4 wall outlet mk1, wires
@@ -21,7 +23,10 @@ Blueprints for Satisfactory game.
 - prod-mod_found-1_1 - 4x4 1 m foundation, 1 input hole, 1 output hole
 - prod-mod_found-wire_cable - 4x4 1 m foundation, 1 input hole, 2 output hole
 - prod-mod_found-2_1 - 4x4 1 m foundation, 2 input hole, 1 output hole
-- prod-mod_found-screws - 4x4 1 m foundation, 1 input hole (iron rods), 1 input hole, 1 output hole
+- prod-mod_found-2_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 1 input hole, 1 output hole
+- prod-mod_found-3_1 - 4x4 1 m foundation, 3 input hole, 1 output hole
+- prod-mod_found-4_1 - 4x4 1 m foundation, 4 input hole, 1 output hole
+- prod-mod_found-4_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 3 input hole, 1 output hole
 
 ### Module
 - prod-module-stairs - catwalk stairs between modules
@@ -82,6 +87,11 @@ Blueprints for Satisfactory game.
 - prod-mk3-ai_limiter
 - prod-mk3-black_powder
 - prod-mk3-nobelisk
+
+### Manufacturer mk3
+- prod-mk3-heavy_modular_frame
+- prod-mk3-computer
+- prod-mk3-crystal_oscillator
 
 ## Production mk5
 
