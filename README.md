@@ -9,6 +9,8 @@ Blueprints for Satisfactory game.
 - prod-parts-wall_doors
 - prod-parts-empty_module_floor
 - prod-parts-empty_module
+- prod-mk3-refinery_L_R
+- prod-mk3-refinery_R_L
 - prod-mk3-manufacturer_3
 - prod-mk3-manufacturer
 
@@ -164,6 +166,18 @@ Blueprints for Satisfactory game.
 ### Biomass
 - pow-biomass-biomass_constructor
 - pow-biomass-biomass_burner
+
+### Coal
+- pow-coal-generator_mk2_L
+- pow-coal-generator_mk2_R
+- pow-coal-generator_mk3_L
+- pow-coal-generator_mk3_R
+- pow-coal-petroleum_coke_L
+- pow-coal-petroleum_coke_R
+
+### Fuel
+- pow-fuel-generator
+- pow-fuel-residual_fuel
 
 ### Storage
 - pow-storage-power_storage
