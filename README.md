@@ -156,6 +156,18 @@ Blueprints for Satisfactory game.
 - rail-junction-branch - 4x4 2 m foundations, for branching direction
 - rail-junction-corner - inner corner extension 2 m
 
+## Power
+
+### Parts
+- pow-parts-biomass_burner_floor
+
+### Biomass
+- pow-biomass-biomass_constructor
+- pow-biomass-biomass_burner
+
+### Storage
+- pow-storage-power_storage
+
 ## Experiments
 
 - experiment-straight
