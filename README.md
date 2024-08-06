@@ -149,6 +149,8 @@ Blueprints for Satisfactory game.
 ### Balancer
 - logi-balancer-2_2_mk3
 - logi-balancer-2_2_mk3_high
+- logi-balancer-2_3_mk3
+- logi-balancer-3_3_mk3
 - logi-balancer-4_4_mk3
 - logi-balancer-4_4_mk5
 
