@@ -29,12 +29,14 @@ Blueprints for Satisfactory game.
 - prod-mod_found-3_1 - 4x4 1 m foundation, 3 input hole, 1 output hole
 - prod-mod_found-4_1 - 4x4 1 m foundation, 4 input hole, 1 output hole
 - prod-mod_found-4_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 3 input hole, 1 output hole
+- prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
 
 ### Module
 - prod-module-stairs - catwalk stairs between modules
 - prod-module-stairs_top - catwalk stairs between modules, top floor
 - prod-module-stairs_outside - catwalk stairs between modules, outermost
 - prod-module-stairs_outside_top - catwalk stairs between modules, outermost, top floor
+- prod-module-storage - 12 storage container
 
 ## Production mk2
 
@@ -82,6 +84,7 @@ Blueprints for Satisfactory game.
 
 ### Assembler mk3
 - prod-mk3-reinforced_plate
+- prod-mk3-encased_industrial_beam
 - prod-mk3-stator
 - prod-mk3-motor
 - prod-mk3-circuit_board
