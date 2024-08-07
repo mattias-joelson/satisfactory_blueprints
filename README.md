@@ -75,8 +75,11 @@ Blueprints for Satisfactory game.
 - prod-mk3-aluminum_ingot_top
 
 ### Constructor mk3
+- prod-mk3-iron_plate
 - prod-mk3-iron_rod
 - prod-mk3-cable
+- prod-mk3-cable_wire_bottom
+- prod-mk3-copper_sheet
 - prod-mk3-concrete
 - prod-mk3-steel_beam
 - prod-mk3-steel_pipe
@@ -85,6 +88,8 @@ Blueprints for Satisfactory game.
 
 ### Assembler mk3
 - prod-mk3-reinforced_plate
+- prod-mk3-rotor
+- prod-mk3-modular_frame
 - prod-mk3-encased_industrial_beam
 - prod-mk3-stator
 - prod-mk3-motor
