@@ -29,6 +29,7 @@ Blueprints for Satisfactory game.
 - prod-mod_found-2_1 - 4x4 1 m foundation, 2 input hole, 1 output hole
 - prod-mod_found-2_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 1 input hole, 1 output hole
 - prod-mod_found-3_1 - 4x4 1 m foundation, 3 input hole, 1 output hole
+- prod-mod_found-3_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 2 input hole, 1 output hole
 - prod-mod_found-4_1 - 4x4 1 m foundation, 4 input hole, 1 output hole
 - prod-mod_found-4_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 3 input hole, 1 output hole
 - prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
@@ -97,18 +98,29 @@ Blueprints for Satisfactory game.
 - prod-mk3-circuit_board
 - prod-mk3-alclad_aluminum_sheet
 - prod-mk3-ai_limiter
+- prod-mk3-compacted_coal
 - prod-mk3-black_powder
 - prod-mk3-nobelisk
+- prod-mk3-rifle_ammo
 
 ### Manufacturer mk3
 - prod-mk3-heavy_modular_frame
 - prod-mk3-computer
 - prod-mk3-crystal_oscillator
+- prod-mk3-high-speed_connector
 
 ### Refinery mk3
+- prod-mk3-plastic_L
 - prod-mk3-plastic_R
+- prod-mk3-rubber_L
 - prod-mk3-rubber_R
+- prod-mk3-fuel_L
+- prod-mk3-fuel_R
+- prod-mk3-residual_fuel
+- prod-mk3-turbofuel_L
+- prod-mk3-turbofuel_R
 - prod-mk3-smokeless_powder_L_R
+- prod-mk3-smokeless_powder_R_L
 - prod-mk3-alumina_solution_L_R
 - prod-mk3-alumina_solution_R_L
 - prod-mk3-aluminum_scrap_L_R
