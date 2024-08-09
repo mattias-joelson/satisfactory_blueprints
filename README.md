@@ -163,6 +163,16 @@ Blueprints for Satisfactory game.
 
 ## Fluid
 
+### Control
+- fluid-ctrl-1_horizontal_pump_mk1
+- fluid-ctrl-2_horizontal_pump_mk1
+- fluid-ctrl-3_horizontal_pump_mk1
+- fluid-ctrl-1_vertical_pump_mk1
+- fluid-ctrl-1_vertical_pump_mk1
+- fluid-ctrl-1_vertical_pump_mk1
+- fluid-ctrl-overflow_junction-mk1
+- fluid-ctrl-3_junction_mk1
+
 ### Buffer
 - fluid-buffer-mk1 - 4 fluid buffer, pipes mk1 (300)
 - fluid-buffer-mk2 - 4 fluid buffer, pipes mk2 (600)
