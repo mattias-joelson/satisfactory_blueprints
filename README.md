@@ -35,8 +35,8 @@ Blueprints for Satisfactory game.
 - prod-mod_found-3_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 2 input hole, 1 output hole
 - prod-mod_found-4_1 - 4x4 1 m foundation, 4 input hole, 1 output hole
 - prod-mod_found-4_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 3 input hole, 1 output hole
-- prod-mod_found-2_2_1_1 - 4x4 1 m foundation, 2 input hole, 2 input pipe hole, 1 output hole, 1 output pipe hole
 - prod-mod_found-2_1_1_1 - 4x4 1 m foundation, 2 input hole, 1 input pipe hole, 1 output hole, 1 output pipe hole
+- prod-mod_found-2_2_1_1 - 4x4 1 m foundation, 2 input hole, 2 input pipe hole, 1 output hole, 1 output pipe hole
 - prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
 
 ### Module
