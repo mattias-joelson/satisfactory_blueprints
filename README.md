@@ -23,12 +23,12 @@ Blueprints for Satisfactory game.
 - prod-foundation-inner_corner - 1x1 1 m foundation
 - prod-foundation-stairs - 4x1 1 m foundation, catwalk stairs
 - prod-foundation-pillar_under - 1x1, pillar support, 4 wall outlet mk1, wires
-- prod-foundation-pillar_bottom_fl - 1x1, pillar support and 7 pillar (height 8), for a floor under ordinary factory floor
+- (REMOVE) prod-foundation-pillar_bottom_fl - 1x1, pillar support and 7 pillar (height 8), for a floor under ordinary factory floor
 
 ### Module Foundation - two layers of 1 m foundation, 8 m vertical in between
 - prod-mod_found-empty - 4x4 1 m foundation
 - prod-mod_found-1_1 - 4x4 1 m foundation, 1 input hole, 1 output hole
-- prod-mod_found-wire_cable - 4x4 1 m foundation, 1 input hole, 2 output hole
+- prod-mod_found-1_2_wire_cable - 4x4 1 m foundation, 1 input hole, 2 output hole
 - prod-mod_found-2_1 - 4x4 1 m foundation, 2 input hole, 1 output hole
 - prod-mod_found-2_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 1 input hole, 1 output hole
 - prod-mod_found-3_1 - 4x4 1 m foundation, 3 input hole, 1 output hole
@@ -107,12 +107,19 @@ Blueprints for Satisfactory game.
 - prod-mk3-black_powder
 - prod-mk3-nobelisk
 - prod-mk3-rifle_ammo
+- prod-mk3-gas_filter
+- prod-mk3-smart_plating.sbp
+- prod-mk3-versatile_framework.sbp
+- prod-mk3-automated_wiring
 
 ### Manufacturer mk3
 - prod-mk3-heavy_modular_frame
 - prod-mk3-computer
 - prod-mk3-crystal_oscillator
 - prod-mk3-high-speed_connector
+- prod-mk3-supercomputer.sbp
+- prod-mk3-modular_engine
+- prod-mk3-adaptive_control_unit
 
 ### Refinery mk3
 - prod-mk3-plastic_L
@@ -121,7 +128,13 @@ Blueprints for Satisfactory game.
 - prod-mk3-rubber_R
 - prod-mk3-fuel_L
 - prod-mk3-fuel_R
+- prod-mk3-residual_plastic_L_R
+- prod-mk3-residual_plastic_R_L
+- prod-mk3-residual_rubber_L_R
+- prod-mk3-residual_rubber_R_L
 - prod-mk3-residual_fuel
+- prod-mk3-polyester_fabric_L_R
+- prod-mk3-polyester_fabric_R_L
 - prod-mk3-turbofuel_L
 - prod-mk3-turbofuel_R
 - prod-mk3-smokeless_powder_L_R
@@ -156,6 +169,9 @@ Blueprints for Satisfactory game.
 - prod-mk5-electromagnetic_control
 - prod-mk5-magnetic_field_generato
 
+### Manufacturer mk5
+- prod-mk5-radio_control_unit
+
 ### Refinery
 - prod-mk5-alumina_solution_L_R
 - prod-mk5-alumina_solution_R_L
@@ -175,24 +191,45 @@ Blueprints for Satisfactory game.
 - logi-parts-vertical_merger_mk3
 - logi-parts-vertical_merger_mk5
 
-### Balancer
+### Balancer mk3
 - logi-balancer-2_2_mk3
 - logi-balancer-2_2_mk3_high
 - logi-balancer-2_3_mk3
 - logi-balancer-2_4_mk3
 - logi-balancer-3_3_mk3
 - logi-balancer-4_4_mk3
+
+### Balancer mk5
+- logi-balancer-2_2_mk5
+- logi-balancer-2_2_mk5_high
+- logi-balancer-2_3_mk5
+- logi-balancer-2_4_mk5
+- logi-balancer-3_3_mk5
 - logi-balancer-4_4_mk5
 
 ## Fluid
 
-### Control
+### Control, pumps
 - fluid-ctrl-1_horizontal_pump_mk1
 - fluid-ctrl-2_horizontal_pump_mk1
 - fluid-ctrl-3_horizontal_pump_mk1
 - fluid-ctrl-1_vertical_pump_mk1
-- fluid-ctrl-1_vertical_pump_mk1
-- fluid-ctrl-1_vertical_pump_mk1
+- fluid-ctrl-1_vertical_pump_mk2
+- fluid-ctrl-2_vertical_pump_mk1
+- fluid-ctrl-2_vertical_pump_mk2
+- fluid-ctrl-3_vertical_pump_mk1
+
+### Control - Priority Junction
+- fluid-ctrl-prio_junction-mk1-L-L
+- fluid-ctrl-prio_junction-mk1-L-R
+- fluid-ctrl-prio_junction-mk1-R-L
+- fluid-ctrl-prio_junction-mk1-R-R
+- fluid-ctrl-prio_junction-mk2-L-L
+- fluid-ctrl-prio_junction-mk2-L-R
+- fluid-ctrl-prio_junction-mk2-R-L
+- fluid-ctrl-prio_junction-mk2-R-R
+
+### Control - Overflow Junction
 - fluid-ctrl-overflow_junction-mk1
 - fluid-ctrl-3_junction_mk1
 
@@ -243,7 +280,6 @@ Blueprints for Satisfactory game.
 - pow-storage-power_storage
 
 ## Experiments
-
 - experiment-straight
 - experiment-straight_magic - possible to put parts outside of Blueprint Designer.
 - expr-prod-mk3-S-iron_ingot - manifold with smart splitters, more benchmark needed.
