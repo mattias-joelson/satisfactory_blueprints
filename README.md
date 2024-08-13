@@ -13,6 +13,9 @@ Blueprints for Satisfactory game.
 - prod-mk3-refinery_R_L
 - prod-mk3-manufacturer_3
 - prod-mk3-manufacturer
+- prod-mk5-mk1-blender
+- prod-mk5-mk2-blender
+
 
 ### Foundation - two layers of 1 m foundation, 8 m vertical in between
 - prod-foundation-pillar - 1x1 1 m foundation, pillar support, 4 wall outlet mk1, wires
@@ -33,6 +36,7 @@ Blueprints for Satisfactory game.
 - prod-mod_found-4_1 - 4x4 1 m foundation, 4 input hole, 1 output hole
 - prod-mod_found-4_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 3 input hole, 1 output hole
 - prod-mod_found-2_2_1_1 - 4x4 1 m foundation, 2 input hole, 2 input pipe hole, 1 output hole, 1 output pipe hole
+- prod-mod_found-2_1_1_1 - 4x4 1 m foundation, 2 input hole, 1 input pipe hole, 1 output hole, 1 output pipe hole
 - prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
 
 ### Module
@@ -149,6 +153,8 @@ Blueprints for Satisfactory game.
 
 ### Assembler mk5
 - prod-mk5-alclad_aluminum_sheet
+- prod-mk5-electromagnetic_control
+- prod-mk5-magnetic_field_generato
 
 ### Refinery
 - prod-mk5-alumina_solution_L_R
@@ -157,8 +163,7 @@ Blueprints for Satisfactory game.
 - prod-mk5-aluminum_scrap_R_L
 
 ### Blender
-- prod-mk5-mk1-blender
-- prod-mk5-mk2-blender
+- prod-mk5-mk1-encased_uranium_cel
 
 ## Logistics
 
