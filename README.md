@@ -25,9 +25,10 @@ Blueprints for Satisfactory game.
 - prod+foundation-pillar_under - 1x1, pillar support, 4 wall outlet mk1, wires
 
 ### Module Foundation - two layers of 1 m foundation, 8 m vertical in between
-- prod-mod_found-empty - 4x4 1 m foundation
-- prod-mod_found-1_1 - 4x4 1 m foundation, 1 input hole, 1 output hole
+- prod+mod_found-empty - 4x4 1 m foundation
+- prod+mod_found-1_1 - 4x4 1 m foundation, 1 input hole, 1 output hole
 - prod-mod_found-1_2_wire_cable - 4x4 1 m foundation, 1 input hole, 2 output hole
+- prod+mod_found-1_3 - 4x4 1 m foundation, 1 input hole, 3 output hole
 - prod-mod_found-2_1 - 4x4 1 m foundation, 2 input hole, 1 output hole
 - prod-mod_found-2_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 1 input hole, 1 output hole
 - prod-mod_found-3_1 - 4x4 1 m foundation, 3 input hole, 1 output hole
@@ -48,9 +49,19 @@ Blueprints for Satisfactory game.
 
 ## Production mk2
 
+### Crusher/Sorter mk2
+- prod+mk2-crushed_iron_DOWN
+- prod+mk2-crushed_copper_DOWN
+- prod+mk2-crushed_tin_DOWN
+
 ### Smelter mk2
-- prod-mk2-iron_ingot
-- prod-mk2-copper_ingot
+- prod+mk2-iron_ingot
+- prod+mk2-copper_ingot
+- prod+mk2-tin_ingot
+- prod+mk2-zinc_ingot
+- prod+mk2-lead_ingot
+
+### Foundry mk2
 - prod-mk2-steel_ingot
 
 ### Constructor mk2
