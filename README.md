@@ -65,12 +65,13 @@ Blueprints for Satisfactory game.
 - prod-mk2-steel_ingot
 
 ### Constructor mk2
-- prod-mk2-iron_plate
-- prod-mk2-iron_rod
-- prod-mk2-cable
-- prod-mk2-cable_wire_bottom
+- prod+mk2-iron_plate
+- prod+mk2-iron_rod
+- prod+mk2-copper_rod
+- prod+mk2-cable
+- prod+mk2-cable_wire_bottom
 - prod-mk2-copper_sheet
-- prod-mk2-concrete
+- prod+mk2-concrete
 - prod-mk2-steel_beam
 - prod-mk2-steel_pipe
 
