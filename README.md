@@ -39,6 +39,7 @@ Blueprints for Satisfactory game.
 - prod-mod_found-2_1_1_1 - 4x4 1 m foundation, 2 input hole, 1 input pipe hole, 1 output hole, 1 output pipe hole
 - prod-mod_found-2_2_1_1 - 4x4 1 m foundation, 2 input hole, 2 input pipe hole, 1 output hole, 1 output pipe hole
 - prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
+- prod-mod_found-18 - 4x4 1 m foundation, 18 input hole (for storage)
 
 ### Module
 - prod-module-stairs - catwalk stairs between modules
@@ -46,6 +47,8 @@ Blueprints for Satisfactory game.
 - prod-module-stairs_outside - catwalk stairs between modules, outermost
 - prod-module-stairs_outside_top - catwalk stairs between modules, outermost, top floor
 - prod-module-storage - 12 storage container
+- prod-module-storage_18 - 18 storage container
+- prod-module-storage_18_nosign - 18 storage container (no signs)
 
 ## Production mk2
 
@@ -264,6 +267,7 @@ Blueprints for Satisfactory game.
 
 ### Biomass
 - pow-biomass-biomass_constructor
+- pow-biomass-biomass_const_nosign
 - pow-biomass-biomass_burner
 
 ### Coal
