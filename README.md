@@ -94,6 +94,7 @@ Blueprints for Satisfactory game.
 - prod-mk3-concrete
 - prod-mk3-steel_beam
 - prod-mk3-steel_pipe
+- prod-mk3-empty_canister
 - prod-mk3-quartz_crystal
 - prod-mk3-silica
 
