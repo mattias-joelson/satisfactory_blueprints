@@ -172,6 +172,7 @@ Blueprints for Satisfactory game.
 - prod-mk5-aluminum_casing
 - prod-mk5-quartz_crystal
 - prod-mk5-silica
+- prod-mk5-quickwire
 
 ### Assembler mk5
 - prod-mk3-reinforced_plate
