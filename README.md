@@ -162,7 +162,11 @@ Blueprints for Satisfactory game.
 - prod-mk5-aluminum_ingot_top
 
 ### Constructor mk5
+- prod-mk5-iron_plate
 - prod-mk5-iron_rod
+- prod-mk5-cable
+- prod-mk5-copper_sheet
+- prod-mk5-concrete
 - prod-mk5-steel_beam
 - prod-mk5-steel_pipe
 - prod-mk5-aluminum_casing
@@ -170,20 +174,27 @@ Blueprints for Satisfactory game.
 - prod-mk5-silica
 
 ### Assembler mk5
+- prod-mk3-reinforced_plate
+- prod-mk5-circuit_board
 - prod-mk5-alclad_aluminum_sheet
+- prod-mk5-ai_limiter
 - prod-mk5-electromagnetic_control
 - prod-mk5-magnetic_field_generato
 
 ### Manufacturer mk5
+- prod-mk5-computer
+- prod-mk5-crystal_oscillator
+- prod-mk5-high-speed_connector
+- prod-mk3-supercomputer.sbp
 - prod-mk5-radio_control_unit
 
-### Refinery
+### Refinery mk5
 - prod-mk5-alumina_solution_L_R
 - prod-mk5-alumina_solution_R_L
 - prod-mk5-aluminum_scrap_L_R
 - prod-mk5-aluminum_scrap_R_L
 
-### Blender
+### Blender mk5 mk1
 - prod-mk5-mk1-encased_uranium_cel
 - prod-mk5-mk1-turbo_rifle_ammo
 
