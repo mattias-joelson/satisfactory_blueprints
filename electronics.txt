@@ -96,24 +96,24 @@ aluminum casing 400
 9 + 2 = 11 freight -> 3 stations
 18 moduler -> 5 x 4
 
-* Radio Control Unit
-	* Crystal Oscillator
-		* Quartz Crystal
-			- Iron Plate
-* Computer
-	* Circuit Board
-		- Reinforced Plate
-			-  Iron Ingot
-* Super Computer
-	* High-Speed Connector
-		- Cable
-			- Iron Rod
-* AI Limiter
-	* Caterium Ingot
-		- Copper Sheet
-			- Copper Ingot
-	* QuickWire
-		- Copper Ingot
+*	* Radio Control Unit
+*		* Crystal Oscillator
+*			* Quartz Crystal
+*				- Iron Plate
+*	* Computer
+*		* Circuit Board
+*			- Reinforced Plate
+*				-  Iron Ingot
+*	* Super Computer
+*		* High-Speed Connector
+*			- Cable
+*				- Iron Rod
+*	* AI Limiter
+*		- Caterium Ingot
+*			- Copper Sheet
+*				- Copper Ingot
+*		* QuickWire
+*				- Copper Ingot
 		
 1 pure Iron Ore
 2 pure Copper Ore
@@ -140,3 +140,65 @@ aluminum casing 400
 -> 5*3, 4*7 = 43 corner
 -> between
 
+45 computer
+55 pipe
+40 rotor
+256 reinforced plate
+400 plastic
+161 modular frames
+90 motor
+1838 aluminum sheet
+1963 iron plate
+1591 iron rod
+1804 wire
+3107 cable
+29313 concrete
+
+* 45 computer
+* 55 pipe
+* 136 rotor
+**448 reinforced plate
+--400 plastic
+* 161 heavy modular frames
+* 90 motor
+2286 aluminum sheet
+**2419 iron plate
+**1743 iron rod
+*2028 wire
+**3635 cable
+31793 concrete
+
+9 smart splitter
+
+*1 iron ingot
+*1 iron rod
+*3 copper sheet
+*2 cable
+*4 circuit board
+*5 computer
+
+*1 caterium ingot
+*6 high-speed connector
+*6 AI limiter
+*1 supercomputer
+
+*1 iron plate
+*6 reinforced plate
+*1 quartz crystal
+*12 crystal oscillator
+*4 radio control unit
+
+450 heavy modular frames
+225+100 motor
+4886 alcad
+210 rotors
+
+*	-	radio control unit
+*	sp	crystal oscillator
+*	sp	quartz crystal
+*	sp	computer
+*	sp	circuit board
+*	-	super computer
+*	sp	high-speed connector
+*	sp	AI limiter
+*	sp	"quickwire"
