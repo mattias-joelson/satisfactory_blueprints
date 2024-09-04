@@ -11,8 +11,12 @@ Blueprints for Satisfactory game.
 - prod-parts-empty_module
 - prod-mk3-refinery_L_R
 - prod-mk3-refinery_R_L
+- prod-mk3-mk1-refinery_L_R
+- prod-mk3-mk1-refinery_R_L
 - prod-mk3-manufacturer_3
 - prod-mk3-manufacturer
+- prod-mk5-mk2-refinery_L_R
+- prod-mk5-mk2-refinery_R_L
 - prod-mk5-mk1-blender
 - prod-mk5-mk2-blender
 
@@ -190,6 +194,10 @@ Blueprints for Satisfactory game.
 - prod-mk5-radio_control_unit
 
 ### Refinery mk5
+- prod-mk5-mk2-plastic_L.sbp
+- prod-mk5-mk2-plastic_R.sbp
+- prod-mk5-mk2-rubber_L.sbp
+- prod-mk5-mk2-rubber_R.sbp
 - prod-mk5-alumina_solution_L_R
 - prod-mk5-alumina_solution_R_L
 - prod-mk5-aluminum_scrap_L_R
