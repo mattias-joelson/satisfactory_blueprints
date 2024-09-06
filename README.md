@@ -41,6 +41,7 @@ Blueprints for Satisfactory game.
 - prod-mod_found-4_1_intermediate - 4x4 1 m foundation, 1 input hole (intermediate), 3 input hole, 1 output hole
 - prod-mod_found-2_1_1_0 - 4x4 1 m foundation, 2 input hole, 1 input pipe hole, 0 output hole, 1 output pipe hole
 - prod-mod_found-2_1_1_1 - 4x4 1 m foundation, 2 input hole, 1 input pipe hole, 1 output hole, 1 output pipe hole
+- prod-mod_found-2_2_1_0 - 4x4 1 m foundation, 2 input hole, 2 input pipe hole, 1 output hole, 0 output pipe hole
 - prod-mod_found-2_2_1_1 - 4x4 1 m foundation, 2 input hole, 2 input pipe hole, 1 output hole, 1 output pipe hole
 - prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
 - prod-mod_found-18 - 4x4 1 m foundation, 18 input hole (for storage)
@@ -180,9 +181,13 @@ Blueprints for Satisfactory game.
 
 ### Assembler mk5
 - prod-mk5-reinforced_plate
+- prod-mk5-rotor
 - prod-mk5-encased_industrial_beam
+- prod-mk5-stator
+- prod-mk5-motor
 - prod-mk5-circuit_board
 - prod-mk5-alclad_aluminum_sheet
+- prod-mk5-heat_sink
 - prod-mk5-ai_limiter
 - prod-mk5-electromagnetic_control
 - prod-mk5-magnetic_field_generato
@@ -195,6 +200,7 @@ Blueprints for Satisfactory game.
 - prod-mk5-high-speed_connector
 - prod-mk3-supercomputer.sbp
 - prod-mk5-radio_control_unit
+- prod-mk5-turbo_motor
 
 ### Refinery mk5
 - prod-mk5-mk2-plastic_L.sbp
@@ -209,6 +215,7 @@ Blueprints for Satisfactory game.
 ### Blender mk5 mk1
 - prod-mk5-mk2-fused modular frame (TODO: byt namn)
 - prod-mk5-mk1-encased_uranium_cel
+- prod-mk5-mk2-cooling_system
 - prod-mk5-mk1-turbo_rifle_ammo
 
 ## Logistics
