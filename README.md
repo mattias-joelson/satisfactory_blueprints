@@ -179,7 +179,8 @@ Blueprints for Satisfactory game.
 - prod-mk5-quickwire
 
 ### Assembler mk5
-- prod-mk3-reinforced_plate
+- prod-mk5-reinforced_plate
+- prod-mk5-encased_industrial_beam
 - prod-mk5-circuit_board
 - prod-mk5-alclad_aluminum_sheet
 - prod-mk5-ai_limiter
@@ -187,6 +188,8 @@ Blueprints for Satisfactory game.
 - prod-mk5-magnetic_field_generato
 
 ### Manufacturer mk5
+- prod-mk5-heavy_modular_frame
+- prod-mk5-modular_frame
 - prod-mk5-computer
 - prod-mk5-crystal_oscillator
 - prod-mk5-high-speed_connector
@@ -204,6 +207,7 @@ Blueprints for Satisfactory game.
 - prod-mk5-aluminum_scrap_R_L
 
 ### Blender mk5 mk1
+- prod-mk5-mk2-fused modular frame (TODO: byt namn)
 - prod-mk5-mk1-encased_uranium_cel
 - prod-mk5-mk1-turbo_rifle_ammo
 
@@ -258,6 +262,13 @@ Blueprints for Satisfactory game.
 ### Control - Overflow Junction
 - fluid-ctrl-overflow_junction-mk1
 - fluid-ctrl-3_junction_mk1
+
+### Station
+- fluid-load-mk1
+- fluid-load-mk2
+- fluid-unload-mk1
+- fluid-unload-mk2
+
 
 ### Buffer
 - fluid-buffer-mk1 - 4 fluid buffer, pipes mk1 (300)

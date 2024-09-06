@@ -1,0 +1,93 @@
+Fused Modular Frame 10
+- aluminum casing 500
+- iron ore 2475 => 3,173 -> 4 pure
+- coal 1025 => 1,314 -> 2 pure
+- limestone 750 => 0,92 -> 1 pure
+- nitrogen gas 250 => 0,417 -> 1 mk2 pipe
+
+B Fused Modular Frame 6,667 -> 7 => 7
+B Heavy Modular Frame 5 -> 5 => 5
+B Modular Frame 25 -> 30 => 5
+B Reinforced Iron Plate 15 -> 16 => 8
+B Iron Plate 22,5 -> 24 => 2
+B Iron Rod 51,667 -> 60 => 5
+B Iron Ingot 48,333 -> 2 * 32 => 2 * 2 = 4
+B Encased Industrial Beam 8,333 -> 12 => 2
+B Concrete 16,667 -> 24 => 2
+B Steel Pipe 7,5 -> 12 => 1
+B Steel Beam 13,333 -> 2 * 12 => 2 * 1 = 2
+B Steel Ingot 22,778 -> 2 * 12 => 2 * 2 = 4
+
+1 Resource Well Pressurizer
+7 Resource Well Extractor
+7 miner
+5 Train Station
+12 Freight Platform
+8 Fluid Freight Platform
+6 Industrial Storage
+4 fluid load
+4 fluid unload
+2 locomotives
+8 freight cars
+
+3548 Wire (more)
+50 Rubber
+*130 Encased Industrial Beam
+335 Motor
+405 Plastic (more)
+*302 Heavy Modular Frame
+90 Computer
+*34872 concrete (plus floor)
+7146 Cable (more)
+*360 Modular Frame
+*5235 Iron Plate
+*2519 Iron Rod
+572 Rotor
+4969 Alcad Aluminum Sheet
+350 Aluminum Casing
+*1206 Reinforced Iron Plate
+*190 Steel Beam
+*230 Steel Pipe
+383 Copper Sheet (more)
+*35 Radio Control Unit
+
+* 9   4500 Wire (more)
+* 1    200 Rubber
+* 2   *200 Encased Industrial Beam
+* 8    400 Motor
+* 4    800 Plastic (more)
+* 6   *300 Heavy Modular Frame
+* 2    100 Computer
+   *34872 concrete (plus floor)
+40   8000 Cable (more)
+*25   5000 Cable taken
+* 8   *400 Modular Frame
+*10  *2000 Iron Plate
+* 7  *1400 Iron Rod
+* 7    700 Rotor
+30   6000 Alcad Aluminum Sheet
+ 3    600 Aluminum Casing
+*10  *1000 Reinforced Iron Plate
+* 1   *200 Steel Beam
+* 2   *400 Steel Pipe
+* 6   1200 Copper Sheet (more)
+* 1    *50 Radio Control Unit
+ 
+157 plus concrete
+
+128 freight cars
+
+1/7 Fused Modular Frame
+5/5 Heavy Modular Frame
+5/5 Modular Frame
+8/8 Reinforced Iron Plate
+2/2 Iron Plate
+2/2 Iron Ingot
+5/5 Iron Rod
+2/2 Iron Ingot
+2/2 Encased Industrial Beam
+2/2 Concrete
+1/1 Steel Pipe
+2/2 Steel Beam
+2/2 Steel Ingot
+2/2 Steel Ingot
