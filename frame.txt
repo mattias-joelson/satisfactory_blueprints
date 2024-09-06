@@ -30,6 +30,24 @@ B Steel Ingot 22,778 -> 2 * 12 => 2 * 2 = 4
 2 locomotives
 8 freight cars
 
+
+14 blocks
+Encased Industrial Beam
+	Concrete
+Fused Modular Frame
+	Steel Beam
+		Steel Ingot
+Heavy Modular Frame
+	Steel Pipe
+		Steel Ingot
+Modular Frame
+	Reinforced Iron Plate
+		Iron Plate
+Iron Rod
+	Iron Ingot
+		Iron Ingot
+
+
 3548 Wire (more)
 50 Rubber
 *130 Encased Industrial Beam
