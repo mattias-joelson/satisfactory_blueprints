@@ -283,11 +283,6 @@ Blueprints for Satisfactory game.
 
 ## Railways
 
-### Parts
-- rail-parts-rail_2 - 2 x 8 m railway
-- rail-parts-rail_4 - 4 x 8 m railway
-- rail-parts-rail_curve_3 - 3x3 x 8 m railway curve
-
 ### Straight Railways
 - rail-straight-foundation - 4x4 2 m foundations
 - rail-straight-block_signal - 4x4 2 m foundations, railways, block signals
