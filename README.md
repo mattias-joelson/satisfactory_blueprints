@@ -283,22 +283,98 @@ Blueprints for Satisfactory game.
 
 ## Railways
 
-All 
+All railway blueprints are 3 x 3 foundations using concrete only. Blueprints with electric connection should be
+connected with cable so that the pillar sockets provide electricity.
 
-| blueprint         | walled foundation  | railways           | block signals      | electric connection |
-|-------------------|--------------------|--------------------|--------------------|---------------------|
-| rail-block_pillar | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  |
-| ds                | sd                 | dcs                | ds                 | fsd                 |
+| blueprint                       | walled foundation  | railway            | block signals      | electric connection | pillar top with sockets | used for                                                                                  |
+|---------------------------------|--------------------|--------------------|--------------------|---------------------|-------------------------|-------------------------------------------------------------------------------------------|
+| `rail-straight`                 | :white_check_mark: |                    |                    |                     |                         | Straight blocks.                                                                          |
+| `rail-straight-block_pillar`    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :white_check_mark:      | Straight blocks, every fourth blueprint.                                                  |
+| `rail-straight-no_wall`         | :white_check_mark: |                    |                    |                     |                         | Double sided stations.                                                                    |
+| `rail-straight-no_wall_pillar`  | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Double sided stations.                                                                    |
+| `rail-straight-one_wall`        | :white_check_mark: |                    |                    |                     |                         | Single sided stations.                                                                    |
+| `rail-straight-one_wall_pillar` | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Single sided stations.                                                                    |
+|                                 |                    |                    |                    |                     |                         |                                                                                           |
+| `rail-entry_pillar`             | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Pillar support where signaling is done by hand (instead of `rail-straight-block_pillar`). |
+| `rail-curve-branch`             | :white_check_mark: | :white_check_mark: |                    |                     |                         | Curve block, single sided stations.                                                       |
+| `rail-curve-back`               | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Curve block.                                                                              |
+| `rail-curve-corner`             | :white_check_mark: |                    |                    |                     |                         | Curve and junction block.                                                                 |
+| `rail-junc-branch`              | :white_check_mark: | :white_check_mark: |                    |                     |                         | Junction block, double sided stations.                                                    |
+| `rail-junc-back`                | :white_check_mark: |                    |                    |                     |                         | Junction block.                                                                           |
+|                                 |                    |                    |                    |                     |                         |                                                                                           |
 
-[x] dsdfsa
-[] dajkldsa
 
-- rail-block_pillar - 3x3, walled foundation, railways, block signals, sockets, pillar top
-- rail-straight - 3x3, walled foundation
-- rail-entry_pillar - 3x3, walled foundation, sockets, pillar top
-- rail-curve-branch - 3x3, walled foundation, railways, walled one side (curves, single side station)
-- rail-curve-back - 3x3, L-walled
-- rail-curve-corner - 3x3, 45 degree corner, walled foundation only (curves, junctions)
+### Building Straight Block
+
+|                              |
+|------------------------------|
+| `rail-straight-block_pillar` |
+| `rail-straight`              |
+| `rail-straight`              |
+| `rail-straight`              |
+| `rail-straight-block_pillar` |
+
+- Connect `rail-straight-block_pillar` with cable.
+- Build railway between `rail-straight-block_pillar`.
+- Build pillars.
+
+### Building Curve Block
+
+|                     |                     |                     |
+|---------------------|---------------------|---------------------|
+| `rail-entry_pillar` | `rail-curve-branch` | `rail-curve-back`   |
+|                     | `rail-curve-corner` | `rail-curve-branch` |
+|                     |                     | `rail-entry_pillar` |
+
+- Connect `rail-entry_pillar` and `rail-curve-back` with cable.
+- Build railway from `rail-curve-branch` to start of `rail-entry_pillar`.
+- Build railway outer curve between `rail-curve-branch` blueprints `rail-curve-branch`.
+- Build railway inner curve between `rail-curve-branch` blueprints.
+- Remove straight railway on `rail-curve-branch`.
+- Add block signals.
+- Build pillars.
+
+> [!IMPORTANT]
+> Inside curve is too short for a 1+4 train. If curve block is built between straight blocks then either
+> `rail-entry-pillar` can be used.
+
+### Building T-Junction Block
+
+|                     |                     |                     |                     |                     |
+|---------------------|---------------------|---------------------|---------------------|---------------------|
+| `rail-entry_pillar` | `rail-junc-branch`  | `rail-junc-back`    | `rail-junc-branch`  | `rail-entry_pillar` |
+|                     | `rail-curve-corner` | `rail-junc-branch`  | `rail-curve-corner` |                     |
+|                     |                     | `rail-entry_pillar` |
+
+- Connect `rail-entry_pillar` and `rail-junc-back` with cable.
+- Build railway from `rail-junc-branch` to start of `rail-entry_pillar`.
+- Build outside curve from center `rail-junc-branch` to side `rail-junc-branch`. They cross each other.
+- Build inside curve from center `rail-junc-branch` to side `rail-entry_pillar`.
+- Add path and block signals.
+- Build pillars.
+
+> [!IMPORTANT]
+> If junction is immediate followed by another junction then the part between them is too short for a 1+4 train and path
+> signals need to be used.
+
+### Building Train Stations
+
+| single sided                    | | double sided                   |
+|---------------------------------|-|--------------------------------|
+| `rail-entry_pillar`             | | `rail-entry_pillar`            |
+| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
+| `rail-curve-branch`             | | `rail-junc-branch`             |
+| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
+| `rail-straight-one_wall_pillar` | | `rail-straight-no_wall_pillar` |
+| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
+| `rail-curve-branch`             | | `rail-junc-branch`             |
+| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
+| `rail-entry_pillar`             | | `rail-entry_pillar`            |
+
+- Connect `rail-entry_pillar`and `rail-straight-one_wall_pillar`/`rail-straight-no_wall_pillar` with cable.
+- Build station railway.
+- Add path and block signals.
+- Build pillars.
 
 ### Straight Railways
 - rail-straight-foundation - 4x4 2 m foundations
