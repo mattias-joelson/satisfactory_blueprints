@@ -1,7 +1,10 @@
 # satisfactory_blueprints
 Blueprints for Satisfactory game.
 
-## Production Foundations etc
+## Production Factories
+
+Ground level of factory consist of the production floor and the basement. Factory modules are placed on the production
+floor and the interconnection between them are handled on the basement floor.
 
 ### Parts
 - prod-parts-module_floor
@@ -19,6 +22,20 @@ Blueprints for Satisfactory game.
 - prod-mk5-mk2-refinery_R_L
 - prod-mk5-mk1-blender
 - prod-mk5-mk2-blender
+
+### Production Floor
+
+| blueprint                          | floors             | electric connection | pillar top with sockets | used for                                                                               |
+|------------------------------------|--------------------|---------------------|-------------------------|----------------------------------------------------------------------------------------|
+| `prod-floor-corner`                | :white_check_mark: |                     |                         | Corners of module floors.                                                              |
+| `prod-floor-corner_pillar`         | :white_check_mark: | :white_check_mark:  | :white_check_mark:      | Corner of module floors, connect electricity on basement floor and underneath factory. |
+| `prod-floor-connect`               | :white_check_mark: |                     |                         | Between module floors.                                                                 |
+| `prod-floor-connect_stairs`        | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor and basement.        |
+| `prod-floor-connect_stairwell`     | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor, basement and below.            |
+|                                    |                    |                     |                         |                                                                                        |
+| `prod-floor-corner_outside`        |                    |                     |                         | Decoration outside of factory floor.                                                   |
+| `prod-floor-corner_pillar_outside` |                    |                     |                         | Decoration outside of factory floor (for pillars).                                     |
+| `prod-floor-connect_outside`       |                    |                     |                         | Decoration                                                                             |
 
 ### Module Foundation - two layers of 1 m foundation, 8 m vertical in between
 - prod-mod_found-empty - 4x4 1 m foundation
