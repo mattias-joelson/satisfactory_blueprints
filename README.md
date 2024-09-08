@@ -308,6 +308,19 @@ connected with cable so that the pillar sockets provide electricity.
 | `rail-slope-adjuster`           |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
 | `rail-slope-adjuster_large`     |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
 
+Uses parts from
+- HUB Upgrade 2 (power line)
+- HUB Upgrade 3 (power pole)
+- Tier 1 - Base Building (foundation, ramp, wall)
+- Tier 6 - Monorail Train Technology (railway, block signal)
+- AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet, double wall outlet)
+- AWESOME Shop - Foundations - Double Ramp Set (double ramp)
+- AWESOME Shop - Foundations - Inverted Ramp Set (inverted ramp)
+- AWESOME Shop - Foundations - Inverted Corner Ramp Pack (inverted up corner, inverted down corner)
+- AWESOME Shop - Walls - Inverted Ramp Wall Bundle (inverted ramp wall)
+- AWESOME Shop - Walls - Ramp Wall Bundle (ramp wall)
+- AWESOME Shop - Customizer - Concrete Foundation Material
+- AWESOME Shop - Customizer - Concrete Wall Material
 
 ### Building Straight Block
 
