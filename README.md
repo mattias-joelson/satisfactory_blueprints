@@ -283,12 +283,29 @@ Blueprints for Satisfactory game.
 
 ## Railways
 
+All 
+
+| blueprint         | walled foundation  | railways           | block signals      | electric connection |
+|-------------------|--------------------|--------------------|--------------------|---------------------|
+| rail-block_pillar | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  |
+| ds                | sd                 | dcs                | ds                 | fsd                 |
+
+[x] dsdfsa
+[] dajkldsa
+
+- rail-block_pillar - 3x3, walled foundation, railways, block signals, sockets, pillar top
+- rail-straight - 3x3, walled foundation
+- rail-entry_pillar - 3x3, walled foundation, sockets, pillar top
+- rail-curve-branch - 3x3, walled foundation, railways, walled one side (curves, single side station)
+- rail-curve-back - 3x3, L-walled
+- rail-curve-corner - 3x3, 45 degree corner, walled foundation only (curves, junctions)
+
 ### Straight Railways
 - rail-straight-foundation - 4x4 2 m foundations
 - rail-straight-block_signal - 4x4 2 m foundations, railways, block signals
 - rail-straight-pillar - pillar to go underneath supported squares
 
-### T-Junction
+### Curve and T-Junction
 - rail-junction-entrance - 4x4 2 m foundations, railways
 - rail-junction-back - 4x4 2 m foundations, for connecting branching direction
 - rail-junction-branch - 4x4 2 m foundations, for branching direction
