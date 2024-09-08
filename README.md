@@ -281,7 +281,7 @@ Blueprints for Satisfactory game.
 - fluid-buffer-mk1 - 4 fluid buffer, pipes mk1 (300)
 - fluid-buffer-mk2 - 4 fluid buffer, pipes mk2 (600)
 
-## Railways
+## Railway System
 
 All railway blueprints are 3 x 3 foundations using concrete only. Blueprints with electric connection should be
 connected with cable so that the pillar sockets provide electricity.
@@ -300,7 +300,7 @@ connected with cable so that the pillar sockets provide electricity.
 | `rail-curve-back`               | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Curve block.                                                                              |
 | `rail-curve-corner`             | :white_check_mark: |                    |                    |                     |                         | Curve and junction block.                                                                 |
 | `rail-junc-branch`              | :white_check_mark: | :white_check_mark: |                    |                     |                         | Junction block, double sided stations.                                                    |
-| `rail-junc-back`                | :white_check_mark: |                    |                    |                     |                         | Junction block.                                                                           |
+| `rail-junc-back`                | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Junction block.                                                                           |
 |                                 |                    |                    |                    |                     |                         |                                                                                           |
 
 
