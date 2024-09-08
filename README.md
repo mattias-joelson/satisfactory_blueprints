@@ -302,6 +302,11 @@ connected with cable so that the pillar sockets provide electricity.
 | `rail-junc-branch`              | :white_check_mark: | :white_check_mark: |                    |                     |                         | Junction block, double sided stations.                                                    |
 | `rail-junc-back`                | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Junction block.                                                                           |
 |                                 |                    |                    |                    |                     |                         |                                                                                           |
+| `rail-slope-1st`                | :white_check_mark: | :white_check_mark: |                    |                     |                         | Slope block.                                                                              |
+| `rail-slope-2nd`                | :white_check_mark: |                    |                    |                     |                         | Slope block.                                                                              |
+| `rail-slope-3rd`                | :white_check_mark: | :white_check_mark: |                    |                     |                         | Slope block.                                                                              |
+| `rail-slope-adjuster`           |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
+| `rail-slope-adjuster_large`     |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
 
 
 ### Building Straight Block
@@ -374,6 +379,43 @@ connected with cable so that the pillar sockets provide electricity.
 - Connect `rail-entry_pillar`and `rail-straight-one_wall_pillar`/`rail-straight-no_wall_pillar` with cable.
 - Build station railway.
 - Add path and block signals.
+- Build pillars.
+
+### Building Slopes
+
+| up                           | | down                         |
+|------------------------------|-|------------------------------|
+| `rail-straight-block_pillar` | | `rail-straight-block_pillar` |
+| `rail-slope-1st`             | | `rail-slope-3rd`             |
+| `rail-slope-2nd`             | | `rail-slope-2nd`             |
+| `rail-slope-3rd`             | | `rail-slope-1st`             |
+| `rail-straight-block_pillar` | | `rail-straight-block_pillar` |
+
+The `rail-slope-adjuster_large` can be used to snap horizontal railway system blueprints on the underside on the correct
+height by extending 4 m foundations.
+
+#### Build Slope Up
+- Place `rail-straight-block_pillar`, `rail-slope-1st` and `rail-slope-2nd`.
+- Build 3 double ramp 4 m upwards.
+- Place `rail-slope-adjuster` snapping to double ramp.
+- Place another `rail-slope-adjuster` on top of previous.
+- Remove first `rail-slope-adjuster`.
+- Place `rail-straight-block_pillar` snapping to underside of `rail-slope-adjuster`.
+- Remove second `rail-slope-adjuster` and extra double ramp.
+- Place `rail-slope-3rd` from snapping to `rail-straight-block_pillar`.
+- Connect railway. The railway on `rail-slope-1st` and `rail-slope-3rd` are to minimise slope curvature (only first and last twelve meter affected). They could in theory be removed after slope curves are built.
+- Build pillars.
+
+#### Build Slope Down
+- Place `rail-straight-block_pillar` and `rail-slope-3rd`.
+- Build 6 double ramp 4 m downwards. Build an L of 2 m foundations from double ramp and to the side.
+- Place `rail-slope-adjuster` snapping to the 2 m foundations.
+- Place another `rail-slope-adjuster` on top of previous.
+- Remove first `rail-slope-adjuster` and extra foundations on the side.
+- Place `rail-straight-block_pillar` snapping to underside of `rail-slope-adjuster`.
+- Remove second `rail-slope-adjuster` and extra double ramps.
+- Place `rail-slope-1st` and `rail-slope-2nd` snapping to `rail-straight-block_pillar`.
+- Connect railway. The railway on `rail-slope-1st` and `rail-slope-3rd` are to minimise slope curvature (only first and last twelve meter affected). They could in theory be removed after slope curves are built.
 - Build pillars.
 
 ### Straight Railways
