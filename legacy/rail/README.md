@@ -1,0 +1,12 @@
+## Railways
+
+### Straight Railways
+- rail-straight-foundation - 4x4 2 m foundations
+- rail-straight-block_signal - 4x4 2 m foundations, railways, block signals
+- rail-straight-pillar - pillar to go underneath supported squares
+
+### Curve and T-Junction
+- rail-junction-entrance - 4x4 2 m foundations, railways
+- rail-junction-back - 4x4 2 m foundations, for connecting branching direction
+- rail-junction-branch - 4x4 2 m foundations, for branching direction
+- rail-junction-corner - inner corner extension 2 m
