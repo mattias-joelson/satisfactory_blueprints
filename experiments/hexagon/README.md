@@ -1,0 +1,3 @@
+A take on hexagons as base of build. One could mix hexagons of different sizes.
+
+Still a lot to do...
