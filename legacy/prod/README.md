@@ -71,6 +71,82 @@
 - prod-mk2-modular_frame
 - prod-mk2-encased_industrial_beam
 
+## Production mk3
+
+### Smelter mk3
+- prod-mk3-iron_ingot
+- prod-mk3-copper_ingot
+- prod-mk3-caterium_ingot
+
+### Foundry mk3
+- prod-mk3-steel_ingot
+- prod-mk3-aluminum_ingot
+- prod-mk3-aluminum_ingot_top
+
+### Constructor mk3
+- prod-mk3-iron_plate
+- prod-mk3-iron_rod
+- prod-mk3-cable
+- prod-mk3-cable_wire_bottom
+- prod-mk3-copper_sheet
+- prod-mk3-concrete
+- prod-mk3-steel_beam
+- prod-mk3-steel_pipe
+- prod-mk3-empty_canister
+- prod-mk3-quartz_crystal
+- prod-mk3-silica
+
+### Assembler mk3
+- prod-mk3-reinforced_plate
+- prod-mk3-rotor
+- prod-mk3-modular_frame
+- prod-mk3-encased_industrial_beam
+- prod-mk3-stator
+- prod-mk3-motor
+- prod-mk3-circuit_board
+- prod-mk3-alclad_aluminum_sheet
+- prod-mk3-ai_limiter
+- prod-mk3-compacted_coal
+- prod-mk3-black_powder
+- prod-mk3-nobelisk
+- prod-mk3-rifle_ammo
+- prod-mk3-gas_filter
+- prod-mk3-smart_plating.sbp
+- prod-mk3-versatile_framework.sbp
+- prod-mk3-automated_wiring
+
+### Manufacturer mk3
+- prod-mk3-heavy_modular_frame
+- prod-mk3-computer
+- prod-mk3-crystal_oscillator
+- prod-mk3-high-speed_connector
+- prod-mk3-supercomputer.sbp
+- prod-mk3-modular_engine
+- prod-mk3-adaptive_control_unit
+
+### Refinery mk3
+- prod-mk3-plastic_L
+- prod-mk3-plastic_R
+- prod-mk3-rubber_L
+- prod-mk3-rubber_R
+- prod-mk3-fuel_L
+- prod-mk3-fuel_R
+- prod-mk3-residual_plastic_L_R
+- prod-mk3-residual_plastic_R_L
+- prod-mk3-residual_rubber_L_R
+- prod-mk3-residual_rubber_R_L
+- prod-mk3-residual_fuel
+- prod-mk3-polyester_fabric_L_R
+- prod-mk3-polyester_fabric_R_L
+- prod-mk3-turbofuel_L
+- prod-mk3-turbofuel_R
+- prod-mk3-smokeless_powder_L_R
+- prod-mk3-smokeless_powder_R_L
+- prod-mk3-alumina_solution_L_R
+- prod-mk3-alumina_solution_R_L
+- prod-mk3-aluminum_scrap_L_R
+- prod-mk3-aluminum_scrap_R_L
+
 ## Production mk5
 
 ### Smelter mk5
