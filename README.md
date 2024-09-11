@@ -33,19 +33,86 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 - AWESOME Shop - Customizer - Concrete Wall Material
 
-### Module Foundation - two layers of 1 m foundation, 8++ m vertical in between
+### Module Production Floor
+
+Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the top layer in the corners, connect with cables.
+
+| parts blueprint               | notes |
+|-------------------------------|-------|
+| `prod-parts-production_floor` |       |
+
+| blueprint                   | input holes | intermediate input hole | input pipe holes | output hole        | output pipe hole | used for                                                                                               |
+|-----------------------------|-------------|-------------------------|------------------|--------------------|------------------|--------------------------------------------------------------------------------------------------------|
+| `prod-floor-empty`          |             |                         |                  |                    |                  | no wiring, used for non-electric modules (train stations, mall)                                        |
+| `prod-floor-1-1`            | 1           |                         |                  | :white_check_mark: |                  | for one-ingredient parts (smelter, constructor)                                                        |
+| `prod-floor-1-2-wire-cable` | 1           |                         |                  | 2 - cable and wire |                  | for cable and wire combination (`prod-mk3-cable` and `prod-mk3-cable-wire`)                            |
+| `prod-floor-2-1`            | 2           |                         |                  | :white_check_mark: |                  | for two-ingredient parts (foundry, assembler)                                                          |
+| `prod-floor-2i-1`           | 2           | :white_check_mark:      |                  | :white_check_mark: |                  | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
+
+Uses parts from
+- Tier 0 - HUB Upgrade 2 (power line)
+- Tier 1 - Base Building (foundation, ramp, wall)
+- AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
+- AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
+- AWESOME Shop - Customizer - Concrete Foundation Material
 
 ### Module
 
 ## Production mk3
 
+| template blueprint     | module production floor | notes           |
+|------------------------|-------------------------|-----------------|
+| `prod-mk3-smelter`     | `prod-floor-1-1`        | 16 smelters     |
+| `prod-mk3-foundry`     | `prod-floor-2-1`        | 6 foundry       |
+| `prod-mk3-constructor` | `prod-floor-1-1`        | 12 constructors |
+| `prod-mk3-assembler`   | `prod-floor-2-1`        | 6 assemblers    |
+
+Uses parts from
+- Tier 0 - HUB Upgrade 2 (power line, smelter)
+- Tier 0 - HUB Upgrade 3 (constructor)
+- Tier 0 - HUB Upgrade 4 (conveyor belt mk1)
+- Tier 1 - Base Building (foundation, ramp, wall)
+- Tier 1 - Logistics (conveyor lift mk1, splitter, merger)
+- Tier 2 - Part Assembly (assembler)
+- Tier 3 - Basic Steel Production (foundry)
+- Tier 4 - Logistics Mk.3 (conveyor belt mk3, conveyor lift mk3)
+- TODO belts, lifts
+- AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
+- AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
+- AWESOME Shop - Walls - Door Walls (side door wall)
+- AWESOME Shop - Customizer - Concrete Foundation Material
+- AWESOME Shop - Customizer - Concrete Wall Material
+
 ### Smelter mk3
+
+- `prod-mk3-iron_ingot`
+- `prod-mk3-copper_ingot`
 
 ### Foundry mk3
 
+- `prod-mk3-steel_ingot`
+
 ### Constructor mk3
 
+- `prod-mk3-iron_plate`
+- `prod-mk3-iron_rod`
+- `prod-mk3-cable` (with potential first floor `prod-mk3-cable-wire`, intermediate wire)
+- `prod-mk3-copper_sheet`
+- `prod-mk3-concrete`
+- `prod-mk3-steel_beam`
+- `prod-mk3-steal_rod`
+
 ### Assembler mk3
+
+- `prod-mk3-reinforced_iron_plate` (intermediate screws)
+- `prod-mk3-rotor` (intermediate screws)
+- `prod-mk3-modular_frame`
+- `prod-mk3-encased_industrial_beam`
+- `prod-mk3-stator` (intermediate wire)
+- `prod-mk3-motor`
+- `prod-mk3-smart_plating`
+- `prod-mk3-versatile_framework`
+- `prod-mk3-automated_wiring`
 
 ### Manufacturer mk3
 
@@ -158,8 +225,8 @@ connected with cable so that the pillar sockets provide electricity.
 | `rail-slope-adjuster_large`     |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
 
 Uses parts from
-- HUB Upgrade 2 (power line)
-- HUB Upgrade 3 (power pole)
+- Tier 0 - HUB Upgrade 2 (power line)
+- Tier 0 - HUB Upgrade 3 (power pole)
 - Tier 1 - Base Building (foundation, ramp, wall)
 - Tier 6 - Monorail Train Technology (railway, block signal)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet, double wall outlet)

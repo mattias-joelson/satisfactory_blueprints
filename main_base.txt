@@ -1,0 +1,30 @@
+24+2 block
+
+B copper sheet
+B   iron ingot
+B       iron plate
+B            reinforced iron plate
+B copper ingot
+B   iron ingot
+B       iron rod
+B           modular frame
+B cable/wire
+B   iron ingot
+B       iron rod
+B            rotor
+B automated wiring
+    [HUB]
+        [mall]
+            [blueprint designer]
+B smart plating
+B   steel ingot
+B       steel pipe
+B           motor
+B versatile framework
+B   steel ingot
+B       steel beam
+B            stator
+[power]
+B   concrete
+B       concrete
+B           encased industrial beam
