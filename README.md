@@ -48,6 +48,7 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-1-2-wire-cable` | 1           |                         |                  | 2 - cable and wire |                  | for cable and wire combination (`prod-mk3-cable` and `prod-mk3-cable-wire`)                            |
 | `prod-floor-2-1`            | 2           |                         |                  | :white_check_mark: |                  | for two-ingredient parts (foundry, assembler)                                                          |
 | `prod-floor-2i-1`           | 2           | :white_check_mark:      |                  | :white_check_mark: |                  | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
+| `prod-floor-storage`        | 18          |                         |                  |                    |                  | for `prod-module-storage`                                                                              |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line)
@@ -57,6 +58,12 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 
 ### Module
+- `prod-module-stairs` - catwalk stairs between modules
+- `prod-module-stairs_top` - catwalk stairs between modules, top floor
+- `prod-module-stairs_outside` - catwalk stairs between modules, outermost
+- `prod-module-stairs_outside_top` - catwalk stairs between modules, outermost, top floor
+- `prod-module-storage` - 18 storage containers
+
 
 ## Production mk3
 

@@ -39,15 +39,6 @@
 - prod-mod_found-12 - 4x4 1 m foundation, 12 input hole (for storage)
 - prod-mod_found-18 - 4x4 1 m foundation, 18 input hole (for storage)
 
-### Module
-- prod-module-stairs - catwalk stairs between modules
-- prod-module-stairs_top - catwalk stairs between modules, top floor
-- prod-module-stairs_outside - catwalk stairs between modules, outermost
-- prod-module-stairs_outside_top - catwalk stairs between modules, outermost, top floor
-- prod-module-storage - 12 storage container
-- prod-module-storage_18 - 18 storage container
-- prod-module-storage_18_nosign - 18 storage container (no signs)
-
 ## Production mk2
 
 ### Smelter mk2
