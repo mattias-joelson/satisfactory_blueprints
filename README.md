@@ -84,16 +84,13 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Wall Material
 
 ### Smelter mk3
-
 - `prod-mk3-iron_ingot`
 - `prod-mk3-copper_ingot`
 
 ### Foundry mk3
-
 - `prod-mk3-steel_ingot`
 
 ### Constructor mk3
-
 - `prod-mk3-iron_plate`
 - `prod-mk3-iron_rod`
 - `prod-mk3-cable` (with potential first floor `prod-mk3-cable-wire`, intermediate wire)
@@ -103,7 +100,6 @@ Uses parts from
 - `prod-mk3-steal_rod`
 
 ### Assembler mk3
-
 - `prod-mk3-reinforced_iron_plate` (intermediate screws)
 - `prod-mk3-rotor` (intermediate screws)
 - `prod-mk3-modular_frame`
@@ -360,13 +356,9 @@ height by extending 4 m foundations.
 
 ## Power
 
-### Parts
-- pow-parts-biomass_burner_floor
-
 ### Biomass
-- pow-biomass-biomass_constructor
-- pow-biomass-biomass_const_nosign
-- pow-biomass-biomass_burner
+- `pow-biomass-biofuel_constructor`
+- `pow-biomass-biomass_burner`
 
 ### Coal
 - `pow-coal_generator-mk3-L`
@@ -375,4 +367,4 @@ height by extending 4 m foundations.
 ### Fuel
 
 ### Storage
-- pow-storage-power_storage
+- `pow-storage-power_storage`
