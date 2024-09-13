@@ -123,6 +123,8 @@ Uses parts from
 - `prod-mk3-stator` (intermediate wire)
 - `prod-mk3-motor`
 - `prod-mk3-circuit_board`
+- `prod-mk3-compacted_coal`
+- `prod-mk3-black_powder`
 - `prod-mk3-smart_plating`
 - `prod-mk3-versatile_framework`
 - `prod-mk3-automated_wiring`
