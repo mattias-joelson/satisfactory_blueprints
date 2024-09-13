@@ -49,6 +49,9 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-1-2-wire-cable` | 1           |                         |                  | 2 - cable and wire |                  | for cable and wire combination (`prod-mk3-cable` and `prod-mk3-cable-wire`)                            |
 | `prod-floor-2-1`            | 2           |                         |                  | :white_check_mark: |                  | for two-ingredient parts (foundry, assembler)                                                          |
 | `prod-floor-2i-1`           | 2           | :white_check_mark:      |                  | :white_check_mark: |                  | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
+| `prod-floor-3-1`            | 3           |                         |                  | :white_check_mark: |                  | for three-ingredient parts (manufacturer)                                                              |
+| `prod-floor-4-1`            | 4           |                         |                  | :white_check_mark: |                  | for four-ingredient parts (manufacturer)                                                               |
+| `prod-floor-4i-1`           | 4           | :white_check_mark:      |                  | :white_check_mark: |                  | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
 | `prod-floor-storage`        | 18          |                         |                  |                    |                  | for `prod-module-storage`                                                                              |
 
 Uses parts from
@@ -76,6 +79,8 @@ Uses parts from
 | `prod-mk3-assembler`        | `prod-floor-2-1`        | 6 assemblers    |
 | `prod-mk3-mk1-refinery_L_R` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk3-mk1-refinery_R_L` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-manufacturer`     | `prod-floor-4-1`        | 2 manufacturer  |
+| `prod-mk3-manufacturer_3`   | `prod-floor-3-1`        | 2 manufacturer  |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -87,6 +92,7 @@ Uses parts from
 - Tier 3 - Coal Power (pipeline mk1, pipeline junction)
 - Tier 3 - Basic Steel Production (foundry)
 - Tier 4 - Logistics Mk.3 (conveyor belt mk3, conveyor lift mk3, stackable pipeline support)
+- Tier 6 - Industrial Manufacturing (manufacturer)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
@@ -116,11 +122,14 @@ Uses parts from
 - `prod-mk3-encased_industrial_beam`
 - `prod-mk3-stator` (intermediate wire)
 - `prod-mk3-motor`
+- `prod-mk3-circuit_board`
 - `prod-mk3-smart_plating`
 - `prod-mk3-versatile_framework`
 - `prod-mk3-automated_wiring`
 
 ### Manufacturer mk3
+- `prod-mk3-heavy_modular_frame`
+- `prod-mk3-computer`
 
 ### Refinery mk3
 - `prod-mk3-mk1-plastic_L`
@@ -137,6 +146,8 @@ Uses parts from
 - `prod-mk3-mk2-fuel_L`
 - `prod-mk3-mk1-fuel_R`
 - `prod-mk3-mk2-fuel_R`
+- `prod-mk3-mk2-smokeless_powder_LR`
+- `prod-mk3-mk2-smokeless_powder_RL`
 
 ## Production mk5
 
