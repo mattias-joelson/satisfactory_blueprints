@@ -188,15 +188,7 @@ Uses parts from
 
 ## Fluid
 
-### Control, pumps
-- fluid-ctrl-1_horizontal_pump_mk1
-- fluid-ctrl-2_horizontal_pump_mk1
-- fluid-ctrl-3_horizontal_pump_mk1
-- fluid-ctrl-1_vertical_pump_mk1
-- fluid-ctrl-1_vertical_pump_mk2
-- fluid-ctrl-2_vertical_pump_mk1
-- fluid-ctrl-2_vertical_pump_mk2
-- fluid-ctrl-3_vertical_pump_mk1
+### Pumps
 - `fluid-pump-mk1-vertical-1`
 - `fluid-pump-mk1-mk1-vertical_2x1`
 - `fluid-pump-mk1-vertical-2`
