@@ -1,0 +1,32 @@
+# Satisfactory Tools export (version 1)
+
+# Contains these production lines:
+# - Uranium Fuel Rod Factory
+# - Plutonium Fuel Rod Factory
+# - Plutonium Fuel Rod Factory
+# - Turbofuel Factory
+# - Reinforced Iron Plate Factory
+# - Rotor Factory
+# - Modular Frame Factory
+# - Aluminum Ingot Factory
+# - Unnamed Factory
+# - Modular Frame Factory
+# - Reinforced Iron Plate Factory
+# - Iron Plate Factory
+# - Unnamed Factory
+# - Supercomputer Factory
+# - Unnamed Factory
+# - Fused Modular Frame Factory
+# - Unnamed Factory
+# - Plastic Factory
+# - Unnamed Factory
+# - Turbo Motor Factory
+# - Unnamed Factory
+# - Alclad Aluminum Sheet Factory
+# - Unnamed Factory
+# - Turbofuel Factory
+# - Cable Factory
+
+0eJztXF1z4jYU/S9+ZjySLH/xtkubdKebTRra5qGzkxFGIZ41Fitbk00z/PfKNgYWHBlC6ATn8uCAZF/JVzpHx/dGfrLyxxm3+lbORpnVq/70/3mypjxnY5Yzq/9kpWyqT0lVkvSsOBJp/T2L7vmU/c1lFheFuGdN9JnL3xay5j1L8u+KZ3lhhyWJeODjD0nOZcpyfs2jeMaL9r72rFEiom983FyWCSWjujSL029slPCN4pkUYxXlZdP6BuKcT3UffuFZdPtFRQln8kzx5FqMbwfFjVa3PePyIk5VznURmwqV6o4SfSOSaUP6lhCaa9NxOlN51YpcNHrBfhS3VJq/lPyTFKm22/eRE6DesnggZrqFooIEgVdXDHOR8qLQJavCgWBJUeYgTNYsnIuk6HAfY0Tr4s/xdxWPL+OkqvBRXXHNHv5QTOb/lhXIXVYMVXKnyn54AV2z/pGpH9pRRUXor3f8L8nSWE3LnuOlmS9xLsWEp+csK1sgaFl1o8ezbCBEyMdhSFzqUxSGeL7y2Q2PJ/d5k9two8ts6gSeF9bHcNN92HYcTCl2qaN94FDkbfiS2MT39bUhIiEmHsHbfvVsx3eb/OrZCLtOQL362ORjz/YRCVwf0+robPkbI5sEIfUd7XjtSZd4jd73bRx6Dg4R1uNDQxQ0DoXj2G7dVHEkzePi2oHnbo4Lmm/B0w5sDdF5r2Nov0qUniHaZTvi3bWJ+xziG3nkhmXlqK1MFFgr/Lh+8odETXVT06uEbZztk7INoBKgEqCSblNJ7zhCBGgJaAlo6e3SklV9vV1W3f6aylibHy8Grrd9xp9KjsSdZgZdfWRaq6ZB2eBZ1aCRhzzPs736A89GwBzAHKcqaIpJVa781zxO74S+plWFYASQB8gD5E8V8tciF7Id5NUK7wPWAeuA9VPF+oWuSZg8k7p7rbEKgDpAHaB+qlCv43if0onIW5d3SkHFA9wB7icI96qj8IAO0H5n0O4SiPeX544pj7jTM70xE3l4ILDB4DCS/KHNDGk1s0pNmvzTamaHDKvZyIBPedqqrajZRjFDDuvGTSxbLXiwBsAa0ME1oPvy7rXoGCAPkAfInyLk91zbX6Z0zEZ20pMB8A3wDfDN6fENRJAA2u8S2l0CcT3OUw1MLoeqmjJGWBuX/PVY1Odilj6Uc7U1emOMKg3kY5az5DKL4kRLm3ZNYY6dxDJScf5RMNmqb4yGqum76NxhXVr4/0AjBeCH95y3utto5zc9YMMZL/6pOE159JruXpp+nQ7uEsJ6dg1qznsOmEbP5Pan7Q6UbnVBK+wsj6OfzgsQbHSAhe2UFzbQrKBZAdqdhHaXQLytNM9UdkhkeyNqpUajhRRbX9p33vDYpBcM8iL0QDYAt5wyt4BsANkA0O4ktN/EJuf1LcwNO5w39kAfWXasP/m/NICxpjBMiTFkNHKu0pl4GOsLfycH9WbPbduUUpsWH2A8YLzuMR6IGRAzAO1OQrtLIK5jILmQe6TZMLHNiTYhkjidDB8zXdhqrHh9y7M7u48fUzGlGld5RYitAGedMGeBHAE5AtDuJLS7BOLn1u+XxiQa8iUGUyHsUwKK6CJFwOoPqz9Au5PQfhOZlf1eH9tQfSWSR90ul2dsJMusSBNT1NetRQEWJatsyivKkD0TGo7jm6Miy3s7dsbHaGLHxBNBQJhAmB0kzO5rocXo/z+vdmh5R8Xuewkc4Bvgm3fEN1/n/wECcene
+
+# Exported on 2024-09-12T10:45:15.684Z
