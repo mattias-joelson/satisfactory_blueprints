@@ -27,6 +27,7 @@ Uses parts from
 - HUB Upgrade 3 (power pole)
 - Tier 1 - Base Building (foundation, ramp, wall)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet, double wall outlet)
+- AWESOME Shop - Foundations - Half Foundation Set (half foundation)
 - AWESOME Shop - Foundations - Inverted Ramp Set (inverted ramp)
 - AWESOME Shop - Architecture - Modern Railing (modern railing)
 - AWESOME Shop - Architecture - Modern Catwalks (catwalks)
@@ -67,23 +68,25 @@ Uses parts from
 
 ## Production mk3
 
-| template blueprint     | module production floor | notes           |
-|------------------------|-------------------------|-----------------|
-| `prod-mk3-smelter`     | `prod-floor-1-1`        | 16 smelters     |
-| `prod-mk3-foundry`     | `prod-floor-2-1`        | 6 foundry       |
-| `prod-mk3-constructor` | `prod-floor-1-1`        | 12 constructors |
-| `prod-mk3-assembler`   | `prod-floor-2-1`        | 6 assemblers    |
+| template blueprint          | module production floor | notes           |
+|-----------------------------|-------------------------|-----------------|
+| `prod-mk3-smelter`          | `prod-floor-1-1`        | 16 smelters     |
+| `prod-mk3-foundry`          | `prod-floor-2-1`        | 6 foundry       |
+| `prod-mk3-constructor`      | `prod-floor-1-1`        | 12 constructors |
+| `prod-mk3-assembler`        | `prod-floor-2-1`        | 6 assemblers    |
+| `prod-mk3-mk1-refinery_L_R` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-mk1-refinery_R_L` | `prod-floor-empty`      | 3 refinery      |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
-- Tier 0 - HUB Upgrade 3 (constructor)
+- Tier 0 - HUB Upgrade 3 (constructor, power pole)
 - Tier 0 - HUB Upgrade 4 (conveyor belt mk1)
 - Tier 1 - Base Building (foundation, ramp, wall)
 - Tier 1 - Logistics (conveyor lift mk1, splitter, merger)
 - Tier 2 - Part Assembly (assembler)
+- Tier 3 - Coal Power (pipeline mk1, pipeline junction)
 - Tier 3 - Basic Steel Production (foundry)
-- Tier 4 - Logistics Mk.3 (conveyor belt mk3, conveyor lift mk3)
-- TODO belts, lifts
+- Tier 4 - Logistics Mk.3 (conveyor belt mk3, conveyor lift mk3, stackable pipeline support)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
@@ -120,6 +123,20 @@ Uses parts from
 ### Manufacturer mk3
 
 ### Refinery mk3
+- `prod-mk3-mk1-plastic_L`
+- `prod-mk3-mk2-plastic_L`
+- `prod-mk3-mk1-plastic_R`
+- `prod-mk3-mk2-plastic_R`
+- `prod-mk3-mk1-rubber_L`
+- `prod-mk3-mk2-rubber_L`
+- `prod-mk3-mk1-rubber_R`
+- `prod-mk3-mk2-rubber_R`
+- `prod-mk1-residual_fuel`
+- `prod-mk2-residual_fuel`
+- `prod-mk3-mk1-fuel_L`
+- `prod-mk3-mk2-fuel_L`
+- `prod-mk3-mk1-fuel_R`
+- `prod-mk3-mk2-fuel_R`
 
 ## Production mk5
 
