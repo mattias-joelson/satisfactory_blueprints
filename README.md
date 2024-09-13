@@ -197,6 +197,12 @@ Uses parts from
 - fluid-ctrl-2_vertical_pump_mk1
 - fluid-ctrl-2_vertical_pump_mk2
 - fluid-ctrl-3_vertical_pump_mk1
+- `fluid-pump-mk1-vertical-1`
+- `fluid-pump-mk1-mk1-vertical_2x1`
+- `fluid-pump-mk1-vertical-2`
+- `fluid-pump-mk1-mk1-vertical_2x2`
+- `fluid-pump-mk2-vertical-1`
+- `fluid-pump-mk2-vertical-2`
 
 ### Control - Priority Junction
 - fluid-ctrl-prio_junction-mk1-L-L
