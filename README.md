@@ -123,7 +123,6 @@ Uses parts from
 - `prod-mk3-stator` (intermediate wire)
 - `prod-mk3-motor`
 - `prod-mk3-circuit_board`
-- `prod-mk3-compacted_coal`
 - `prod-mk3-black_powder`
 - `prod-mk3-smart_plating`
 - `prod-mk3-versatile_framework`
@@ -142,12 +141,6 @@ Uses parts from
 - `prod-mk3-mk2-rubber_L`
 - `prod-mk3-mk1-rubber_R`
 - `prod-mk3-mk2-rubber_R`
-- `prod-mk1-residual_fuel`
-- `prod-mk2-residual_fuel`
-- `prod-mk3-mk1-fuel_L`
-- `prod-mk3-mk2-fuel_L`
-- `prod-mk3-mk1-fuel_R`
-- `prod-mk3-mk2-fuel_R`
 - `prod-mk3-mk2-smokeless_powder_LR`
 - `prod-mk3-mk2-smokeless_powder_RL`
 
@@ -384,14 +377,22 @@ height by extending 4 m foundations.
 ## Power
 
 ### Biomass
-- `pow-biomass-biofuel_constructor`
-- `pow-biomass-biomass_burner`
+- `pow-mk3-biofuel`
+- `pow-mk3-biomass_burner`
 
 ### Coal
-- `pow-coal_generator-mk3-L`
-- `pow-coal_generator-mk3-L`
+- `pow-mk3-mk1-coal_generator-L`
+- `pow-mk3-mk1-coal_generator-R`
+- `pow-mk3-compacted_coal`
+
 
 ### Fuel
+- `pow-mk1-residual_fuel`
+- `pow-mk2-residual_fuel`
+- `pow-mk3-mk1-fuel_L`
+- `pow-mk3-mk2-fuel_L`
+- `pow-mk3-mk1-fuel_R`
+- `pow-mk3-mk2-fuel_R`
 
 ### Storage
-- `pow-storage-power_storage`
+- `pow-power_storage`
