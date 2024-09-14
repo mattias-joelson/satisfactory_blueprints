@@ -124,6 +124,8 @@ Uses parts from
 - `prod-mk3-motor`
 - `prod-mk3-circuit_board`
 - `prod-mk3-black_powder`
+- `prod-mk3-nobelisk`
+- `prod-mk3-rifle_ammo`
 - `prod-mk3-smart_plating`
 - `prod-mk3-versatile_framework`
 - `prod-mk3-automated_wiring`
@@ -131,6 +133,8 @@ Uses parts from
 ### Manufacturer mk3
 - `prod-mk3-heavy_modular_frame`
 - `prod-mk3-computer`
+- `prod-mk3-modular_engine`
+- `prod-mk3-adaptive_control_unit`
 
 ### Refinery mk3
 - `prod-mk3-mk1-plastic_L`
