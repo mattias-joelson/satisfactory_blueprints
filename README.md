@@ -80,6 +80,8 @@ Uses parts from
 | `prod-mk3-assembler`        | `prod-floor-2-1`        | 6 assemblers    |
 | `prod-mk3-mk1-refinery_L_R` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk3-mk1-refinery_R_L` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-mk2-refinery_L_R` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-mk2-refinery_R_L` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk3-manufacturer`     | `prod-floor-4-1`        | 2 manufacturer  |
 | `prod-mk3-manufacturer_3`   | `prod-floor-3-1`        | 2 manufacturer  |
 
@@ -94,6 +96,7 @@ Uses parts from
 - Tier 3 - Basic Steel Production (foundry)
 - Tier 4 - Logistics Mk.3 (conveyor belt mk3, conveyor lift mk3, stackable pipeline support)
 - Tier 6 - Industrial Manufacturing (manufacturer)
+- Tier 6 - Pipeline Engineering (pipeline mk2)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
