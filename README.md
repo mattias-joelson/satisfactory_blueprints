@@ -50,6 +50,7 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-1`            | 2           |                         |                  | :white_check_mark: |                  | for two-ingredient parts (foundry, assembler)                                                          |
 | `prod-floor-2i-1`           | 2           | :white_check_mark:      |                  | :white_check_mark: |                  | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
 | `prod-floor-3-1`            | 3           |                         |                  | :white_check_mark: |                  | for three-ingredient parts (manufacturer)                                                              |
+| `prod-floor-3i-1`           | 3           | :white_check_mark:      |                  | :white_check_mark: |                  | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
 | `prod-floor-4-1`            | 4           |                         |                  | :white_check_mark: |                  | for four-ingredient parts (manufacturer)                                                               |
 | `prod-floor-4i-1`           | 4           | :white_check_mark:      |                  | :white_check_mark: |                  | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
 | `prod-floor-storage`        | 18          |                         |                  |                    |                  | for `prod-module-storage`                                                                              |
@@ -114,6 +115,7 @@ Uses parts from
 - `prod-mk3-concrete`
 - `prod-mk3-steel_beam`
 - `prod-mk3-steal_rod`
+- `prod-mk3-reanimated_SAM`
 
 ### Assembler mk3
 - `prod-mk3-reinforced_iron_plate` (intermediate screws)
@@ -133,6 +135,7 @@ Uses parts from
 ### Manufacturer mk3
 - `prod-mk3-heavy_modular_frame`
 - `prod-mk3-computer`
+- `prod-mk3-SAM_fluctuator`
 - `prod-mk3-modular_engine`
 - `prod-mk3-adaptive_control_unit`
 
