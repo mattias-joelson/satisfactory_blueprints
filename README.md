@@ -395,14 +395,16 @@ height by extending 4 m foundations.
 
 
 ### Fuel
+- `pow-fuel_generator`
+- `pow-fuel_generator_junction`
 - `pow-mk1-residual_fuel`
 - `pow-mk2-residual_fuel`
 - `pow-mk3-mk1-fuel_L`
 - `pow-mk3-mk2-fuel_L`
 - `pow-mk3-mk1-fuel_R`
 - `pow-mk3-mk2-fuel_R`
-- `prod-mk3-mk2-turbo_fuel_L`
-- `prod-mk3-mk2-turbo_fuel_R`
+- `pow-mk3-mk2-turbo_fuel_L`
+- `pow-mk3-mk2-turbo_fuel_R`
 
 ### Storage
 - `pow-power_storage`
