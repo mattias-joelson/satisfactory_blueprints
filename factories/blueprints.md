@@ -191,6 +191,7 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Wall Material
 
 ### Smelter mk5
+- `prod-mk5-copper_ingot`
 
 ### Foundry mk5
 
