@@ -95,6 +95,7 @@ Uses parts from
 - Tier 3 - Coal Power (pipeline mk1, pipeline junction)
 - Tier 3 - Basic Steel Production (foundry)
 - Tier 4 - Logistics Mk.3 (conveyor belt mk3, conveyor lift mk3, stackable pipeline support)
+- Tier 5 - Oil Processing (refinery)
 - Tier 6 - Industrial Manufacturing (manufacturer)
 - Tier 6 - Pipeline Engineering (pipeline mk2)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
@@ -153,8 +154,41 @@ Uses parts from
 - `prod-mk3-mk2-rubber_R`
 - `prod-mk3-mk2-smokeless_powder_LR`
 - `prod-mk3-mk2-smokeless_powder_RL`
+- `prod-mk3-mk1-alumina_solution_LR`
+- `prod-mk3-mk1-aluminum_scrap_LR`
 
 ## Production mk5
+
+| template blueprint         | module production floor | notes           |
+|----------------------------|-------------------------|-----------------|
+| `prod-mk5-smelter`         | `prod-floor-1-1`        | 16 smelters     |
+| `prod-mk5-foundry`         | `prod-floor-2-1`        | 6 foundry       |
+| `prod-mk5-constructor`     | `prod-floor-1-1`        | 12 constructors |
+| `prod-mk5-assembler`       | `prod-floor-2-1`        | 6 assemblers    |
+| `prod-mk5-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk5-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk5-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
+| `prod-mk5-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
+
+Uses parts from
+- Tier 0 - HUB Upgrade 2 (power line, smelter)
+- Tier 0 - HUB Upgrade 3 (constructor, power pole)
+- Tier 0 - HUB Upgrade 4 (conveyor belt mk1)
+- Tier 1 - Base Building (foundation, ramp, wall)
+- Tier 1 - Logistics (conveyor lift mk1, splitter, merger)
+- Tier 2 - Part Assembly (assembler)
+- Tier 3 - Coal Power (pipeline mk1, pipeline junction)
+- Tier 3 - Basic Steel Production (foundry)
+- Tier 4 - Logistics Mk.3 (stackable pipeline support)
+- Tier 5 - Oil Processing (refinery)
+- Tier 6 - Industrial Manufacturing (manufacturer)
+- Tier 6 - Pipeline Engineering (pipeline mk2)
+- Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
+- AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
+- AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
+- AWESOME Shop - Walls - Door Walls (side door wall)
+- AWESOME Shop - Customizer - Concrete Foundation Material
+- AWESOME Shop - Customizer - Concrete Wall Material
 
 ### Smelter mk5
 
@@ -167,6 +201,10 @@ Uses parts from
 ### Manufacturer mk5
 
 ### Refinery mk5
+- `prod-mk5-mk1-alumina_solution_LR`
+- `prod-mk5-mk1-alumina_solution_RL`
+- `prod-mk5-mk1-aluminum_scrap_LR`
+- `prod-mk5-mk1-aluminum_scrap_RL`
 
 ### Blender mk5
 
@@ -190,11 +228,11 @@ Uses parts from
 
 ### Balancer mk5
 - logi-balancer-2_2_mk5
-- logi-balancer-2_2_mk5_high
+- `logi-balancer-2_2_mk5_high`
 - logi-balancer-2_3_mk5
 - logi-balancer-2_4_mk5
 - logi-balancer-3_3_mk5
-- logi-balancer-4_4_mk5
+- `logi-balancer-4_4_mk5`
 
 ## Fluid
 

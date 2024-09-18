@@ -133,10 +133,6 @@
 - prod-mk3-turbofuel_R
 - prod-mk3-smokeless_powder_LR
 - prod-mk3-smokeless_powder_RL
-- prod-mk3-alumina_solution_LR
-- prod-mk3-alumina_solution_RL
-- prod-mk3-aluminum_scrap_LR
-- prod-mk3-aluminum_scrap_RL
 
 ## Production mk5
 
@@ -191,10 +187,6 @@
 - prod-mk5-mk2-plastic_R.sbp
 - prod-mk5-mk2-rubber_L.sbp
 - prod-mk5-mk2-rubber_R.sbp
-- prod-mk5-alumina_solution_LR
-- prod-mk5-alumina_solution_RL
-- prod-mk5-aluminum_scrap_LR
-- prod-mk5-aluminum_scrap_RL
 
 ### Blender mk5 mk1
 - prod-mk5-mk2-fused modular frame (TODO: byt namn)
