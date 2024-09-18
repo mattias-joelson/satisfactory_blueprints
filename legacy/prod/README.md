@@ -4,14 +4,14 @@
 - prod-parts-wall_doors
 - prod-parts-empty_module_floor
 - prod-parts-empty_module
-- prod-mk3-refinery_L_R
-- prod-mk3-refinery_R_L
-- prod-mk3-mk1-refinery_L_R
-- prod-mk3-mk1-refinery_R_L
+- prod-mk3-refinery_LR
+- prod-mk3-refinery_RL
+- prod-mk3-mk1-refinery_LR
+- prod-mk3-mk1-refinery_RL
 - prod-mk3-manufacturer_3
 - prod-mk3-manufacturer
-- prod-mk5-mk2-refinery_L_R
-- prod-mk5-mk2-refinery_R_L
+- prod-mk5-mk2-refinery_LR
+- prod-mk5-mk2-refinery_RL
 - prod-mk5-mk1-blender
 - prod-mk5-mk2-blender
 
@@ -122,21 +122,21 @@
 - prod-mk3-rubber_R
 - prod-mk3-fuel_L
 - prod-mk3-fuel_R
-- prod-mk3-residual_plastic_L_R
-- prod-mk3-residual_plastic_R_L
-- prod-mk3-residual_rubber_L_R
-- prod-mk3-residual_rubber_R_L
+- prod-mk3-residual_plastic_LR
+- prod-mk3-residual_plastic_RL
+- prod-mk3-residual_rubber_LR
+- prod-mk3-residual_rubber_RL
 - prod-mk3-residual_fuel
-- prod-mk3-polyester_fabric_L_R
-- prod-mk3-polyester_fabric_R_L
+- prod-mk3-polyester_fabric_LR
+- prod-mk3-polyester_fabric_RL
 - prod-mk3-turbofuel_L
 - prod-mk3-turbofuel_R
-- prod-mk3-smokeless_powder_L_R
-- prod-mk3-smokeless_powder_R_L
-- prod-mk3-alumina_solution_L_R
-- prod-mk3-alumina_solution_R_L
-- prod-mk3-aluminum_scrap_L_R
-- prod-mk3-aluminum_scrap_R_L
+- prod-mk3-smokeless_powder_LR
+- prod-mk3-smokeless_powder_RL
+- prod-mk3-alumina_solution_LR
+- prod-mk3-alumina_solution_RL
+- prod-mk3-aluminum_scrap_LR
+- prod-mk3-aluminum_scrap_RL
 
 ## Production mk5
 
@@ -191,10 +191,10 @@
 - prod-mk5-mk2-plastic_R.sbp
 - prod-mk5-mk2-rubber_L.sbp
 - prod-mk5-mk2-rubber_R.sbp
-- prod-mk5-alumina_solution_L_R
-- prod-mk5-alumina_solution_R_L
-- prod-mk5-aluminum_scrap_L_R
-- prod-mk5-aluminum_scrap_R_L
+- prod-mk5-alumina_solution_LR
+- prod-mk5-alumina_solution_RL
+- prod-mk5-aluminum_scrap_LR
+- prod-mk5-aluminum_scrap_RL
 
 ### Blender mk5 mk1
 - prod-mk5-mk2-fused modular frame (TODO: byt namn)

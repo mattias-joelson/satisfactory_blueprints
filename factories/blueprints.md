@@ -72,18 +72,18 @@ Uses parts from
 
 ## Production mk3
 
-| template blueprint          | module production floor | notes           |
-|-----------------------------|-------------------------|-----------------|
-| `prod-mk3-smelter`          | `prod-floor-1-1`        | 16 smelters     |
-| `prod-mk3-foundry`          | `prod-floor-2-1`        | 6 foundry       |
-| `prod-mk3-constructor`      | `prod-floor-1-1`        | 12 constructors |
-| `prod-mk3-assembler`        | `prod-floor-2-1`        | 6 assemblers    |
-| `prod-mk3-mk1-refinery_L_R` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk3-mk1-refinery_R_L` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk3-mk2-refinery_L_R` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk3-mk2-refinery_R_L` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk3-manufacturer`     | `prod-floor-4-1`        | 2 manufacturer  |
-| `prod-mk3-manufacturer_3`   | `prod-floor-3-1`        | 2 manufacturer  |
+| template blueprint         | module production floor | notes           |
+|----------------------------|-------------------------|-----------------|
+| `prod-mk3-smelter`         | `prod-floor-1-1`        | 16 smelters     |
+| `prod-mk3-foundry`         | `prod-floor-2-1`        | 6 foundry       |
+| `prod-mk3-constructor`     | `prod-floor-1-1`        | 12 constructors |
+| `prod-mk3-assembler`       | `prod-floor-2-1`        | 6 assemblers    |
+| `prod-mk3-mk1-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-mk1-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk3-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
+| `prod-mk3-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
