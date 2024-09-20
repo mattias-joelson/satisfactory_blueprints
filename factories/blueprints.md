@@ -194,10 +194,16 @@ Uses parts from
 - `prod-mk5-copper_ingot`
 
 ### Foundry mk5
+- `prod-mk5-aluminum_ingot`
+- `prod-mk5-aluminum_ingot_top`
 
 ### Constructor mk5
+- `prod-mk5-concrete`
+- `prod-mk5-aluminum_casing`
+- `prod-mk5-silica`
 
 ### Assembler mk5
+- `prod-mk5-alclad_aluminum_sheet`
 
 ### Manufacturer mk5
 

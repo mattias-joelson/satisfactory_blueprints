@@ -54,9 +54,24 @@
 | `prod-mk5-alclad_aluminum_sheet`   |      8 |
 | `prod-mk5-aluminum_casing`         |      2 |
 
-| needed     | amount | stacks |
-|------------|-------:|-------:|
-| iron plate |        |        |
+| needed                   | amount | stacks |
+|--------------------------|-------:|-------:|
+| !iron plate              |  2 218 |     12 |
+| !iron rod                |  1 273 |      7 |
+| !wire                    |  2 182 |      5 |
+| !cable                   |  3 053 |     16 |
+| !copper sheet            |    844 |     5* |
+| concrete                 | 21 357 |    43* |
+| !reinforced iron plate   |    624 |      7 |
+| !rotor                   |    552 |      6 |
+| !modular frame           |    275 |      6 |
+| !steel beam              |     92 |      1 |
+| !steel pipe              |    680 |      4 |
+| !encased industrial beam |    260 |      3 |
+| !motor                   |    215 |      5 |
+| !plastic                 |     75 |      1 |
+| !rubber                  |     20 |      1 |
 
-copper ingot!
-hub!
+## Bonus
+- copper ingot (for alclad aluminum sheet)
+- hub (for mk5 logistics)
