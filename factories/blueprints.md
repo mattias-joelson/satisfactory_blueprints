@@ -208,18 +208,25 @@ Uses parts from
 
 ### Assembler mk5
 - `prod-mk5-alclad_aluminum_sheet`
+- `prod-mk5-black_powder`
 
 ### Manufacturer mk5
 
 ### Refinery mk5
+- `prod-mk5-mk2-plastic_L`
+- `prod-mk5-mk2-plastic_R`
+- `prod-mk5-mk2-rubber_L`
+- `prod-mk5-mk2-rubber_R`
 - `prod-mk5-mk2-residual_plastic_LR`
 - `prod-mk5-mk2-residual_plastic_RL`
-- `prod-mk5-mk2-polyester_fabric_LR`
-- `prod-mk5-mk2-polyester_fabric_RL`
 - `prod-mk5-mk1-alumina_solution_LR`
 - `prod-mk5-mk1-alumina_solution_RL`
 - `prod-mk5-mk1-aluminum_scrap_LR`
 - `prod-mk5-mk1-aluminum_scrap_RL`
+- `prod-mk5-mk2-polyester_fabric_LR`
+- `prod-mk5-mk2-polyester_fabric_RL`
+- `prod-mk5-mk2-smokeless_powder_LR`
+- `prod-mk5-mk2-smokeless_powder_RL`
 
 ### Packager mk5
 - `prod-mk5-mk2-packaged_water_LR`
