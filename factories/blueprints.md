@@ -194,23 +194,39 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Wall Material
 
 ### Smelter mk5
+- `prod-mk5-iron_ingot`
 - `prod-mk5-copper_ingot`
+- `prod-mk5-caterium_ingot`
 
 ### Foundry mk5
 - `prod-mk5-aluminum_ingot`
 - `prod-mk5-aluminum_ingot_top`
 
 ### Constructor mk5
+- `prod-mk5-iron_plate`
+- `prod-mk5-iron_rod`
+- `prod-mk5-cable`
+- `prod-mk5-copper_sheet`
 - `prod-mk5-concrete`
 - `prod-mk5-empty_canister`
 - `prod-mk5-aluminum_casing`
+- `prod-mk5-quickwire`
+- `prod-mk5-quartz_crystal`
 - `prod-mk5-silica`
 
 ### Assembler mk5
+- `prod-mk5-reinforced_iron_plate`
+- `prod-mk5-circuit_board`
 - `prod-mk5-alclad_aluminum_sheet`
+- `prod-mk5-AI_limiter`
 - `prod-mk5-black_powder`
 
 ### Manufacturer mk5
+- `prod-mk5-computer`
+- `prod-mk5-supercomputer`
+- `prod-mk5-radio_control_unit`
+- `prod-mk5-high-speed_connector`
+- `prod-mk5-crystal_oscillator`
 
 ### Refinery mk5
 - `prod-mk5-mk2-plastic_L`
