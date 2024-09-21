@@ -78,12 +78,12 @@ Uses parts from
 | `prod-mk3-foundry`         | `prod-floor-2-1`        | 6 foundry       |
 | `prod-mk3-constructor`     | `prod-floor-1-1`        | 12 constructors |
 | `prod-mk3-assembler`       | `prod-floor-2-1`        | 6 assemblers    |
+| `prod-mk3-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
+| `prod-mk3-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
 | `prod-mk3-mk1-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk3-mk1-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk3-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk3-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk3-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
-| `prod-mk3-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -165,10 +165,12 @@ Uses parts from
 | `prod-mk5-foundry`         | `prod-floor-2-1`        | 6 foundry       |
 | `prod-mk5-constructor`     | `prod-floor-1-1`        | 12 constructors |
 | `prod-mk5-assembler`       | `prod-floor-2-1`        | 6 assemblers    |
-| `prod-mk5-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk5-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk5-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
 | `prod-mk5-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
+| `prod-mk5-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk5-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
+| `prod-mk5-mk2-packager_LR` | `prod-floor-empty`      | 4 packager      |
+| `prod-mk5-mk2-packager_RL` | `prod-floor-empty`      | 4 packager      |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -181,6 +183,7 @@ Uses parts from
 - Tier 3 - Basic Steel Production (foundry)
 - Tier 4 - Logistics Mk.3 (stackable pipeline support)
 - Tier 5 - Oil Processing (refinery)
+- Tier 5 - Fluid Packaging (packager)
 - Tier 6 - Industrial Manufacturing (manufacturer)
 - Tier 6 - Pipeline Engineering (pipeline mk2)
 - Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
@@ -199,6 +202,7 @@ Uses parts from
 
 ### Constructor mk5
 - `prod-mk5-concrete`
+- `prod-mk5-empty_canister`
 - `prod-mk5-aluminum_casing`
 - `prod-mk5-silica`
 
@@ -208,10 +212,18 @@ Uses parts from
 ### Manufacturer mk5
 
 ### Refinery mk5
+- `prod-mk5-mk2-residual_plastic_LR`
+- `prod-mk5-mk2-residual_plastic_RL`
+- `prod-mk5-mk2-polyester_fabric_LR`
+- `prod-mk5-mk2-polyester_fabric_RL`
 - `prod-mk5-mk1-alumina_solution_LR`
 - `prod-mk5-mk1-alumina_solution_RL`
 - `prod-mk5-mk1-aluminum_scrap_LR`
 - `prod-mk5-mk1-aluminum_scrap_RL`
+
+### Packager mk5
+- `prod-mk5-mk2-packaged_water_LR`
+- `prod-mk5-mk2-packaged_water_RL`
 
 ### Blender mk5
 
@@ -437,7 +449,7 @@ height by extending 4 m foundations.
 - `pow-mk3-mk1-coal_generator-L`
 - `pow-mk3-mk1-coal_generator-R`
 - `pow-mk3-compacted_coal`
-
+- `pow-mk5-compacted_coal`
 
 ### Fuel
 - `pow-fuel_generator`
@@ -448,8 +460,12 @@ height by extending 4 m foundations.
 - `pow-mk3-mk2-fuel_L`
 - `pow-mk3-mk1-fuel_R`
 - `pow-mk3-mk2-fuel_R`
-- `pow-mk3-mk2-turbo_fuel_L`
-- `pow-mk3-mk2-turbo_fuel_R`
+- `pow-mk3-mk2-turbofuel_L`
+- `pow-mk3-mk2-turbofuel_R`
+- `pow-mk5-mk2-fuel_L`
+- `pow-mk5-mk2-fuel_R`
+- `pow-mk5-mk2-turbofuel_L`
+- `pow-mk5-mk2-turbofuel_R`
 
 ### Storage
 - `pow-power_storage`
