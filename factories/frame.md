@@ -1,111 +1,74 @@
-Fused Modular Frame 10
-- aluminum casing 500
-- iron ore 2475 => 3,173 -> 4 pure
-- coal 1025 => 1,314 -> 2 pure
-- limestone 750 => 0,92 -> 1 pure
-- nitrogen gas 250 => 0,417 -> 1 mk2 pipe
+# Frame Factory
 
-B Fused Modular Frame 6,667 -> 7 => 7
-B Heavy Modular Frame 5 -> 5 => 5
-B Modular Frame 25 -> 30 => 5
-B Reinforced Iron Plate 15 -> 16 => 8
-B Iron Plate 22,5 -> 24 => 2
-B Iron Rod 51,667 -> 60 => 5
-B Iron Ingot 48,333 -> 2 * 32 => 2 * 2 = 4
-B Encased Industrial Beam 8,333 -> 12 => 2
-B Concrete 16,667 -> 24 => 2
-B Steel Pipe 7,5 -> 12 => 1
-B Steel Beam 13,333 -> 2 * 12 => 2 * 1 = 2
-B Steel Ingot 22,778 -> 2 * 12 => 2 * 2 = 4
+| goal                | amount | aluminum casing | nitrogen gas | iron ore | coal | limestone |
+|---------------------|-------:|----------------:|-------------:|---------:|-----:|----------:|
+| fused modular frame |     10 |             500 |          250 |    2 400 |  900 |       900 |
+| heavy modular frame |     10 |             500 |          250 |    2 400 |  900 |       900 |
 
-1 Resource Well Pressurizer
-7 Resource Well Extractor
-7 miner
-5 Train Station
-12 Freight Platform
-8 Fluid Freight Platform
-6 Industrial Storage
-4 fluid load
-4 fluid unload
-2 locomotives
-8 freight cars
+| input                    | amount |
+|--------------------------|-------:|
+| aluminum casing (import) |    500 |
+| nitrogen gas (import)    |    250 |
+| iron ore                 |  2 400 |
+| coal                     |    900 |
+| limestone                |    900 |
 
+| product                 | amount | producers      | blueprint                        | amount |
+|-------------------------|-------:|----------------|----------------------------------|-------:|
+| fused modular frame     |     10 | 6,67 &rarr; 7  |                                  |      7 |
+| heavy mocular frame     |     10 | 5 &rarr; 5     |                                  |      5 |
+| encased industrial beam |     50 | 8,33 &rarr; 12 |                                  |      2 |
+| steel pipe              |    200 | 10 &rarr; 12   |                                  |      1 |
+| steel beam              |    150 | 10 &rarr; 12   |                                  |      1 |
+| steel ingot             |    900 | 20 &rarr; 24   |                                  |  2 + 2 |
+| concrete                |    900 | 20 &rarr; 24   | `prod-mk5-concrete`              |  1 + 1 |
+| modular frame           |     50 | 25 &rarr; 30   |                                  |      5 |
+| reinforced iron plate   |     75 | 15 &rarr; 16   | `prod-mk5-reinforced_iron_plate` |      8 |
+| iron rod                |    825 | 55 &rarr; 60   | `prod-mk5-iron_rod`              |  2 + 3 |
+| iron plate              |    450 | 22,5 &rarr; 24 | `prod-mk5-iron_plate`            |      2 |
+| iron ingot              |  1 500 | 50 &rarr; 64   | `prod-mk5-iron_ingot`            |  2 + 2 |
 
-14 blocks
-Encased Industrial Beam
-	Concrete
-Fused Modular Frame
-	Steel Beam
-		Steel Ingot
-Heavy Modular Frame
-	Steel Pipe
-		Steel Ingot
-Modular Frame
-	Reinforced Iron Plate
-		Iron Plate
-Iron Rod
-	Iron Ingot
-		Iron Ingot
+# Train Stations
+|                     |                      |
+|---------------------|----------------------|
+| fused modular frame | nitrogen gas (in)    |
+| heavy modular frame | aluminum casing (in) |
+|                     | (coal (in))          |
+|                     | (coal (in))          |
 
+# Production Floor
+|                                    |                         |                           |                       |
+|------------------------------------|-------------------------|---------------------------|-----------------------|
+| 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot` | 2 steel ingot             | 2 steel ingot         |
+| 3 `prod-mk5-iron_rod`              | 2 `prod-mk5-iron_rod`   | 1 steel beam              | 1 `prod-mk5-concrete` |
+| 2 `prod-mk5-iron_plate`            | 1 steel pipe            | 2 encased industrial beam | 1 `prod-mk5-concrete` |
+| 8 `prod-mk5-reinforced_iron_plate` | 5 modular frame         | 5 heavy modular frame     | 7 fused modular frame |
 
-3548 Wire (more)
-50 Rubber
-*130 Encased Industrial Beam
-335 Motor
-405 Plastic (more)
-*302 Heavy Modular Frame
-90 Computer
-*34872 concrete (plus floor)
-7146 Cable (more)
-*360 Modular Frame
-*5235 Iron Plate
-*2519 Iron Rod
-572 Rotor
-4969 Alcad Aluminum Sheet
-350 Aluminum Casing
-*1206 Reinforced Iron Plate
-*190 Steel Beam
-*230 Steel Pipe
-383 Copper Sheet (more)
-*35 Radio Control Unit
+## Needed to Build
 
-* 9   4500 Wire (more)
-* 1    200 Rubber
-* 2   *200 Encased Industrial Beam
-* 8    400 Motor
-* 4    800 Plastic (more)
-* 6   *300 Heavy Modular Frame
-* 2    100 Computer
-   *34872 concrete (plus floor)
-40   8000 Cable (more)
-*25   5000 Cable taken
-* 8   *400 Modular Frame
-*10  *2000 Iron Plate
-* 7  *1400 Iron Rod
-* 7    700 Rotor
-30   6000 Alcad Aluminum Sheet
- 3    600 Aluminum Casing
-*10  *1000 Reinforced Iron Plate
-* 1   *200 Steel Beam
-* 2   *400 Steel Pipe
-* 6   1200 Copper Sheet (more)
-* 1    *50 Radio Control Unit
- 
-157 plus concrete
-
-128 freight cars
-
-1/7 Fused Modular Frame
-5/5 Heavy Modular Frame
-5/5 Modular Frame
-8/8 Reinforced Iron Plate
-2/2 Iron Plate
-2/2 Iron Ingot
-5/5 Iron Rod
-2/2 Iron Ingot
-2/2 Encased Industrial Beam
-2/2 Concrete
-1/1 Steel Pipe
-2/2 Steel Beam
-2/2 Steel Ingot
-2/2 Steel Ingot
+| blueprints                       | amount |
+|----------------------------------|-------:|
+| fused modular frame              |      7 |
+| heavy modular frame              |      5 |
+| encased industrial beam          |      2 |
+| steel pipe                       |      1 |
+| steel beam                       |      1 |
+| steel ingot                      |      4 |
+| `prod-mk5-concrete`              |      2 |
+| modular frame                    |      5 |
+| `prod-mk5-reinforced_iron_plate` |      8 |
+| `prod-mk5-iron_rod`              |      5 |
+| `prod-mk5-iron_plate`            |      2 |
+| `prod-mk5-iron_ingot`            |      4 |
+|                                  |        |
+| `prod-floor-empty`               |      8 |
+| `prod-floor-1-1`                 |     11 |
+| `prod-floor-2-1`                 |      2 |
+| `prod-floor-2i-1`                |      1 |
+| `prod-floor-4i-1`                |      1 |
+| 2-1-1-0                          |      1 |
+|                                  |        |
+| `prod-floor-corner`              |     30 |
+| `prod-floor-corner_pillar`       |     15 |
+| `prod-floor-connect`             |     40 |
+| `prod-floor-connect_stairs`      |     36 |

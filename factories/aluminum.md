@@ -13,17 +13,15 @@
 | copper ingot |    480 |
 | water        |  1 440 |
 
-| product               | amount | producers     | blueprint                                                                | amount |
-|-----------------------|-------:|---------------|--------------------------------------------------------------------------|-------:|
-| alumina solution      |  1 440 | 12 -> 12      | `prod-mk5-mk1-alumina_solution_LR`<br>`prod-mk5-mk1-alumina_solution_RL` |  2 + 2 |
-| aluminum scrap        |  2 160 | 6 -> 8 @ 75%  | `prod-mk5-mk1-aluminum_scrap_LR`<br>`prod-mk5-mk1-aluminum_scrap_RL`     |  2 + 2 |
-| aluminum ingot        |  1 440 | 24 -> 24      | `prod-mk5-aluminum_ingot` + `prod-mk5-aluminum_ingot_top`                    |  3 + 3 |
-| silica                |  1 200 | 32 -> 12 + 24 | `prod-mk5-silica`                                                        |  2 + 1 |
-| alclad aluminum sheet |  1 440 | 48 -> 2 * 24  | `prod-mk5-alclad_aluminum_sheet`                                         |  4 + 4 |
-| aluminum casing       |    960 | 16 -> 2 * 12  | `prod-mk5-aluminum_casing`                                               |  1 + 1 | 
-
-## Water Intake
-- 12 water extractor
+| product               | amount | producers         | blueprint                                                                | amount |
+|-----------------------|-------:|-------------------|--------------------------------------------------------------------------|-------:|
+| alumina solution      |  1 440 | 12 &rarr; 12      | `prod-mk5-mk1-alumina_solution_LR`<br>`prod-mk5-mk1-alumina_solution_RL` |  2 + 2 |
+| aluminum scrap        |  2 160 | 6 &rarr; 8 @ 75%  | `prod-mk5-mk1-aluminum_scrap_LR`<br>`prod-mk5-mk1-aluminum_scrap_RL`     |  2 + 2 |
+| aluminum ingot        |  1 440 | 24 &rarr; 24      | `prod-mk5-aluminum_ingot` + `prod-mk5-aluminum_ingot_top`                |  3 + 3 |
+| silica                |  1 200 | 32 &rarr; 12 + 24 | `prod-mk5-silica`                                                        |  2 + 1 |
+| alclad aluminum sheet |  1 440 | 48 &rarr; 2 * 24  | `prod-mk5-alclad_aluminum_sheet`                                         |  4 + 4 |
+| aluminum casing       |    960 | 16 &rarr; 2 * 12  | `prod-mk5-aluminum_casing`                                               |  1 + 1 |
+| water                 |  1 440 | 12 &rarr; 12      | water extractor                                                          |     12 |
 
 ## Refinery Floor
 |                                    |                                    |                                    |                                    |
@@ -53,24 +51,6 @@
 | `logi-balancer-4_4_mk5`            |      1 |
 | `prod-mk5-alclad_aluminum_sheet`   |      8 |
 | `prod-mk5-aluminum_casing`         |      2 |
-
-| needed                   | amount | stacks |
-|--------------------------|-------:|-------:|
-| !iron plate              |  2 218 |     12 |
-| !iron rod                |  1 273 |      7 |
-| !wire                    |  2 182 |      5 |
-| !cable                   |  3 053 |     16 |
-| !copper sheet            |    844 |     5* |
-| concrete                 | 21 357 |    43* |
-| !reinforced iron plate   |    624 |      7 |
-| !rotor                   |    552 |      6 |
-| !modular frame           |    275 |      6 |
-| !steel beam              |     92 |      1 |
-| !steel pipe              |    680 |      4 |
-| !encased industrial beam |    260 |      3 |
-| !motor                   |    215 |      5 |
-| !plastic                 |     75 |      1 |
-| !rubber                  |     20 |      1 |
 
 ## Bonus
 - copper ingot (for alclad aluminum sheet)
