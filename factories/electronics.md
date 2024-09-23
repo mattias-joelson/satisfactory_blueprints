@@ -43,12 +43,12 @@
 
 ## Production Floor
 
-|                               |                                  |                                 |                           |                      |
-|-------------------------------|----------------------------------|---------------------------------|---------------------------|----------------------|
-| `prod-mk5-iron_plate`         | `prod-mk5-iron_ingot`            | `prod-mk5-iron_rod`             | `prod-mk5-copper_ingot`   |                      |
-| `prod-mk5-quartz_crystal`     | `prod-mk5-reinforced_iron_plate` | `prod-mk5-cable`                | `prod-mk5-copper_sheet`   |                      |
-| `prod-mk5-crystal_oscillator` | `prod-mk5-circuit_board`         | `prod-mk5-high-speed_connector` | `prod-mk5-caterium_ingot` |                      |
-| `prod-mk5-radio_control_unit` | `prod-mk5-computer`              | `prod-mk5-supercomputer`        | `prod-mk5-AI_limiter`     | `prod-mk5-quickwire` |
+|                                  |                                    |                                   |                             |                        |
+|----------------------------------|------------------------------------|-----------------------------------|-----------------------------|------------------------|
+| 2 `prod-mk5-iron_plate`          | 2 `prod-mk5-iron_ingot`            | 1 `prod-mk5-iron_rod`             | 2 `prod-mk5-copper_ingot`   |                        |
+| 2 `prod-mk5-quartz_crystal`      | 5 `prod-mk5-reinforced_iron_plate` | 3 `prod-mk5-cable`                | 3 `prod-mk5-copper_sheet`   |                        |
+| 10 `prod-mk5-crystal_oscillator` | 3 `prod-mk5-circuit_board`         | 5 `prod-mk5-high-speed_connector` | 2 `prod-mk5-caterium_ingot` |                        |
+| 5 `prod-mk5-radio_control_unit`  | 5 `prod-mk5-computer`              | 2 `prod-mk5-supercomputer`        | 5 `prod-mk5-AI_limiter`     | 1 `prod-mk5-quickwire` |
 
 ## Needed to Build
 
