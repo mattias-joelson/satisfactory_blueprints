@@ -218,6 +218,8 @@ Uses parts from
 
 ### Assembler mk5
 - `prod-mk5-reinforced_iron_plate`
+- `prod-mk5-rotor`
+- `prod-mk5-stator`
 - `prod-mk5-circuit_board`
 - `prod-mk5-alclad_aluminum_sheet`
 - `prod-mk5-AI_limiter`
