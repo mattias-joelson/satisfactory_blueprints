@@ -114,11 +114,11 @@ Uses parts from
 ### Constructor mk3
 - `prod-mk3-iron_plate`
 - `prod-mk3-iron_rod`
-- `prod-mk3-cable` (with potential first floor `prod-mk3-cable-wire`, intermediate wire)
+- `prod-mk3-cable` (intermediate wire)
 - `prod-mk3-copper_sheet`
 - `prod-mk3-concrete`
 - `prod-mk3-steel_beam`
-- `prod-mk3-steal_rod`
+- `prod-mk3-steel_pipe`
 - `prod-mk3-reanimated_SAM`
 
 ### Assembler mk3
