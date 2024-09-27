@@ -114,6 +114,7 @@ Uses parts from
 ### Constructor mk3
 - `prod-mk3-iron_plate`
 - `prod-mk3-iron_rod`
+- `prod-mk3-wire`
 - `prod-mk3-cable` (intermediate wire)
 - `prod-mk3-copper_sheet`
 - `prod-mk3-concrete`

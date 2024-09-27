@@ -22,20 +22,25 @@
 | versatile framework     |  11,25 |      405 |          0 |         0 |    270 |
 | automated wiring        |  11,25 |    50,63 |        270 |         0 |    270 |
 |                         |        |          |            |           |        |
-| biomass                 |        |          |            |           |        |
+| biofuel                 |      0 |        0 |          0 |         0 |      0 |
+| biomass                 |      0 |        0 |          0 |         0 |      0 |
 |                         |        |          |            |           |        |
 | nobelisk                |     60 |      180 |          0 |         0 |    180 |
 | rifle ammo              |    270 |        0 |        108 |         0 |      0 |
 | SAM fluctuator          |     20 |       90 |         50 |         0 |     90 |
-| heavy modular frame *** |      3 |      720 |          0 |       270 |    270 |
-| computer                |  11,25 |        0 |        270 |         0 |      0 |
+| heavy modular frame     |      2 |      480 |          0 |       180 |    180 |
+| computer                |      5 |        0 |        120 |         0 |      0 |
 
-| input      | amount |
-|------------|-------:|
-| iron ore   | 697,50 |
-| copper ore |    270 |
-| limestone  |    540 |
-| coal       |    270 |
+| input                 | amount |
+|-----------------------|-------:|
+| iron ore              | 697,50 |
+| copper ore            |    270 |
+| limestone             |    540 |
+| coal                  |    270 |
+| plastic (in)          |    160 |
+| black powder (in)     |    120 |
+| smokeless powder (in) |     36 |
+| reanimated SAM (in)   |      0 |
 
 | product                 | amount | producers         | blueprint                          |    amount | max                     |
 |-------------------------|-------:|-------------------|------------------------------------|----------:|-------------------------|
@@ -48,11 +53,11 @@
 | iron rod                |    486 | 32,4 &rarr; 48    | `prod-mk3-iron_rod`                |     2 + 2 | iron rod                |
 | iron ingot              |    486 | 16,20 &rarr; 48   | `prod-mk3-iron_ingot`              | 1 + 1 + 1 | rotor                   |
 | cable                   |    270 | 9 &rarr; 18 @ 50% | `prod-mk3-cable`                   |         3 | cable                   |
-| wire                    |    270 | 9 &rarr; 12       |                                    |         1 | wire                    |
+| wire                    |    270 | 9 &rarr; 12       | `prod-mk3-wire`                    |         1 | wire                    |
 | copper sheet            |    120 | 12 &rarr; 12      | `prod-mk3-copper_sheet`            |         1 | copper sheet            |
 | copper ingot            |    270 | 9 &rarr; 16       | `prod-mk3-copper_ingot`            |         1 | cable                   |
 | encased industrial beam |  22,50 | 3,75 &rarr; 6     | `prod-mk3-encased_industrial_beam` |         1 | encased industrial beam |
-| concrete                |    180 | 12 &rarr; 24      |                                    |     1 + 1 | concrete                |
+| concrete                |    180 | 12 &rarr; 24      | `prod-mk3-concrete`                |     1 + 1 | concrete                |
 | steel beam              |  67,50 | 4,50 &rarr; 12    | `prod-mk3-steel_beam`              |         1 | steel beam              |
 | steel pipe              |    180 | 9 &rarr; 12       | `prod-mk3-steel_pipe`              |         1 | steel pipe              |
 | steel ingot             |    270 | 6 &rarr; 12       | `prod-mk3-steel_ingot`             |     1 + 1 | steel beam              |
@@ -60,19 +65,15 @@
 | smart plating           |     30 | 15 &rarr; 18      | `prod-mk3-smart_plating`           |         3 | smart plating           |
 | versatile framework     |  11,25 | 2,25 &rarr; 6     | `prod-mk3-versatile_framework`     |         1 | versatile framework     |
 | automated wiring        |  11,25 | 4,50 &rarr; 6     | `prod-mk3-automated_wiring`        |         1 | automated wiring        |
-|                         |        |                   |                                    |           |                         |
-| biofuel                 |     60 | 1 &rarr; 1        | `pow-mk3-biofuel`                  |         1 | biofuel                 |
-| biomass burner          |        |                   | `pow-mk3-biomass_burner`           |         1 |                         |
 
-
-|                           |                                    |                            |                         |               |                          |                                                   |                                      |
-|---------------------------|------------------------------------|----------------------------|-------------------------|---------------|--------------------------|---------------------------------------------------|--------------------------------------|
-| wire                      | 1 `prod-mk3-automated_wiring`      | 3 `prod-mk3-smart_plating` |                         | **elevator**  |                          | 1 `prod-mk3-versatile_framework`                  |                                      |
-| 1 `prod-mk3-copper_ingot` | 1 `prod-mk3-iron_ingot`            | 1 `prod-mk3-iron_ingot`    | 1 `prod-mk3-iron_ingot` | **blueprint** | 1 `prod-mk3-steel_ingot` | 1 `prod-mk3-steel_ingot`                          | concrete                             |
-| 3 `prod-mk3-cable`        | 1 `prod-mk3-iron_plate`            | 2 `prod-mk3-iron_rod`      | 2 `prod-mk3-iron_rod`   | **hub**       | 1 `prod-mk3-steel_pipe`  | 1 `prod-mk3-steel_beam`                           | concrete                             |
-| 1 `prod-mk3-copper_sheet` | 2 `prod-mk3-reinforced_iron_plate` | 2 `prod-mk3-modular_frame` | 6 `prod-mk3-rotor`      | **storage**   | 1 `prod-mk3-motor`       | 3 `prod-mk3-stator`                               | 1 `prod-mk3-encased_industrial_beam` |
-| circuit board             | heavy modular frame                | **train**                  | **train**               | **train**     | **train**                | 1 `pow-mk3-biofuel`<br>1 `pow-mk3-biomass_burner` | `pow-power_storage`                        |
-| computer                  | rifle ammo                         | **train**                  | **train**               | **train**     | **train**                | nobelisk                                          | SAM fluctuator                       |
+|                            |                                    |                            |                         |               |                          |                                                   |                                      |
+|----------------------------|------------------------------------|----------------------------|-------------------------|---------------|--------------------------|---------------------------------------------------|--------------------------------------|
+| 1 `prod-mk3-wire`          | 1 `prod-mk3-automated_wiring`      | 3 `prod-mk3-smart_plating` |                         | **elevator**  |                          | 1 `prod-mk3-versatile_framework`                  |                                      |
+| 1 `prod-mk3-copper_ingot`  | 1 `prod-mk3-iron_ingot`            | 1 `prod-mk3-iron_ingot`    | 1 `prod-mk3-iron_ingot` | **blueprint** | 1 `prod-mk3-steel_ingot` | 1 `prod-mk3-steel_ingot`                          | 1 `prod-mk3-concrete`                |
+| 3 `prod-mk3-cable`         | 1 `prod-mk3-iron_plate`            | 2 `prod-mk3-iron_rod`      | 2 `prod-mk3-iron_rod`   | **hub**       | 1 `prod-mk3-steel_pipe`  | 1 `prod-mk3-steel_beam`                           | 1 `prod-mk3-concrete`                |
+| 1 `prod-mk3-copper_sheet`  | 2 `prod-mk3-reinforced_iron_plate` | 2 `prod-mk3-modular_frame` | 6 `prod-mk3-rotor`      | **storage**   | 1 `prod-mk3-motor`       | 3 `prod-mk3-stator`                               | 1 `prod-mk3-encased_industrial_beam` |
+| 1 `prod-mk3-circuit_board` | 1 `prod-mk3-heavy_modular_frame`   | **train**                  | **train**               | **train**     | **train**                | 1 `pow-mk3-biofuel`<br>1 `pow-mk3-biomass_burner` | `pow-power_storage`                  |
+| 1 `prod-mk3-computer`      | 1 `prod-mk3-rifle_ammo`            | **train**                  | **train**               | **train**     | **train**                | 1 `prod-mk3-nobelisk`                             | 1 `prod-mk3-SAM_fluctuator`          |
 
 ## Mk5 Version
 
