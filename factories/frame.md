@@ -21,9 +21,9 @@
 | steel pipe              |    200 | 10 &rarr; 12   |                                  |      1 |
 | steel beam              |    150 | 10 &rarr; 12   |                                  |      1 |
 | steel ingot             |    900 | 20 &rarr; 24   |                                  |  2 + 2 |
-| concrete                |    900 | 20 &rarr; 24   | `prod-mk5-concrete`              |  1 + 1 |
+| concrete                |    300 | 20 &rarr; 24   | `prod-mk5-concrete`              |  1 + 1 |
 | modular frame           |     50 | 25 &rarr; 30   |                                  |      5 |
-| reinforced iron plate   |     75 | 15 &rarr; 16   | `prod-mk5-reinforced_iron_plate` |      8 |
+| reinforced iron plate   |     75 | 15 &rarr; 15   | `prod-mk5-reinforced_iron_plate` |      5 |
 | iron rod                |    825 | 55 &rarr; 60   | `prod-mk5-iron_rod`              |  2 + 3 |
 | iron plate              |    450 | 22,5 &rarr; 24 | `prod-mk5-iron_plate`            |      2 |
 | iron ingot              |  1 500 | 50 &rarr; 64   | `prod-mk5-iron_ingot`            |  2 + 2 |

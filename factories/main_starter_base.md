@@ -115,19 +115,19 @@
 | product                 | amount | producers           | blueprint                        |    amount | max                     |
 |-------------------------|-------:|---------------------|----------------------------------|----------:|-------------------------|
 | motor                   |   62,4 | 12,48 &rarr; 18     |                                  |         3 | motor                   |
-| stator                  | 124,80 | 24,96 &rarr; 27     |                                  |         9 | motor                   |
+| stator                  | 124,80 | 24,96 &rarr; 27     | `prod-mk5-stator`                |         9 | motor                   |
 | modular frame           |  57,77 | 28,89 &rarr; 30     |                                  |         5 | modular frame           |
 | reinforced iron plate   |  86,66 | 17,33 &rarr; 18     | `prod-mk5-reinforced_iron_plate` |         6 | reinforced iron plate   |
 | rotor                   | 124,80 | 31,20 &rarr; 32     | `prod-mk5-rotor`                 |        16 | rotor                   |
 | iron plate              |    520 | 26 &rarr; 36        |                                  |         3 | iron plate              |
 | iron rod                |  1 404 | 93,6 &rarr; 120     |                                  |     5 + 5 | rotor                   |
 | iron ingot              |  2 015 | 67,17 &rarr; 96     |                                  | 2 + 2 + 2 | smart plating           |
-| cable                   |    780 | 26 &rarr; 54 @ 50 % |                                  |         9 | cable                   |
+| cable                   |    780 | 26 &rarr; 54 @ 50 % | `prod-mk5-cable`                 |         9 | cable                   |
 | wire                    |    780 | 26 &rarr; 36        |                                  |         3 | wire                    |
 | copper sheet            |    390 | 39 &rarr; 48        |                                  |         4 | copper sheet            |
-| copper ingot            |    780 | 26 &rarr; 36        |                                  |         2 | cable                   |
+| copper ingot            |    780 | 26 &rarr; 32        | `prod-mk5-copper_ingot`          |         2 | cable                   |
 | encased industrial beam |     65 | 10,83 &rarr; 12     |                                  |         2 | encased industrial beam |
-| concrete                |    520 | 34,67 &rarr; 48     |                                  |     2 + 2 | concrete                |
+| concrete                |    520 | 34,67 &rarr; 48     | `prod-mk5-concrete`              |     2 + 2 | concrete                |
 | steel beam              |    195 | 13 &rarr; 24        |                                  |         2 | steel beam              |
 | steel pipe              |    520 | 26 &rarr; 36        |                                  |         3 | steel pipe              |
 | steel ingot             |    780 | 17,33 &rarr; 18     |                                  |         3 | steel beam              |
