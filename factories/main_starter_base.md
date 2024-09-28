@@ -119,12 +119,12 @@
 | modular frame           |  57,77 | 28,89 &rarr; 30     |                                  |         5 | modular frame           |
 | reinforced iron plate   |  86,66 | 17,33 &rarr; 18     | `prod-mk5-reinforced_iron_plate` |         6 | reinforced iron plate   |
 | rotor                   | 124,80 | 31,20 &rarr; 32     | `prod-mk5-rotor`                 |        16 | rotor                   |
-| iron plate              |    520 | 26 &rarr; 36        |                                  |         3 | iron plate              |
-| iron rod                |  1 404 | 93,6 &rarr; 120     |                                  |     5 + 5 | rotor                   |
-| iron ingot              |  2 015 | 67,17 &rarr; 96     |                                  | 2 + 2 + 2 | smart plating           |
+| iron plate              |    520 | 26 &rarr; 36        | `prod-mk5-iron_plate`            |         3 | iron plate              |
+| iron rod                |  1 404 | 93,6 &rarr; 120     | `prod-mk5-iron_rod`              |     5 + 5 | rotor                   |
+| iron ingot              |  2 015 | 67,17 &rarr; 96     | `prod-mk5-iron_ingot`            | 2 + 2 + 2 | smart plating           |
 | cable                   |    780 | 26 &rarr; 54 @ 50 % | `prod-mk5-cable`                 |         9 | cable                   |
 | wire                    |    780 | 26 &rarr; 36        |                                  |         3 | wire                    |
-| copper sheet            |    390 | 39 &rarr; 48        |                                  |         4 | copper sheet            |
+| copper sheet            |    390 | 39 &rarr; 48        | `prod-mk5-copper_sheet`          |         4 | copper sheet            |
 | copper ingot            |    780 | 26 &rarr; 32        | `prod-mk5-copper_ingot`          |         2 | cable                   |
 | encased industrial beam |     65 | 10,83 &rarr; 12     |                                  |         2 | encased industrial beam |
 | concrete                |    520 | 34,67 &rarr; 48     | `prod-mk5-concrete`              |     2 + 2 | concrete                |

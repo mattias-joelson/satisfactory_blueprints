@@ -16,7 +16,7 @@
 | product                 | amount | producers      | blueprint                        | amount |
 |-------------------------|-------:|----------------|----------------------------------|-------:|
 | fused modular frame     |     10 | 6,67 &rarr; 7  |                                  |      7 |
-| heavy mocular frame     |     10 | 5 &rarr; 5     |                                  |      5 |
+| heavy mocular frame     |     10 | 5 &rarr; 5     | `prod-mk5-heavy_modular_frame`   |      5 |
 | encased industrial beam |     50 | 8,33 &rarr; 12 |                                  |      2 |
 | steel pipe              |    200 | 10 &rarr; 12   |                                  |      1 |
 | steel beam              |    150 | 10 &rarr; 12   |                                  |      1 |
@@ -37,12 +37,12 @@
 |                     | (coal (in))          |
 
 # Production Floor
-|                                    |                         |                           |                       |
-|------------------------------------|-------------------------|---------------------------|-----------------------|
-| 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot` | 2 steel ingot             | 2 steel ingot         |
-| 3 `prod-mk5-iron_rod`              | 2 `prod-mk5-iron_rod`   | 1 steel beam              | 1 `prod-mk5-concrete` |
-| 2 `prod-mk5-iron_plate`            | 1 steel pipe            | 2 encased industrial beam | 1 `prod-mk5-concrete` |
-| 8 `prod-mk5-reinforced_iron_plate` | 5 modular frame         | 5 heavy modular frame     | 7 fused modular frame |
+|                                    |                         |                                  |                       |
+|------------------------------------|-------------------------|----------------------------------|-----------------------|
+| 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot` | 2 steel ingot                    | 2 steel ingot         |
+| 3 `prod-mk5-iron_rod`              | 2 `prod-mk5-iron_rod`   | 1 steel beam                     | 1 `prod-mk5-concrete` |
+| 2 `prod-mk5-iron_plate`            | 1 steel pipe            | 2 encased industrial beam        | 1 `prod-mk5-concrete` |
+| 8 `prod-mk5-reinforced_iron_plate` | 5 modular frame         | 5 `prod-mk5-heavy_modular_frame` | 7 fused modular frame |
 
 ## Needed to Build
 

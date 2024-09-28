@@ -227,6 +227,7 @@ Uses parts from
 - `prod-mk5-black_powder`
 
 ### Manufacturer mk5
+- `prod-mk5-heavy_modular_frame`
 - `prod-mk5-computer`
 - `prod-mk5-supercomputer`
 - `prod-mk5-radio_control_unit`
