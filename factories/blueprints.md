@@ -42,18 +42,19 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 |-------------------------------|-------|
 | `prod-parts-production_floor` |       |
 
-| blueprint                   | input holes | intermediate input hole | input pipe holes | output hole        | output pipe hole   | used for                                                                                               |
-|-----------------------------|------------:|-------------------------|-----------------:|--------------------|--------------------|--------------------------------------------------------------------------------------------------------|
-| `prod-floor-empty`          |             |                         |                  |                    |                    | no wiring, used for non-electric modules (train stations, mall)                                        |
-| `prod-floor-1-1`            |           1 |                         |                  | :white_check_mark: |                    | for one-ingredient parts (smelter, constructor)                                                        |
-| `prod-floor-2-1`            |           2 |                         |                  | :white_check_mark: |                    | for two-ingredient parts (foundry, assembler)                                                          |
-| `prod-floor-2i-1`           |           2 | :white_check_mark:      |                  | :white_check_mark: |                    | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
-| `prod-floor-3-1`            |           3 |                         |                  | :white_check_mark: |                    | for three-ingredient parts (manufacturer)                                                              |
-| `prod-floor-3i-1`           |           3 | :white_check_mark:      |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
-| `prod-floor-4-1`            |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
-| `prod-floor-4i-1`           |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
-| 2-2-1-1                     |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-storage`        |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
+| blueprint              | input holes | intermediate input hole | input pipe holes | output hole        | output pipe hole   | used for                                                                                               |
+|------------------------|------------:|-------------------------|-----------------:|--------------------|--------------------|--------------------------------------------------------------------------------------------------------|
+| `prod-floor-empty`     |             |                         |                  |                    |                    | no wiring, used for non-electric modules (train stations, mall)                                        |
+| `prod-floor-1-1`       |           1 |                         |                  | :white_check_mark: |                    | for one-ingredient parts (smelter, constructor)                                                        |
+| `prod-floor-1-1-cable` |           1 |                         |                  | :white_check_mark: |                    | for cable                                                                                              |
+| `prod-floor-2-1`       |           2 |                         |                  | :white_check_mark: |                    | for two-ingredient parts (foundry, assembler)                                                          |
+| `prod-floor-2i-1`      |           2 | :white_check_mark:      |                  | :white_check_mark: |                    | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
+| `prod-floor-3-1`       |           3 |                         |                  | :white_check_mark: |                    | for three-ingredient parts (manufacturer)                                                              |
+| `prod-floor-3i-1`      |           3 | :white_check_mark:      |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
+| `prod-floor-4-1`       |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
+| `prod-floor-4i-1`      |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
+| 2-2-1-1                |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line)
@@ -202,15 +203,19 @@ Uses parts from
 - `prod-mk5-caterium_ingot`
 
 ### Foundry mk5
+- `prod-mk5-steel_ingot`
 - `prod-mk5-aluminum_ingot`
 - `prod-mk5-aluminum_ingot_top`
 
 ### Constructor mk5
 - `prod-mk5-iron_plate`
 - `prod-mk5-iron_rod`
+- `prod-mk5-wire`
 - `prod-mk5-cable`
 - `prod-mk5-copper_sheet`
 - `prod-mk5-concrete`
+- `prod-mk5-steel_beam`
+- `prod-mk5-steel_pipe`
 - `prod-mk5-empty_canister`
 - `prod-mk5-aluminum_casing`
 - `prod-mk5-quickwire`
@@ -220,11 +225,19 @@ Uses parts from
 ### Assembler mk5
 - `prod-mk5-reinforced_iron_plate`
 - `prod-mk5-rotor`
+- `prod-mk5-modular_frame`
+- `prod-mk5-encased_industrial_beam`
 - `prod-mk5-stator`
+- `prod-mk5-motor`
 - `prod-mk5-circuit_board`
 - `prod-mk5-alclad_aluminum_sheet`
 - `prod-mk5-AI_limiter`
 - `prod-mk5-black_powder`
+- `prod-mk5-nobelisk`
+- `prod-mk5-rifle_ammo`
+- `prod-mk5-smart_plating`
+- `prod-mk5-versatile_framework`
+- `prod-mk5-automated_wiring`
 
 ### Manufacturer mk5
 - `prod-mk5-heavy_modular_frame`
@@ -233,6 +246,7 @@ Uses parts from
 - `prod-mk5-radio_control_unit`
 - `prod-mk5-high-speed_connector`
 - `prod-mk5-crystal_oscillator`
+- `prod-mk5-SAM_fluctuator`
 
 ### Refinery mk5
 - `prod-mk5-mk2-plastic_L`
