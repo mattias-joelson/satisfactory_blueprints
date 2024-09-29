@@ -46,14 +46,18 @@
 - support
 
 # Mining Stations (bauxite, coal, etc)
-- upgrade mk3 belt
+
+# Aluminum Factory
+- priority switch
+- signs
 
 # Electronics Factory
-- priority switch 
 - support
 
 # Frame Factory
 - build
+- signs
+- support
 
 # Motor Factory
 - build
