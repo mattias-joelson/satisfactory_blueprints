@@ -10,5 +10,6 @@ Blueprints and factory setup for Satisfactory game.
 - [Electronics factory](factories/electronics.md)
 - [Frame factory](factories/frame.txt)
 - [Turbo Motor factory](factories/turbomotor.txt)
+- [TODO](factories/todo.md)
 
 [Staisfactory Tools EA8 factories](factories/sftools-export-2024-08-04-12-45-15-sft-EA8.txt)
