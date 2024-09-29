@@ -53,7 +53,8 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-3i-1`      |           3 | :white_check_mark:      |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
 | `prod-floor-4-1`       |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
 | `prod-floor-4i-1`      |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
-| 2-2-1-1                |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-1-1-0`   |           2 |                         |                1 | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
@@ -173,7 +174,7 @@ Uses parts from
 | `prod-mk5-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
 | `prod-mk5-mk2-packager_LR` | `prod-floor-empty`      | 4 packager      |
 | `prod-mk5-mk2-packager_RL` | `prod-floor-empty`      | 4 packager      |
-| blender                    |                         | 1 blender       |
+| `prod-mk5-mk2-blender`     | `prod-floor-2-2-1-1`    | 1 blender       |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -190,7 +191,7 @@ Uses parts from
 - Tier 6 - Industrial Manufacturing (manufacturer)
 - Tier 6 - Pipeline Engineering (pipeline mk2)
 - Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
-- ? (blender)
+- Tier 7 - Control System Development (blender)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
@@ -270,6 +271,7 @@ Uses parts from
 - `prod-mk5-mk2-packaged_water_RL`
 
 ### Blender mk5
+- `prod-mk5-mk2-fused_modular_frame`
 
 ## Logistics
 
