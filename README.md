@@ -4,7 +4,7 @@ Blueprints and factory setup for Satisfactory game.
 
 - [Building Materials](factories/building_materials.md)
 - [Blueprints](factories/blueprints.md)
-- [Starter Base](factories/main_base.txt)
+- [Main Starter Base](factories/main_starter_base.md)
 - [Oil Refinery](factories/oil.md)
 - [Aluminum factory](factories/aluminum.md)
 - [Electronics factory](factories/electronics.md)

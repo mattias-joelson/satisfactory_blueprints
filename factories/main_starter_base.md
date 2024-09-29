@@ -174,7 +174,7 @@
 | concrete                |    520 | 34,67 &rarr; 48     | `prod-mk5-concrete`                |     2 + 2 | concrete                |
 | steel beam              |    195 | 13 &rarr; 24        | `prod-mk5-steel_beam`              |         2 | steel beam              |
 | steel pipe              |    520 | 26 &rarr; 36        | `prod-mk5-steel_pipe`              |         3 | steel pipe              |
-| steel ingot             |    780 | 17,33 &rarr; 18     | `prod-mk5-steel_ingot`             |         3 | steel beam              |
+| steel ingot             |    780 | 17,33 &rarr; 18     | `prod-mk5-steel_ingot`             |     3 + 3 | steel beam              |
 |                         |        |                     |                                    |           |                         |
 | smart plating           |  86,66 | 43,33 &rarr; 48     | `prod-mk5-smart_plating`           |         8 | smart plating           |
 | versatile framework     |  32,50 | 6,50 &rarr; 12      | `prod-mk5-versatile_framework`     |         2 | versatile framework     |
@@ -182,35 +182,35 @@
 
 |                           |                                    |                            |                         |                         |                          |                                                   |                                      |
 |---------------------------|------------------------------------|----------------------------|-------------------------|-------------------------|--------------------------|---------------------------------------------------|--------------------------------------|
-| 1 `prod-mk5-wire`         | 1 `prod-mk5-automated_wiring`      | 3 `prod-mk5-smart_plating` |                         | **elevator**            |                          | 1 `prod-mk5-versatile_framework`                  |                                      |
-| 1 `prod-mk5-copper_ingot` | 1 `prod-mk5-iron_ingot`            | 1 `prod-mk5-iron_ingot`    | 1 `prod-mk5-iron_ingot` | **blueprint**           | 1 `prod-mk5-steel_ingot` | 1 `prod-mk5-steel_ingot`                          | 1 `prod-mk5-concrete`                |
-| 3 `prod-mk5-cable`        | 1 `prod-mk5-iron_plate`            | 2 `prod-mk5-iron_rod`      | 2 `prod-mk5-iron_rod`   | **hub**                 | 1 `prod-mk5-steel_pipe`  | 1 `prod-mk5-steel_beam`                           | 1 `prod-mk5-concrete`                |
-| 1 `prod-mk5-copper_sheet` | 2 `prod-mk5-reinforced_iron_plate` | 2 `prod-mk5-modular_frame` | 6 `prod-mk5-rotor`      | 1 `prod-module-storage` | 1 `prod-mk5-motor`       | 3 `prod-mk5-stator`                               | 1 `prod-mk5-encased_industrial_beam` |
+| 3 `prod-mk5-wire`         | 3 `prod-mk5-automated_wiring`      | 8 `prod-mk5-smart_plating` |                         | **elevator**            |                          | 2 `prod-mk5-versatile_framework`                  |                                      |
+| 2 `prod-mk5-copper_ingot` | 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot`    | 2 `prod-mk5-iron_ingot` | **blueprint**           | 3 `prod-mk5-steel_ingot` | 3 `prod-mk5-steel_ingot`                          | 2 `prod-mk5-concrete`                |
+| 9 `prod-mk5-cable`        | 3 `prod-mk5-iron_plate`            | 5 `prod-mk5-iron_rod`      | 5 `prod-mk5-iron_rod`   | **hub**                 | 3 `prod-mk5-steel_pipe`  | 2 `prod-mk5-steel_beam`                           | 2 `prod-mk5-concrete`                |
+| 4 `prod-mk5-copper_sheet` | 6 `prod-mk5-reinforced_iron_plate` | 5 `prod-mk5-modular_frame` | 16 `prod-mk5-rotor`     | 1 `prod-module-storage` | 3 `prod-mk5-motor`       | 9 `prod-mk5-stator`                               | 2 `prod-mk5-encased_industrial_beam` |
 |                           |                                    | **train**                  | **train**               | **train**               | **train**                | 1 `pow-mk5-biofuel`<br>1 `pow-mk5-biomass_burner` | >= 1 `pow-power_storage`             |
 |                           | 1 `prod-mk5-rifle_ammo`            | **train**                  | **train**               | **train**               | **train**                | 1 `prod-mk5-nobelisk`                             | 1 `prod-mk5-SAM_fluctuator`          |
-
+w
 | blueprints                         | amount |
 |------------------------------------|-------:|
-| `prod-mk5-motor`                   |      1 |
-| `prod-mk5-stator`                  |      3 |
-| `prod-mk5-modular_frame`           |      2 |
-| `prod-mk5-reinforced_iron_plate`   |      2 |
-| `prod-mk5-rotor`                   |      6 |
-| `prod-mk5-iron_plate`              |      1 |
-| `prod-mk5-iron_rod`                |      4 |
-| `prod-mk5-iron_ingot`              |      3 |
-| `prod-mk5-cable`                   |      3 |
-| `prod-mk5-wire`                    |      1 |
-| `prod-mk5-copper_sheet`            |      1 |
-| `prod-mk5-copper_ingot`            |      1 |
-| `prod-mk5-encased_industrial_beam` |      1 |
-| `prod-mk5-concrete`                |      2 |
-| `prod-mk5-steel_beam`              |      1 |
-| `prod-mk5-steel_pipe`              |      1 |
-| `prod-mk5-steel_ingot`             |      2 |
-| `prod-mk5-smart_plating`           |      3 |
-| `prod-mk5-versatile_framework`     |      1 |
-| `prod-mk5-automated_wiring`        |      1 |
+| `prod-mk5-motor`                   |      3 |
+| `prod-mk5-stator`                  |      9 |
+| `prod-mk5-modular_frame`           |      5 |
+| `prod-mk5-reinforced_iron_plate`   |      6 |
+| `prod-mk5-rotor`                   |     16 |
+| `prod-mk5-iron_plate`              |      3 |
+| `prod-mk5-iron_rod`                |     10 |
+| `prod-mk5-iron_ingot`              |      6 |
+| `prod-mk5-cable`                   |      9 |
+| `prod-mk5-wire`                    |      3 |
+| `prod-mk5-copper_sheet`            |      4 |
+| `prod-mk5-copper_ingot`            |      2 |
+| `prod-mk5-encased_industrial_beam` |      2 |
+| `prod-mk5-concrete`                |      4 |
+| `prod-mk5-steel_beam`              |      2 |
+| `prod-mk5-steel_pipe`              |      3 |
+| `prod-mk5-steel_ingot`             |      6 |
+| `prod-mk5-smart_plating`           |      8 |
+| `prod-mk5-versatile_framework`     |      2 |
+| `prod-mk5-automated_wiring`        |      3 |
 | `pow-mk5-biofuel`                  |      1 |
 | `pow-mk5-biomass_burner`           |      1 |
 | `pow-power_storage`                |   >= 1 |
@@ -219,7 +219,7 @@
 | `prod-mk5-SAM_fluctuator`          |      1 |
 | `prod-module-storage`              |      1 |
 |                                    |        |
-| `prod-parts-production_floor`      |      1 |
+| `prod-parts-production_floor`      |      3 |
 | `prod-floor-empty`                 |      1 |
 | `prod-floor-1-1`                   |     13 |
 | `prod-floor-1-1-cable`             |      1 |
