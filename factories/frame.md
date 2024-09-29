@@ -37,12 +37,12 @@
 |                     | (coal (in))          |
 
 # Production Floor
-|                                    |                            |                                      |                          |
-|------------------------------------|----------------------------|--------------------------------------|--------------------------|
-| 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot`    | 2 `prod-mk5-steel_ingot`             | 2 `prod-mk5-steel_ingot` |
-| 3 `prod-mk5-iron_rod`              | 2 `prod-mk5-iron_rod`      | 1 `prod-mk5-steel_beam`              | 1 `prod-mk5-concrete`    |
-| 2 `prod-mk5-iron_plate`            | 1 `prod-mk5-steel_pipe`    | 2 `prod-mk5-encased_industrial_beam` | 1 `prod-mk5-concrete`    |
-| 8 `prod-mk5-reinforced_iron_plate` | 5 `prod-mk5-modular_frame` | 5 `prod-mk5-heavy_modular_frame`     | 7 fused modular frame    |
+|                                    |                            |                                      |                                      |
+|------------------------------------|----------------------------|--------------------------------------|--------------------------------------|
+| 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot`    | 2 `prod-mk5-steel_ingot`             | 2 `prod-mk5-steel_ingot`             |
+| 3 `prod-mk5-iron_rod`              | 2 `prod-mk5-iron_rod`      | 1 `prod-mk5-steel_beam`              | 1 `prod-mk5-concrete`                |
+| 2 `prod-mk5-iron_plate`            | 1 `prod-mk5-steel_pipe`    | 2 `prod-mk5-encased_industrial_beam` | 1 `prod-mk5-concrete`                |
+| 8 `prod-mk5-reinforced_iron_plate` | 5 `prod-mk5-modular_frame` | 5 `prod-mk5-heavy_modular_frame`     | 7 `prod-mk5-mk2-fused_modular_frame` |
 
 ## Needed to Build
 
