@@ -221,6 +221,7 @@ Uses parts from
 - `prod-mk5-quickwire`
 - `prod-mk5-quartz_crystal`
 - `prod-mk5-silica`
+- `prod-mk5-reanimated_SAM`
 
 ### Assembler mk5
 - `prod-mk5-reinforced_iron_plate`
