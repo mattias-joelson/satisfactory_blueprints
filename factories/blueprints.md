@@ -240,6 +240,7 @@ Uses parts from
 - `prod-mk5-smart_plating`
 - `prod-mk5-versatile_framework`
 - `prod-mk5-automated_wiring`
+- `prod-mk5-assembly_directory_syst`
 
 ### Manufacturer mk5
 - `prod-mk5-heavy_modular_frame`
@@ -249,6 +250,9 @@ Uses parts from
 - `prod-mk5-high-speed_connector`
 - `prod-mk5-crystal_oscillator`
 - `prod-mk5-SAM_fluctuator`
+- `prod-mk5-modular_engine`
+- `prod-mk5-adaptive_control_unit`
+- `prod-mk5-thermal_propulsion_rock`
 
 ### Refinery mk5
 - `prod-mk5-mk2-plastic_L`
