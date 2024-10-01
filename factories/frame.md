@@ -28,7 +28,7 @@
 | iron plate              |    450 | 22,5 &rarr; 24 | `prod-mk5-iron_plate`              |      2 |
 | iron ingot              |  1 500 | 50 &rarr; 64   | `prod-mk5-iron_ingot`              |  2 + 2 |
 
-# Train Stations
+## Train Stations
 |                     |                      |
 |---------------------|----------------------|
 | fused modular frame | nitrogen gas (in)    |
@@ -36,7 +36,7 @@
 |                     | (coal (in))          |
 |                     | (coal (in))          |
 
-# Production Floor
+## Production Floor
 |                                    |                            |                                      |                                      |
 |------------------------------------|----------------------------|--------------------------------------|--------------------------------------|
 | 2 `prod-mk5-iron_ingot`            | 2 `prod-mk5-iron_ingot`    | 2 `prod-mk5-steel_ingot`             | 2 `prod-mk5-steel_ingot`             |
@@ -45,7 +45,6 @@
 | 8 `prod-mk5-reinforced_iron_plate` | 5 `prod-mk5-modular_frame` | 5 `prod-mk5-heavy_modular_frame`     | 7 `prod-mk5-mk2-fused_modular_frame` |
 
 ## Needed to Build
-
 | blueprints                         | amount |
 |------------------------------------|-------:|
 | `prod-mk5-mk2-fused_modular_frame` |      7 |

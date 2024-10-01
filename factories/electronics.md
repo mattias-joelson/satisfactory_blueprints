@@ -41,7 +41,6 @@
 | quickwire             |    720 | 12 &rarr; 12         | `prod-mk5-quickwire`             |      1 | quickwire            |
 
 ## Train Stations
-
 |                    |                      |                      |
 |--------------------|----------------------|----------------------|
 | radio control unit | supercomputer        | plastic (in)         |
@@ -50,7 +49,6 @@
 | quartz crystal     | quickwire            |                      |
 
 ## Production Floor
-
 |                                  |                                    |                                   |                             |                        |
 |----------------------------------|------------------------------------|-----------------------------------|-----------------------------|------------------------|
 | 2 `prod-mk5-iron_plate`          | 2 `prod-mk5-iron_ingot`            | 1 `prod-mk5-iron_rod`             | 2 `prod-mk5-copper_ingot`   |                        |

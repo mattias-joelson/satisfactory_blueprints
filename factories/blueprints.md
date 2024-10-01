@@ -54,6 +54,7 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-4-1`       |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
 | `prod-floor-4i-1`      |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
 | `prod-floor-2-1-1-0`   |           2 |                         |                1 | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
@@ -62,6 +63,7 @@ Uses parts from
 - Tier 1 - Base Building (foundation, ramp, wall)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
+- AWESOME Shop - Management - Pipeline Floor Hole (pipeline floor hole)
 - AWESOME Shop - Customizer - Concrete Foundation Material
 
 ### Module
@@ -244,6 +246,8 @@ Uses parts from
 
 ### Manufacturer mk5
 - `prod-mk5-heavy_modular_frame`
+- `prod-mk5-turbo_motor`
+- `prod-mk5-heat_sink`
 - `prod-mk5-computer`
 - `prod-mk5-supercomputer`
 - `prod-mk5-radio_control_unit`
@@ -276,6 +280,7 @@ Uses parts from
 
 ### Blender mk5
 - `prod-mk5-mk2-fused_modular_frame`
+- `prod-mk5-mk2-cooling_system`
 
 ## Logistics
 
@@ -298,7 +303,7 @@ Uses parts from
 ### Balancer mk5
 - logi-balancer-2_2_mk5
 - `logi-balancer-2_2_mk5_high`
-- logi-balancer-2_3_mk5
+- `logi-balancer-2_3_mk5`
 - logi-balancer-2_4_mk5
 - logi-balancer-3_3_mk5
 - `logi-balancer-4_4_mk5`
@@ -329,9 +334,9 @@ Uses parts from
 
 ### Station
 - fluid-load-mk1
-- fluid-load-mk2
+- `fluid-load-mk2`
 - fluid-unload-mk1
-- fluid-unload-mk2
+- `fluid-unload-mk2`
 
 
 ### Buffer
