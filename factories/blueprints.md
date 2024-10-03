@@ -53,7 +53,9 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-3i-1`      |           3 | :white_check_mark:      |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
 | `prod-floor-4-1`       |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
 | `prod-floor-4i-1`      |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
+| `prod-floor-1-2-0-1`   |           1 |                         |                2 |                    | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-1-1-0`   |           2 |                         |                1 | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
@@ -235,7 +237,9 @@ Uses parts from
 - `prod-mk5-motor`
 - `prod-mk5-circuit_board`
 - `prod-mk5-alclad_aluminum_sheet`
+- `prod-mk5-encased_plutonium_cell`
 - `prod-mk5-AI_limiter`
+- `prod-mk5-electromagnetic_control`
 - `prod-mk5-black_powder`
 - `prod-mk5-nobelisk`
 - `prod-mk5-rifle_ammo`
@@ -249,6 +253,10 @@ Uses parts from
 - `prod-mk5-turbo_motor`
 - `prod-mk5-heat_sink`
 - `prod-mk5-computer`
+- `prod-mk5-gas_filter`
+- `prod-mk5-iodine-infused_filter`
+- `prod-mk5-uranium_fuel_rod`
+- `prod-mk5-plutonium_fuel_rod`
 - `prod-mk5-supercomputer`
 - `prod-mk5-radio_control_unit`
 - `prod-mk5-high-speed_connector`
@@ -273,6 +281,8 @@ Uses parts from
 - `prod-mk5-mk2-polyester_fabric_RL`
 - `prod-mk5-mk2-smokeless_powder_LR`
 - `prod-mk5-mk2-smokeless_powder_RL`
+- `prod-mk5-mk2-sulfuric_acid_L`
+- `prod-mk5-mk2-sulfuric_acid_R`
 
 ### Packager mk5
 - `prod-mk5-mk2-packaged_water_LR`
@@ -281,6 +291,9 @@ Uses parts from
 ### Blender mk5
 - `prod-mk5-mk2-fused_modular_frame`
 - `prod-mk5-mk2-cooling_system`
+- `prod-mk5-mk2-nitric_acid`
+- `prod-mk5-mk2-encased_uranium_cel`
+- `prod-mk5-mk2-non-fissile_uranium`
 
 ## Logistics
 
