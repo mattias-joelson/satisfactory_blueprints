@@ -120,35 +120,35 @@ Uses parts from
 ### Constructor mk3
 - `prod-mk3-iron_plate`
 - `prod-mk3-iron_rod`
-- `prod-mk3-wire`
-- `prod-mk3-cable` (intermediate wire)
 - `prod-mk3-copper_sheet`
-- `prod-mk3-concrete`
 - `prod-mk3-steel_beam`
 - `prod-mk3-steel_pipe`
+- `prod-mk3-wire`
+- `prod-mk3-cable` (intermediate wire)
 - `prod-mk3-reanimated_SAM`
+- `prod-mk3-concrete`
 
 ### Assembler mk3
-- `prod-mk3-reinforced_iron_plate` (intermediate screws)
-- `prod-mk3-rotor` (intermediate screws)
-- `prod-mk3-modular_frame`
-- `prod-mk3-encased_industrial_beam`
-- `prod-mk3-stator` (intermediate wire)
-- `prod-mk3-motor`
-- `prod-mk3-circuit_board`
-- `prod-mk3-black_powder`
-- `prod-mk3-nobelisk`
-- `prod-mk3-rifle_ammo`
 - `prod-mk3-smart_plating`
 - `prod-mk3-versatile_framework`
 - `prod-mk3-automated_wiring`
+- `prod-mk3-reinforced_iron_plate` (intermediate screws)
+- `prod-mk3-modular_frame`
+- `prod-mk3-encased_industrial_beam`
+- `prod-mk3-circuit_board`
+- `prod-mk3-rotor` (intermediate screws)
+- `prod-mk3-stator` (intermediate wire)
+- `prod-mk3-motor`
+- `prod-mk3-black_powder`
+- `prod-mk3-nobelisk`
+- `prod-mk3-rifle_ammo`
 
 ### Manufacturer mk3
-- `prod-mk3-heavy_modular_frame`
-- `prod-mk3-computer`
-- `prod-mk3-SAM_fluctuator`
 - `prod-mk3-modular_engine`
 - `prod-mk3-adaptive_control_unit`
+- `prod-mk3-heavy_modular_frame`
+- `prod-mk3-SAM_fluctuator`
+- `prod-mk3-computer`
 
 ### Refinery mk3
 - `prod-mk3-mk1-plastic_L`
@@ -159,10 +159,10 @@ Uses parts from
 - `prod-mk3-mk2-rubber_L`
 - `prod-mk3-mk1-rubber_R`
 - `prod-mk3-mk2-rubber_R`
-- `prod-mk3-mk2-smokeless_powder_LR`
-- `prod-mk3-mk2-smokeless_powder_RL`
 - `prod-mk3-mk1-alumina_solution_LR`
 - `prod-mk3-mk1-aluminum_scrap_LR`
+- `prod-mk3-mk2-smokeless_powder_LR`
+- `prod-mk3-mk2-smokeless_powder_RL`
 
 ## Production mk5
 
@@ -215,83 +215,83 @@ Uses parts from
 ### Constructor mk5
 - `prod-mk5-iron_plate`
 - `prod-mk5-iron_rod`
-- `prod-mk5-wire`
-- `prod-mk5-cable`
 - `prod-mk5-copper_sheet`
-- `prod-mk5-concrete`
 - `prod-mk5-steel_beam`
 - `prod-mk5-steel_pipe`
-- `prod-mk5-empty_canister`
 - `prod-mk5-aluminum_casing`
+- `prod-mk5-wire`
+- `prod-mk5-cable` (intermediate wire)
 - `prod-mk5-quickwire`
+- `prod-mk5-reanimated_SAM`
+- `prod-mk5-concrete`
 - `prod-mk5-quartz_crystal`
 - `prod-mk5-silica`
-- `prod-mk5-reanimated_SAM`
+- `prod-mk5-empty_canister`
 
 ### Assembler mk5
-- `prod-mk5-reinforced_iron_plate`
-- `prod-mk5-rotor`
-- `prod-mk5-modular_frame`
-- `prod-mk5-encased_industrial_beam`
-- `prod-mk5-stator`
-- `prod-mk5-motor`
-- `prod-mk5-circuit_board`
-- `prod-mk5-alclad_aluminum_sheet`
-- `prod-mk5-encased_plutonium_cell`
-- `prod-mk5-AI_limiter`
-- `prod-mk5-electromagnetic_control`
-- `prod-mk5-black_powder`
-- `prod-mk5-nobelisk`
-- `prod-mk5-rifle_ammo`
 - `prod-mk5-smart_plating`
 - `prod-mk5-versatile_framework`
 - `prod-mk5-automated_wiring`
 - `prod-mk5-assembly_directory_syst`
+- `prod-mk5-reinforced_iron_plate`
+- `prod-mk5-modular_frame`
+- `prod-mk5-encased_industrial_beam`
+- `prod-mk5-alclad_aluminum_sheet`
+- `prod-mk5-circuit_board`
+- `prod-mk5-AI_limiter`
+- `prod-mk5-rotor`
+- `prod-mk5-stator`
+- `prod-mk5-motor`
+- `prod-mk5-heat_sink`
+- `prod-mk5-electromagnetic_control`
+- `prod-mk5-encased_plutonium_cell`
+- `prod-mk5-black_powder`
+- `prod-mk5-nobelisk`
+- `prod-mk5-rifle_ammo`
 
 ### Manufacturer mk5
-- `prod-mk5-heavy_modular_frame`
-- `prod-mk5-turbo_motor`
-- `prod-mk5-heat_sink`
-- `prod-mk5-computer`
-- `prod-mk5-gas_filter`
-- `prod-mk5-iodine-infused_filter`
-- `prod-mk5-uranium_fuel_rod`
-- `prod-mk5-plutonium_fuel_rod`
-- `prod-mk5-supercomputer`
-- `prod-mk5-radio_control_unit`
-- `prod-mk5-high-speed_connector`
-- `prod-mk5-crystal_oscillator`
-- `prod-mk5-SAM_fluctuator`
 - `prod-mk5-modular_engine`
 - `prod-mk5-adaptive_control_unit`
 - `prod-mk5-thermal_propulsion_rock`
+- `prod-mk5-heavy_modular_frame`
+- `prod-mk5-high-speed_connector`
+- `prod-mk5-SAM_fluctuator`
+- `prod-mk5-turbo_motor`
+- `prod-mk5-computer`
+- `prod-mk5-supercomputer`
+- `prod-mk5-crystal_oscillator`
+- `prod-mk5-radio_control_unit`
+- `prod-mk5-uranium_fuel_rod`
+- `prod-mk5-plutonium_fuel_rod`
+- `prod-mk5-gas_filter`
+- `prod-mk5-iodine-infused_filter`
 
 ### Refinery mk5
 - `prod-mk5-mk2-plastic_L`
 - `prod-mk5-mk2-plastic_R`
-- `prod-mk5-mk2-rubber_L`
-- `prod-mk5-mk2-rubber_R`
 - `prod-mk5-mk2-residual_plastic_LR`
 - `prod-mk5-mk2-residual_plastic_RL`
+- `prod-mk5-mk2-rubber_L`
+- `prod-mk5-mk2-rubber_R`
 - `prod-mk5-mk1-alumina_solution_LR`
 - `prod-mk5-mk1-alumina_solution_RL`
 - `prod-mk5-mk1-aluminum_scrap_LR`
 - `prod-mk5-mk1-aluminum_scrap_RL`
+- `prod-mk5-mk2-sulfuric_acid_L`
+- `prod-mk5-mk2-sulfuric_acid_R`
 - `prod-mk5-mk2-polyester_fabric_LR`
 - `prod-mk5-mk2-polyester_fabric_RL`
 - `prod-mk5-mk2-smokeless_powder_LR`
 - `prod-mk5-mk2-smokeless_powder_RL`
-- `prod-mk5-mk2-sulfuric_acid_L`
-- `prod-mk5-mk2-sulfuric_acid_R`
 
 ### Packager mk5
 - `prod-mk5-mk2-packaged_water_LR`
 - `prod-mk5-mk2-packaged_water_RL`
 
 ### Blender mk5
-- `prod-mk5-mk2-fused_modular_frame`
-- `prod-mk5-mk2-cooling_system`
 - `prod-mk5-mk2-nitric_acid`
+- `prod-mk5-mk2-cooling_system`
+- `prod-mk5-mk2-fused_modular_frame`
 - `prod-mk5-mk2-encased_uranium_cel`
 - `prod-mk5-mk2-non-fissile_uranium`
 
