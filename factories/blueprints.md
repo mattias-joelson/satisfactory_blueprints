@@ -457,6 +457,19 @@ Uses parts from
 - Add path and block signals.
 - Build pillars.
 
+| blueprints single sided         | amount |
+|---------------------------------|-------:|
+| `prod-floor-empty`              |      4 |
+|                                 |        |
+| `prod-floor-corner`             |      9 |
+| `prod-floor-corner_pillar`      |      6 |
+| `prod-floor-connect`            |     14 |
+| `prod-floor-connect_stairs`     |      8 |
+|                                 |        |
+| `rail-straight-one_wall`        |      4 |
+| `rail-curve-branch`             |      2 |
+| `rail-straight-one_wall_pillar` |      1 |
+
 ### Building Slopes
 
 | up                           | | down                         |
