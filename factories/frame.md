@@ -33,8 +33,8 @@
 |---------------------|----------------------|
 | fused modular frame | nitrogen gas (in)    |
 | heavy modular frame | aluminum casing (in) |
-|                     | (coal (in))          |
-|                     | (coal (in))          |
+| coal (in)           |                      |
+| coal (in)           |                      |
 
 ## Production Floor
 |                                    |                            |                                      |                                      |
@@ -60,7 +60,7 @@
 | `prod-mk5-iron_plate`              |      2 |
 | `prod-mk5-iron_ingot`              |      4 |
 |                                    |        |
-| `prod-floor-empty`                 |      8 |
+| `prod-floor-empty`                 |     16 |
 | `prod-floor-1-1`                   |     11 |
 | `prod-floor-2-1`                   |      2 |
 | `prod-floor-2i-1`                  |      1 |

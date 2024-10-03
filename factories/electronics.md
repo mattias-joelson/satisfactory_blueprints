@@ -15,7 +15,7 @@
 |--------------------------|-------:|
 | plastic (import)         |    800 |
 | aluminum casing (import) |    400 |
-| caterium ore             |    780 |
+| caterium ore             | 599,76 |
 | copper ore               |    775 |
 | iron ore                 |    600 |
 | raw quartz               |    600 |
@@ -78,6 +78,7 @@
 | `prod-mk5-quartz_crystal`        |      2 |
 | `prod-mk5-quickwire`             |      1 |
 |                                  |        |
+| `prod-floor-empty`               |     24 |
 | `prod-floor-1-1`                 |      8 |
 | `prod-floor-1-2-wire-cable`      |      1 |
 | `prod-floor-2-1`                 |      1 |
@@ -85,3 +86,8 @@
 | `prod-floor-3-1`                 |      3 |
 | `prod-floor-3i-1`                |      1 |
 | `prod-floor-4-1`                 |      1 |
+|                                  |        |
+| `prod-floor-corner`              |     38 |
+| `prod-floor-corner_pillar`       |     18 |
+| `prod-floor-connect`             |     48 |
+| `prod-floor-connect_stairs`      |     50 |

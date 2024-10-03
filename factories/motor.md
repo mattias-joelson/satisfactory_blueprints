@@ -34,8 +34,8 @@
 ## Train Stations
 |                            |                   |                         |
 |----------------------------|-------------------|-------------------------|
-| alclad aluminum sheet (in) |                   | radio control unit (in) |
-| coal (in)                  | nitrogen gas (in) | rubber (in)             |
+| alclad aluminum sheet (in) | coal (in)         | radio control unit (in) |
+|                            | nitrogen gas (in) | rubber (in)             |
 |                            | nitrogen gas (in) | cooling system          |
 |                            | nitrogen gas (in) | turbo motor             |
 
@@ -80,6 +80,7 @@
 | `fluid-unload-mk2`              |      3 |
 | empty platform with catwalk     |      3 |
 |                                 |        |
+| `prod-floor-empty`              |     24 |
 | `prod-floor-4-1`                |      1 |
 | `prod-floor-2-2-1-0`            |      3 |
 | `prod-floor-2-1`                |      3 |
@@ -87,10 +88,10 @@
 | `prod-floor-1-1`                |      9 |
 | `prod-floor-empty`              |     12 |
 |                                 |        |
-| `prod-floor-corner`             |     42 |
+| `prod-floor-corner`             |     40 |
 | `prod-floor-corner_pillar`      |     18 |
-| `prod-floor-connect`            |     54 |
-| `prod-floor-connect_stairs`     |     49 |
+| `prod-floor-connect`            |     52 |
+| `prod-floor-connect_stairs`     |     47 |
 |                                 |        |
 | `rail-straight-one_wall`        |      4 |
 | `rail-curve-branch`             |      2 |
