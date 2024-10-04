@@ -34,6 +34,17 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 - AWESOME Shop - Customizer - Concrete Wall Material
 
+### Production Floor Support
+- `prod-found-pillar_base`
+- `prod-found-pillar_base_ext`
+- `prod-found-pillar_support`
+
+Uses parts from
+- Tier 1 - Base Building (foundation, ramp, wall)
+- AWESOME Shop - Foundations - Inverted Ramp Set (inverted ramp)
+- AWESOME Shop - Foundations - Corner Ramp Pack (up corner)
+- AWESOME Shop - Customizer - Concrete Foundation Material
+
 ### Module Production Floor
 
 Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the top layer in the corners, connect with cables.
