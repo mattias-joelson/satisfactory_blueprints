@@ -563,7 +563,8 @@ height by extending 4 m foundations.
 - `pow-npp_floor`
 
 The nuclear power plants does not fit well on 4x4 foundation so blueprints mk2 where needed. First build lines, but do
-not connect between them since then water extractors can not be placed because of a bug:
+not connect between them since then water extractors can not be placed because of a bug. Note that arrow for
+`pow-npp_floor-connect_plants` points towards waste direction.
 
 |                               |                                |                        |                                |                               |
 |-------------------------------|--------------------------------|------------------------|--------------------------------|-------------------------------|
