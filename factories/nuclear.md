@@ -283,7 +283,7 @@
 |------------------------|-------:|-----------------|------------------------------------------------------------------|-------:|
 | plutonium fuel rod     |   5,25 | 21 &rarr; 22    | `pow-mk5-plutonium_fuel_rod`                                     | 11 / 1 |
 | encased plutonium cell | 157,50 | 31,50 &rarr; 36 | `pow-mk5-encased_plutonium_cell`                                 |  6 / 1 |
-| plutonium pellet       |    315 | 11              |                                                                  | 11 (2) |
+| plutonium pellet       |    315 | 11              | `pow-mk5-plutonium_pellet`                                       | 11 / 2 |
 | non-fissile uranium    |  1 050 | 21 &rarr; 21    | `pow-mk5-mk2-non-fissile_uranium`                                | 21 / 2 |
 |                        |        |                 |                                                                  |        |
 | uranium fuel rod       |     21 | 52,50 &rarr; 54 | `pow-mk5-uranium_fuel_rod`                                       | 27 / 2 |
@@ -297,7 +297,7 @@
 - sulfur 4-4
 - uranium 4-4
 - uranium waste 2-3
-- concrete 4-2 
+- concrete 4-4, and further split 1-2 for  `pow-mk5-mk2-encased_uranium_cell` and `pow-mk5-encased_plutonium_cell`
 - encased uranium cell 2-2
 
 ### Train Stations
@@ -316,14 +316,13 @@
 |              |            |                              | concrete                | sulfur | uranium |
 
 ### Production Floor
-| |    |     |     |     | | train |              |            |             |     |     |    | 
-|-|----|-----|-----|-----|-|-------|--------------|------------|-------------|-----|-----|----|
-| |    | epc | pfu |     | |       |              |            | ufr         | ufr |     |    |
-| | pp | pp  | nfu | nfu | |       |              | euc        | euc         | euc | euc |    |
-| |    | na  | na  | na  | |       | sa           | sa         | sa          | sa  | sa  | sa |
-| |    | sa  | sa  | sa  | |       | 4-4 concrete | 4-4 sulfur | 4-4 uranium | sa  | sa  | sa |
-| |    |     |     |     | |       |              |            |             |     |     |    |
-
+|    |                            |                                  |                                   |                                   |                                | train  |                                  |                                    |                                    |                                    |                                    |                                |
+|----|----------------------------|----------------------------------|-----------------------------------|-----------------------------------|--------------------------------|--------|----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|--------------------------------|
+|    |                            | `pow-mk5-encased_plutonium_cell` | `pow-mk5-plutonium_fuel_rod`      |                                   |                                |        |                                  |                                    | `pow-mk5-uranium_fuel_rod`         | `pow-mk5-uranium_fuel_rod`         |                                    |                                |
+|    | `pow-mk5-plutonium_pellet` | `pow-mk5-plutonium_pellet`       | `pow-mk5-mk2-non-fissile_uranium` | `pow-mk5-mk2-non-fissile_uranium` |                                |        |                                  | `pow-mk5-mk2-encased_uranium_cell` | `pow-mk5-mk2-encased_uranium_cell` | `pow-mk5-mk2-encased_uranium_cell` | `pow-mk5-mk2-encased_uranium_cell` |                                |
+|    |                            |                                  | `prod-mk5-mk2-nitric_acid`        | `prod-mk5-mk2-nitric_acid`        | `prod-mk5-mk2-nitric_acid`     |        | `prod-mk5-mk2-sulfuric_acid_L`   | `prod-mk5-mk2-sulfuric_acid_L`     | `prod-mk5-mk2-sulfuric_acid_L`     | `prod-mk5-mk2-sulfuric_acid_R`     | `prod-mk5-mk2-sulfuric_acid_R`     | `prod-mk5-mk2-sulfuric_acid_R` |
+|    |                            |                                  | `prod-mk5-mk2-sulfuric_acid_R`    | `prod-mk5-mk2-sulfuric_acid_R`    | `prod-mk5-mk2-sulfuric_acid_R` |        | `logi-balancer-4_4_mk5` concrete | `logi-balancer-4_4_mk5` sulfur     | `logi-balancer-4_4_mk5` uranium    | `prod-mk5-mk2-sulfuric_acid_R`     | `prod-mk5-mk2-sulfuric_acid_R`     | `prod-mk5-mk2-sulfuric_acid_R` |
+|    |                            |                                  |                                   |                                   |                                |        |                                  |                                    |                                    |                                    |                                    |                                |
 
 ### Plants
 21 uranium fuel rods/min * 5 min burn time &rarr; 105 plants. That is 15 plants per 300 mined uranium.

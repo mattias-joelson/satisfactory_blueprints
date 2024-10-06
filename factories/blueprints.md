@@ -69,6 +69,8 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-0-1`     |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-1-1`     |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
@@ -177,19 +179,20 @@ Uses parts from
 
 ## Production mk5
 
-| template blueprint         | module production floor | notes           |
-|----------------------------|-------------------------|-----------------|
-| `prod-mk5-smelter`         | `prod-floor-1-1`        | 16 smelters     |
-| `prod-mk5-foundry`         | `prod-floor-2-1`        | 6 foundry       |
-| `prod-mk5-constructor`     | `prod-floor-1-1`        | 12 constructors |
-| `prod-mk5-assembler`       | `prod-floor-2-1`        | 6 assemblers    |
-| `prod-mk5-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
-| `prod-mk5-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
-| `prod-mk5-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk5-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk5-mk2-packager_LR` | `prod-floor-empty`      | 4 packager      |
-| `prod-mk5-mk2-packager_RL` | `prod-floor-empty`      | 4 packager      |
-| `prod-mk5-mk2-blender`     | `prod-floor-2-2-1-1`    | 1 blender       |
+| template blueprint                 | module production floor | notes                  |
+|------------------------------------|-------------------------|------------------------|
+| `prod-mk5-smelter`                 | `prod-floor-1-1`        | 16 smelters            |
+| `prod-mk5-foundry`                 | `prod-floor-2-1`        | 6 foundry              |
+| `prod-mk5-constructor`             | `prod-floor-1-1`        | 12 constructors        |
+| `prod-mk5-assembler`               | `prod-floor-2-1`        | 6 assemblers           |
+| `prod-mk5-manufacturer`            | `prod-floor-4-1`        | 2 manufacturer         |
+| `prod-mk5-manufacturer_3`          | `prod-floor-3-1`        | 2 manufacturer         |
+| `prod-mk5-mk2-refinery_LR`         | `prod-floor-empty`      | 3 refinery             |
+| `prod-mk5-mk2-refinery_RL`         | `prod-floor-empty`      | 3 refinery             |
+| `prod-mk5-mk2-packager_LR`         | `prod-floor-empty`      | 4 packager             |
+| `prod-mk5-mk2-packager_RL`         | `prod-floor-empty`      | 4 packager             |
+| `prod-mk5-mk2-blender`             | `prod-floor-2-2-1-1`    | 1 blender              |
+| `prod-mk5-mk2-particle_accelerato` | `prod-floor-2-1-1`      | 1 particle accelerator |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -207,6 +210,7 @@ Uses parts from
 - Tier 6 - Pipeline Engineering (pipeline mk2)
 - Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
 - Tier 7 - Control System Development (blender)
+- Tier 8 - Particle Enrichment (particle accelerator)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
@@ -555,6 +559,7 @@ height by extending 4 m foundations.
 - `pow-mk5-plutonium_fuel_rod`
 - `pow-mk5-mk2-encased_uranium_cell`
 - `pow-mk5-mk2-non-fissile_uranium`
+- `pow-mk5-plutonium_pellet`
 - `pow-npp_floor-corner_outlet`
 - `pow-npp_floor-corner`
 - `pow-npp_floor-connect`
