@@ -539,22 +539,22 @@ height by extending 4 m foundations.
 - `pow-mk5-compacted_coal`
 
 ### Fuel
-- `pow-fuel_generator`
-- `pow-fuel_generator_junction`
+- `pow-mk5-mk2-fuel_L`
+- `pow-mk5-mk2-fuel_R`
 - `pow-mk2-residual_fuel`
 - `pow-mk3-mk2-turbofuel_L`
 - `pow-mk3-mk2-turbofuel_R`
-- `pow-mk5-mk2-fuel_L`
-- `pow-mk5-mk2-fuel_R`
 - `pow-mk5-mk2-turbofuel_L`
 - `pow-mk5-mk2-turbofuel_R`
+- `pow-fuel_generator`
+- `pow-fuel_generator_junction`
 
 ### Nuclear Power Plant
-- `pow-mk5-mk2-encased_uranium_cell`
-- `pow-mk5-uranium_fuel_rod`
-- `pow-mk5-mk2-non-fissile_uranium`
 - `pow-mk5-encased_plutonium_cell`
+- `pow-mk5-uranium_fuel_rod`
 - `pow-mk5-plutonium_fuel_rod`
+- `pow-mk5-mk2-encased_uranium_cell`
+- `pow-mk5-mk2-non-fissile_uranium`
 - `pow-npp_floor-corner_outlet`
 - `pow-npp_floor-corner`
 - `pow-npp_floor-connect`
