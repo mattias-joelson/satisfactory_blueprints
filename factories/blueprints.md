@@ -255,7 +255,6 @@ Uses parts from
 - `prod-mk5-motor`
 - `prod-mk5-heat_sink`
 - `prod-mk5-electromagnetic_control`
-- `prod-mk5-encased_plutonium_cell`
 - `prod-mk5-black_powder`
 - `prod-mk5-nobelisk`
 - `prod-mk5-rifle_ammo`
@@ -272,8 +271,6 @@ Uses parts from
 - `prod-mk5-supercomputer`
 - `prod-mk5-crystal_oscillator`
 - `prod-mk5-radio_control_unit`
-- `prod-mk5-uranium_fuel_rod`
-- `prod-mk5-plutonium_fuel_rod`
 - `prod-mk5-gas_filter`
 - `prod-mk5-iodine-infused_filter`
 
@@ -303,8 +300,6 @@ Uses parts from
 - `prod-mk5-mk2-nitric_acid`
 - `prod-mk5-mk2-cooling_system`
 - `prod-mk5-mk2-fused_modular_frame`
-- `prod-mk5-mk2-encased_uranium_cel`
-- `prod-mk5-mk2-non-fissile_uranium`
 
 ## Logistics
 
@@ -555,6 +550,11 @@ height by extending 4 m foundations.
 - `pow-mk5-mk2-turbofuel_R`
 
 ### Nuclear Power Plant
+- `pow-mk5-mk2-encased_uranium_cell`
+- `pow-mk5-uranium_fuel_rod`
+- `pow-mk5-mk2-non-fissile_uranium`
+- `pow-mk5-encased_plutonium_cell`
+- `pow-mk5-plutonium_fuel_rod`
 - `pow-npp_floor-corner_outlet`
 - `pow-npp_floor-corner`
 - `pow-npp_floor-connect`
