@@ -328,7 +328,7 @@ Uses parts from
 - `logi-balancer-2_2_mk5_high`
 - `logi-balancer-2_3_mk5`
 - logi-balancer-2_4_mk5
-- logi-balancer-3_3_mk5
+- `logi-balancer-3_3_mk5`
 - `logi-balancer-4_4_mk5`
 
 ## Fluid
@@ -564,6 +564,7 @@ height by extending 4 m foundations.
 - `pow-npp_floor-corner`
 - `pow-npp_floor-connect`
 - `pow-npp_floor-connect_plants`
+- `pow-npp_floor-connect_plants_L` (for single row of plants)
 - `pow-npp_floor-placement`
 - `pow-npp_floor`
 
