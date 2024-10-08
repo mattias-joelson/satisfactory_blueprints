@@ -316,8 +316,8 @@ Uses parts from
 - `prod-mk5-diamonds`
 
 ### Converter mk5
-- `prod-mk5-mk2-ficsite_ingot_AI`
 - `prod-mk5-time_crystal`
+- `prod-mk5-ficsite_ingot_AI`
 
 ## Logistics
 
