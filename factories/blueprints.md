@@ -69,8 +69,8 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-2-0-1`     |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-2-1-1`     |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
