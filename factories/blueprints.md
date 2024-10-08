@@ -71,6 +71,7 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2--1-1`    |           2 |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
@@ -193,6 +194,7 @@ Uses parts from
 | `prod-mk5-mk2-packager_RL`         | `prod-floor-empty`      | 4 packager             |
 | `prod-mk5-mk2-blender`             | `prod-floor-2-2-1-1`    | 1 blender              |
 | `prod-mk5-mk2-particle_accelerato` | `prod-floor-2-1-1`      | 1 particle accelerator |
+| `prod-mk5-mk2-converter`           | `prod-floor-2--1-1`     | 2 converter            |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -211,6 +213,7 @@ Uses parts from
 - Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
 - Tier 7 - Control System Development (blender)
 - Tier 8 - Particle Enrichment (particle accelerator)
+- Tier 9 - Matter Conversion (converter)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
