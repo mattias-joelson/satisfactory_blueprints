@@ -1,3 +1,4 @@
 # Binary files
 *.sbp
 *.sbpcfg
+*.txt -merge -text

@@ -69,6 +69,8 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-0-1`     |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-1-1`     |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
@@ -177,19 +179,20 @@ Uses parts from
 
 ## Production mk5
 
-| template blueprint         | module production floor | notes           |
-|----------------------------|-------------------------|-----------------|
-| `prod-mk5-smelter`         | `prod-floor-1-1`        | 16 smelters     |
-| `prod-mk5-foundry`         | `prod-floor-2-1`        | 6 foundry       |
-| `prod-mk5-constructor`     | `prod-floor-1-1`        | 12 constructors |
-| `prod-mk5-assembler`       | `prod-floor-2-1`        | 6 assemblers    |
-| `prod-mk5-manufacturer`    | `prod-floor-4-1`        | 2 manufacturer  |
-| `prod-mk5-manufacturer_3`  | `prod-floor-3-1`        | 2 manufacturer  |
-| `prod-mk5-mk2-refinery_LR` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk5-mk2-refinery_RL` | `prod-floor-empty`      | 3 refinery      |
-| `prod-mk5-mk2-packager_LR` | `prod-floor-empty`      | 4 packager      |
-| `prod-mk5-mk2-packager_RL` | `prod-floor-empty`      | 4 packager      |
-| `prod-mk5-mk2-blender`     | `prod-floor-2-2-1-1`    | 1 blender       |
+| template blueprint                 | module production floor | notes                  |
+|------------------------------------|-------------------------|------------------------|
+| `prod-mk5-smelter`                 | `prod-floor-1-1`        | 16 smelters            |
+| `prod-mk5-foundry`                 | `prod-floor-2-1`        | 6 foundry              |
+| `prod-mk5-constructor`             | `prod-floor-1-1`        | 12 constructors        |
+| `prod-mk5-assembler`               | `prod-floor-2-1`        | 6 assemblers           |
+| `prod-mk5-manufacturer`            | `prod-floor-4-1`        | 2 manufacturer         |
+| `prod-mk5-manufacturer_3`          | `prod-floor-3-1`        | 2 manufacturer         |
+| `prod-mk5-mk2-refinery_LR`         | `prod-floor-empty`      | 3 refinery             |
+| `prod-mk5-mk2-refinery_RL`         | `prod-floor-empty`      | 3 refinery             |
+| `prod-mk5-mk2-packager_LR`         | `prod-floor-empty`      | 4 packager             |
+| `prod-mk5-mk2-packager_RL`         | `prod-floor-empty`      | 4 packager             |
+| `prod-mk5-mk2-blender`             | `prod-floor-2-2-1-1`    | 1 blender              |
+| `prod-mk5-mk2-particle_accelerato` | `prod-floor-2-1-1`      | 1 particle accelerator |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -207,6 +210,7 @@ Uses parts from
 - Tier 6 - Pipeline Engineering (pipeline mk2)
 - Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
 - Tier 7 - Control System Development (blender)
+- Tier 8 - Particle Enrichment (particle accelerator)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
@@ -255,7 +259,6 @@ Uses parts from
 - `prod-mk5-motor`
 - `prod-mk5-heat_sink`
 - `prod-mk5-electromagnetic_control`
-- `prod-mk5-encased_plutonium_cell`
 - `prod-mk5-black_powder`
 - `prod-mk5-nobelisk`
 - `prod-mk5-rifle_ammo`
@@ -272,8 +275,6 @@ Uses parts from
 - `prod-mk5-supercomputer`
 - `prod-mk5-crystal_oscillator`
 - `prod-mk5-radio_control_unit`
-- `prod-mk5-uranium_fuel_rod`
-- `prod-mk5-plutonium_fuel_rod`
 - `prod-mk5-gas_filter`
 - `prod-mk5-iodine-infused_filter`
 
@@ -303,8 +304,6 @@ Uses parts from
 - `prod-mk5-mk2-nitric_acid`
 - `prod-mk5-mk2-cooling_system`
 - `prod-mk5-mk2-fused_modular_frame`
-- `prod-mk5-mk2-encased_uranium_cel`
-- `prod-mk5-mk2-non-fissile_uranium`
 
 ## Logistics
 
@@ -329,7 +328,7 @@ Uses parts from
 - `logi-balancer-2_2_mk5_high`
 - `logi-balancer-2_3_mk5`
 - logi-balancer-2_4_mk5
-- logi-balancer-3_3_mk5
+- `logi-balancer-3_3_mk5`
 - `logi-balancer-4_4_mk5`
 
 ## Fluid
@@ -544,15 +543,61 @@ height by extending 4 m foundations.
 - `pow-mk5-compacted_coal`
 
 ### Fuel
-- `pow-fuel_generator`
-- `pow-fuel_generator_junction`
+- `pow-mk5-mk2-fuel_L`
+- `pow-mk5-mk2-fuel_R`
 - `pow-mk2-residual_fuel`
 - `pow-mk3-mk2-turbofuel_L`
 - `pow-mk3-mk2-turbofuel_R`
-- `pow-mk5-mk2-fuel_L`
-- `pow-mk5-mk2-fuel_R`
 - `pow-mk5-mk2-turbofuel_L`
 - `pow-mk5-mk2-turbofuel_R`
+- `pow-fuel_generator`
+- `pow-fuel_generator_junction`
+
+### Nuclear Power Plant
+- `pow-mk5-encased_plutonium_cell`
+- `pow-mk5-uranium_fuel_rod`
+- `pow-mk5-plutonium_fuel_rod`
+- `pow-mk5-mk2-encased_uranium_cell`
+- `pow-mk5-mk2-non-fissile_uranium`
+- `pow-mk5-plutonium_pellet`
+- `pow-npp_floor-corner_outlet`
+- `pow-npp_floor-corner`
+- `pow-npp_floor-connect`
+- `pow-npp_floor-connect_plants`
+- `pow-npp_floor-connect_plants_L` (for single row of plants)
+- `pow-npp_floor-placement`
+- `pow-npp_floor`
+- `pow-npp_floor_empty` (for floor with no nuclear plant)
+
+The nuclear power plants does not fit well on 4x4 foundation so blueprints mk2 where needed. First build the grid and
+place `pow-npp_floor-placement` between the lines to simplify water extractor placement. Note that arrow for
+`pow-npp_floor-connect_plants` points towards waste direction.
+
+|                               |                                |                          |                                |                               |
+|-------------------------------|--------------------------------|--------------------------|--------------------------------|-------------------------------|
+| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`   | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+| `pow-npp_floor-connect`       | `pow-npp_floor-placement`      | `pow-npp_floor-connect`  | `pow-npp_floor-placement`      | `pow-npp_floor-connect`       |
+| `pow-npp_floor-corner`        | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`   | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`        |
+| `pow-npp_floor-connect`       | `pow-npp_floor-placement`      | `pow-npp_floor-connect`  | `pow-npp_floor-placement`      | `pow-npp_floor-connect`       |
+| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`   | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+
+Align the water extractors on the pipe junctions. To get the correct distance zoop a line of foundations between the
+`pow-npp_floor-corner` to move up against. For optimal alignment nudge that line two small steps towards yourself. Then remove
+the alignment foundations and place the neighbouring water extractors. They will snap to the ones already placed.
+
+Dismantle the `pow-npp_floor-placement` and place the actual `pow-npp_floor` for the power plants. Entrance to the
+basement is to the right when looking on the plant inputs.
+
+|                               |                                |                         |                                |                               |
+|-------------------------------|--------------------------------|-------------------------|--------------------------------|-------------------------------|
+| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`  | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+| `pow-npp_floor-connect`       | `pow-npp_floor`                | `pow-npp_floor-connect` | `pow-npp_floor`                | `pow-npp_floor-connect`       |
+| `pow-npp_floor-corner`        | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`  | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`        |
+| `pow-npp_floor-connect`       | `pow-npp_floor`                | `pow-npp_floor-connect` | `pow-npp_floor`                | `pow-npp_floor-connect`       |
+| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`  | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+
+Finish off by placing the power plants and connect them. Also hook up the water extractors to the same power pole as the
+pump and connect to nearest `pow-npp_floor-corner_outlet`.
 
 ### Storage
 - `pow-power_storage`

@@ -25,13 +25,13 @@
 
 | product                     |   amount | producers        | blueprint                                                        | amount | where                                 |
 |-----------------------------|---------:|------------------|------------------------------------------------------------------|-------:|---------------------------------------|
-| plutonium fuel rod          |     5,25 | 21 &rarr; 22     | `prod-mk5-plutonium_fuel_rod`                                    | 11 / 1 |                                       |
-| encased plutonium cell      |   157,50 | 31,50 &rarr; 36  | `prod-mk5-encased_plutonium_cell`                                |  6 / 1 |                                       |
+| plutonium fuel rod          |     5,25 | 21 &rarr; 22     | `pow-mk5-plutonium_fuel_rod`                                     | 11 / 1 |                                       |
+| encased plutonium cell      |   157,50 | 31,50 &rarr; 36  | `pow-mk5-encased_plutonium_cell`                                 |  6 / 1 |                                       |
 | plutonium pellet            |      315 | 11               |                                                                  |     11 |                                       |
-| non-fissile uranium         |    1 050 | 21 &rarr; 21     | `prod-mk5-mk2-non-fissile_uranium`                               | 21 / 2 |                                       |
+| non-fissile uranium         |    1 050 | 21 &rarr; 21     | `pow-mk5-mk2-non-fissile_uranium`                                | 21 / 2 |                                       |
 |                             |          |                  |                                                                  |        |                                       |
-| uranium fuel rod            |       21 | 52,50 &rarr; 54  | `prod-mk5-uranium_fuel_rod`                                      | 27 / 2 |                                       |
-| encased uranium cell        |    1 050 | 42 &rarr; 42     | `prod-mk5-mk2-encased_uranium_cel`                               | 42 / 3 |                                       |
+| uranium fuel rod            |       21 | 52,50 &rarr; 54  | `pow-mk5-uranium_fuel_rod`                                       | 27 / 2 |                                       |
+| encased uranium cell        |    1 050 | 42 &rarr; 42     | `pow-mk5-mk2-encased_uranium_cell`                               | 42 / 3 |                                       |
 |                             |          |                  |                                                                  |        |                                       |
 | sulfuric acid               |     1575 | 31,50 &rarr; 32  | `prod-mk5-mk2-sulfuric_acid_L`<br>`prod-mk5-mk2-sulfuric_acid_R` |     32 |                                       |
 | nitric acid                 |      315 | 10,50 &rarr; 11  | `prod-mk5-mk2-nitric_acid`                                       | 11 / 2 |                                       |
@@ -281,13 +281,13 @@
 
 | product                | amount | producers       | blueprint                                                        | amount |
 |------------------------|-------:|-----------------|------------------------------------------------------------------|-------:|
-| plutonium fuel rod     |   5,25 | 21 &rarr; 22    | `prod-mk5-plutonium_fuel_rod`                                    | 11 / 1 |
-| encased plutonium cell | 157,50 | 31,50 &rarr; 36 | `prod-mk5-encased_plutonium_cell`                                |  6 / 1 |
-| plutonium pellet       |    315 | 11              |                                                                  | 11 (2) |
-| non-fissile uranium    |  1 050 | 21 &rarr; 21    | `prod-mk5-mk2-non-fissile_uranium`                               | 21 / 2 |
+| plutonium fuel rod     |   5,25 | 21 &rarr; 22    | `pow-mk5-plutonium_fuel_rod`                                     | 11 / 1 |
+| encased plutonium cell | 157,50 | 31,50 &rarr; 36 | `pow-mk5-encased_plutonium_cell`                                 |  6 / 1 |
+| plutonium pellet       |    315 | 11              | `pow-mk5-plutonium_pellet`                                       | 11 / 2 |
+| non-fissile uranium    |  1 050 | 21 &rarr; 21    | `pow-mk5-mk2-non-fissile_uranium`                                | 21 / 2 |
 |                        |        |                 |                                                                  |        |
-| uranium fuel rod       |     21 | 52,50 &rarr; 54 | `prod-mk5-uranium_fuel_rod`                                      | 27 / 2 |
-| encased uranium cell   |  1 050 | 42 &rarr; 42    | `prod-mk5-mk2-encased_uranium_cel`                               | 42 / 4 |
+| uranium fuel rod       |     21 | 52,50 &rarr; 54 | `pow-mk5-uranium_fuel_rod`                                       | 27 / 2 |
+| encased uranium cell   |  1 050 | 42 &rarr; 42    | `pow-mk5-mk2-encased_uranium_cell`                               | 42 / 4 |
 |                        |        |                 |                                                                  |        |
 | sulfuric acid          |   1575 | 31,50 &rarr; 33 | `prod-mk5-mk2-sulfuric_acid_L`<br>`prod-mk5-mk2-sulfuric_acid_R` | 26 + 7 |
 | nitric acid            |    315 | 10,50 &rarr; 11 | `prod-mk5-mk2-nitric_acid`                                       | 11 / 3 |
@@ -297,7 +297,7 @@
 - sulfur 4-4
 - uranium 4-4
 - uranium waste 2-3
-- concrete 4-2 
+- concrete 4-4, and further split 1-2 for  `pow-mk5-mk2-encased_uranium_cell` and `pow-mk5-encased_plutonium_cell`
 - encased uranium cell 2-2
 
 ### Train Stations
@@ -316,10 +316,14 @@
 |              |            |                              | concrete                | sulfur | uranium |
 
 ### Production Floor
-| |    |     |     |     | | train |              |            |             |     |     |    | 
-|-|----|-----|-----|-----|-|-------|--------------|------------|-------------|-----|-----|----|
-| |    | epc | pfu |     | |       |              |            | ufr         | ufr |     |    |
-| | pp | pp  | nfu | nfu | |       |              | euc        | euc         | euc | euc |    |
-| |    | na  | na  | na  | |       | sa           | sa         | sa          | sa  | sa  | sa |
-| |    | sa  | sa  | sa  | |       | 4-4 concrete | 4-4 sulfur | 4-4 uranium | sa  | sa  | sa |
-| |    |     |     |     | |       |              |            |             |     |     |    |
+|    |                              |                                    |                                      |                                      |                                  | train  |                                  |                                       |                                       |                                       |                                       |                                  |
+|----|------------------------------|------------------------------------|--------------------------------------|--------------------------------------|----------------------------------|--------|----------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------|
+|    |                              | 6 `pow-mk5-encased_plutonium_cell` | 11 `pow-mk5-plutonium_fuel_rod`      |                                      |                                  |        |                                  |                                       | 14 `pow-mk5-uranium_fuel_rod`         | 14 `pow-mk5-uranium_fuel_rod`         |                                       |                                  |
+|    | 5 `pow-mk5-plutonium_pellet` | 6 `pow-mk5-plutonium_pellet`       | 11 `pow-mk5-mk2-non-fissile_uranium` | 10 `pow-mk5-mk2-non-fissile_uranium` |                                  |        |                                  | 11 `pow-mk5-mk2-encased_uranium_cell` | 11 `pow-mk5-mk2-encased_uranium_cell` | 11 `pow-mk5-mk2-encased_uranium_cell` | 11 `pow-mk5-mk2-encased_uranium_cell` |                                  |
+|    |                              |                                    | 4 `prod-mk5-mk2-nitric_acid`         | 4 `prod-mk5-mk2-nitric_acid`         | 3 `prod-mk5-mk2-nitric_acid`     |        | 3 `prod-mk5-mk2-sulfuric_acid_L` | 3 `prod-mk5-mk2-sulfuric_acid_L`      | 3 `prod-mk5-mk2-sulfuric_acid_L`      | 3 `prod-mk5-mk2-sulfuric_acid_R`      | 3 `prod-mk5-mk2-sulfuric_acid_R`      | 3 `prod-mk5-mk2-sulfuric_acid_R` |
+|    |                              |                                    | 3 `prod-mk5-mk2-sulfuric_acid_R`     | 3 `prod-mk5-mk2-sulfuric_acid_R`     | 3 `prod-mk5-mk2-sulfuric_acid_R` |        | `logi-balancer-4_4_mk5` concrete | `logi-balancer-4_4_mk5` sulfur        | `logi-balancer-4_4_mk5` uranium       | 3 `prod-mk5-mk2-sulfuric_acid_R`      | 3 `prod-mk5-mk2-sulfuric_acid_R`      | 2`prod-mk5-mk2-sulfuric_acid_R`  |
+|    |                              |                                    |                                      |                                      |                                  |        |                                  |                                       |                                       |                                       |                                       |                                  |
+
+### Plants
+21 uranium fuel rods/min * 5 min burn time &rarr; 105 plants. That is 15 plants per 300 mined uranium.
+5,25 plutonium fuel rod/min * 10 min burn time &rarr; 52,5 plants. That is 17,5 plants per 300 mined uranium.
