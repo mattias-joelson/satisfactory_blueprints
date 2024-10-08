@@ -71,6 +71,7 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2--1-0`    |           2 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
 | `prod-floor-2--1-1`    |           2 |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
@@ -237,6 +238,7 @@ Uses parts from
 - `prod-mk5-steel_beam`
 - `prod-mk5-steel_pipe`
 - `prod-mk5-aluminum_casing`
+- `prod-mk5-ficsite_trigon`
 - `prod-mk5-wire`
 - `prod-mk5-cable` (intermediate wire)
 - `prod-mk5-quickwire`
@@ -307,6 +309,9 @@ Uses parts from
 - `prod-mk5-mk2-nitric_acid`
 - `prod-mk5-mk2-cooling_system`
 - `prod-mk5-mk2-fused_modular_frame`
+
+### Converter mk5
+- `prod-mk5-mk2-ficsite_ingot_AI`
 
 ## Logistics
 
