@@ -21,4 +21,6 @@
 |----------------|-------:|-----------|---------------------------------|-------:|----------------|
 | ficsite trigon |    540 | 18 -> 24  | `prod-mk5-ficsite_trigon`       |      2 | ficsite trigon |
 | ficsite ingot  |    180 | 6 -> 6    | `prod-mk5-mk2-ficsite_ingot_AI` |      3 | ficsite trigon |
+| time crystal   |     60 | 10 -> 10  | `prod-mk5-time_crystal`         |      5 | time crystal   |
+| diamonds       |    120 | 4 -> 4    | `prod-mk5-diamonds`             |      4 | time crystal   |
 |                |        |           |                                 |        |                |
