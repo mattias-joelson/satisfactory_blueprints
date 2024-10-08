@@ -17,10 +17,12 @@
 | crystal oscillator (import)    |     20 |
 | coal                           |  2 400 |
 
-| product        | amount | producers | blueprint                   | amount | max            |
-|----------------|-------:|-----------|-----------------------------|-------:|----------------|
-| ficsite trigon |    540 | 18 -> 24  | `prod-mk5-ficsite_trigon`   |      2 | ficsite trigon |
-| ficsite ingot  |    180 | 6 -> 6    | `prod-mk5-ficsite_ingot_AI` |      3 | ficsite trigon |
-| time crystal   |     60 | 10 -> 10  | `prod-mk5-time_crystal`     |      5 | time crystal   |
-| diamonds       |    120 | 4 -> 4    | `prod-mk5-diamonds`         |      4 | time crystal   |
-|                |        |           |                             |        |                |
+| product                  | amount | producers     | blueprint                          | amount | max                      |
+|--------------------------|-------:|---------------|------------------------------------|-------:|--------------------------|
+| neural-quantum processor |   4,76 | 1,59 &rarr; 2 |                                    |      2 | neural-quantum processor |
+| excited photonic matter  |    119 | 0,60 &rarr; 2 | `prod-mk2-excited_photonic_matter` |      1 | neural-quantum processor |
+| ficsite trigon           |    540 | 18 &rarr; 24  | `prod-mk5-ficsite_trigon`          |      2 | ficsite trigon           |
+| ficsite ingot            |    180 | 6 &rarr; 6    | `prod-mk5-ficsite_ingot_AI`        |      3 | ficsite trigon           |
+| time crystal             |     60 | 10 &rarr; 10  | `prod-mk5-time_crystal`            |      5 | time crystal             |
+| diamonds                 |    120 | 4 &rarr; 4    | `prod-mk5-diamonds`                |      4 | time crystal             |
+|                          |        |               |                                    |        |                          |
