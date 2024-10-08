@@ -70,9 +70,11 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-1-0--1`    |           1 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-1-1--1`    |           1 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
 | `prod-floor-0--0-1`    |           0 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--0-1`    |           1 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
 | `prod-floor-1--1-0`    |           1 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
 | `prod-floor-2--1-0`    |           2 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
 | `prod-floor-2--1-1`    |           2 |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
@@ -314,11 +316,13 @@ Uses parts from
 - `prod-mk5-mk2-fused_modular_frame`
 
 ### Particle Accelerator mk5
+- `prod-mk5-mk2-dark_matter_crystal`
 - `prod-mk5-diamonds`
 
 ### Converter mk5
 - `prod-mk5-time_crystal`
 - `prod-mk2-excited_photonic_matter`
+- `prod-mk5-mk2-dark_matter_residue`
 - `prod-mk5-ficsite_ingot_AI`
 
 ## Logistics

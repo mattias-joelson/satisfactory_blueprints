@@ -20,9 +20,11 @@
 | product                  | amount | producers     | blueprint                          | amount | max                      |
 |--------------------------|-------:|---------------|------------------------------------|-------:|--------------------------|
 | neural-quantum processor |   4,76 | 1,59 &rarr; 2 |                                    |      2 | neural-quantum processor |
-| excited photonic matter  |    119 | 0,60 &rarr; 2 | `prod-mk2-excited_photonic_matter` |      1 | neural-quantum processor |
+| superposition oscillator |      4 | 4 &rarr; 4    |                                    |      4 | superposition oscillator |
+| excited photonic matter  |    500 | 2,50 &rarr; 4 | `prod-mk2-excited_photonic_matter` |      2 | superposition oscillator |
 | ficsite trigon           |    540 | 18 &rarr; 24  | `prod-mk5-ficsite_trigon`          |      2 | ficsite trigon           |
 | ficsite ingot            |    180 | 6 &rarr; 6    | `prod-mk5-ficsite_ingot_AI`        |      3 | ficsite trigon           |
 | time crystal             |     60 | 10 &rarr; 10  | `prod-mk5-time_crystal`            |      5 | time crystal             |
 | diamonds                 |    120 | 4 &rarr; 4    | `prod-mk5-diamonds`                |      4 | time crystal             |
-|                          |        |               |                                    |        |                          |
+| dark matter crystal      |    120 | 4 &rarr; 4    | `prod-mk5-mk2-dark_matter_crystal` |      4 | superposition oscillator |
+| dark matter residue      |    600 | 6 &rarr; 6    | `prod-mk5-mk2-dark_matter_residue` |      3 | dark matter crystal      |
