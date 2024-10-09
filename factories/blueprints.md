@@ -69,8 +69,15 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 | `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
 | `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
 | `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-2-0-1`     |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-2-1-1`     |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-1-0--1`    |           1 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-1-1--1`    |           1 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-0--0-1`    |           0 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--0-1`    |           1 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--1-0`    |           1 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
+| `prod-floor-2--1-0`    |           2 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
+| `prod-floor-2--1-1`    |           2 |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
 | `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
@@ -193,6 +200,7 @@ Uses parts from
 | `prod-mk5-mk2-packager_RL`         | `prod-floor-empty`      | 4 packager             |
 | `prod-mk5-mk2-blender`             | `prod-floor-2-2-1-1`    | 1 blender              |
 | `prod-mk5-mk2-particle_accelerato` | `prod-floor-2-1-1`      | 1 particle accelerator |
+| `prod-mk5-mk2-converter`           | `prod-floor-2--1-1`     | 2 converter            |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -211,6 +219,7 @@ Uses parts from
 - Tier 7 - Logistics Mk.5 (conveyor belt mk5, conveyor lift mk5)
 - Tier 7 - Control System Development (blender)
 - Tier 8 - Particle Enrichment (particle accelerator)
+- Tier 9 - Matter Conversion (converter)
 - AWESOME Shop - Management - Conveyor Lift Floor Hole (conveyor lift floor hole)
 - AWESOME Shop - Management - Wall Power Outlets Mk.1 (wall outlet)
 - AWESOME Shop - Walls - Door Walls (side door wall)
@@ -234,6 +243,7 @@ Uses parts from
 - `prod-mk5-steel_beam`
 - `prod-mk5-steel_pipe`
 - `prod-mk5-aluminum_casing`
+- `prod-mk5-ficsite_trigon`
 - `prod-mk5-wire`
 - `prod-mk5-cable` (intermediate wire)
 - `prod-mk5-quickwire`
@@ -267,8 +277,10 @@ Uses parts from
 - `prod-mk5-modular_engine`
 - `prod-mk5-adaptive_control_unit`
 - `prod-mk5-thermal_propulsion_rock`
+- `prod-mk5-ballistic_warp_drive`
 - `prod-mk5-heavy_modular_frame`
 - `prod-mk5-high-speed_connector`
+- `prod-mk5-singularity_cell`
 - `prod-mk5-SAM_fluctuator`
 - `prod-mk5-turbo_motor`
 - `prod-mk5-computer`
@@ -301,9 +313,20 @@ Uses parts from
 - `prod-mk5-mk2-packaged_water_RL`
 
 ### Blender mk5
+- `prod-mk5-mk2-bichemical_sculptor`
 - `prod-mk5-mk2-nitric_acid`
 - `prod-mk5-mk2-cooling_system`
 - `prod-mk5-mk2-fused_modular_frame`
+
+### Particle Accelerator mk5
+- `prod-mk5-mk2-dark_matter_crystal`
+- `prod-mk5-diamonds`
+
+### Converter mk5
+- `prod-mk5-time_crystal`
+- `prod-mk2-excited_photonic_matter`
+- `prod-mk5-mk2-dark_matter_residue`
+- `prod-mk5-ficsite_ingot_AI`
 
 ## Logistics
 
