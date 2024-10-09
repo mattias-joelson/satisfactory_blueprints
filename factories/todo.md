@@ -41,32 +41,32 @@
 - Finish explanation of production floor grid cost
 
 ## Finish Stations
-| station      | priority switch | support | signs | radar tower |
-|--------------|-----------------|---------|-------|-------------|
-| Main         |                 |         |       |             |
-| Oil          |                 |         |       |             |
-| Coal / NucSt |                 |         |       |             |
-| Aluminum     |                 |         |       |             |
-| Electronics  |                 |         |       |             |
-| Frame        |                 |         |       |             |
-| Motor        |                 |         |       |             |
-| Nitro        |                 |         |       |             |
-| Coal2        |                 |         |       |             |
-| CI           |                 |         |       |             |
-| RQ           |                 |         |       |             |
-| BA1          |                 |         |       |             |
-| CQ1          |                 |         |       |             |
-| CQ2          |                 |         |       |             |
-| NucU2        |                 |         |       |             |
-| NucU1        |                 |         |       |             |
-| NucCa        |                 |         |       |             |
-| NucCoCS      |                 |         |       |             |
-| NucNG        |                 |         |       |             |
-| NucSu        |                 |         |       |             |
-| NucNF        |                 |         |       |             |
-| NucRA        |                 |         |       |             |
-| Alien Matter |                 |         |       |             |
-|              |                 |         |       |             |
+| station      | priority switch | support | signs | radar tower | stairs |
+|--------------|-----------------|---------|-------|-------------|--------|
+| Main         |                 |         |       |             |        |
+| Oil          |                 |         |       |             |        |
+| Coal / NucSt |                 |         |       |             |        |
+| Aluminum     |                 |         |       |             |        |
+| Electronics  |                 |         |       |             |        |
+| Frame        |                 |         |       |             |        |
+| Motor        |                 |         |       |             |        |
+| Nitro        |                 |         |       |             |        |
+| Coal2        |                 |         |       |             |        |
+| CI           |                 |         |       |             |        |
+| RQ           |                 |         |       |             |        |
+| BA1          |                 |         |       |             |        |
+| CQ1          |                 |         |       |             |        |
+| CQ2          |                 |         |       |             |        |
+| NucU2        |                 |         |       |             |        |
+| NucU1        |                 |         |       |             |        |
+| NucCa        |                 |         |       |             |        |
+| NucCoCS      |                 |         |       |             |        |
+| NucNG        |                 |         |       |             |        |
+| NucSu        |                 |         |       |             |        |
+| NucNF        |                 |         |       |             |        |
+| NucRA        |                 |         |       |             |        |
+| Alien Matter |                 |         |       |             |        |
+|              |                 |         |       |             |        |
 
 ## Other Things Related to Stations
 
