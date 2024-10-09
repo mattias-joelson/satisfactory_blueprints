@@ -30,3 +30,6 @@ What can be done?
 ## Get Through Satisfactory+
 
 Go all in on that mod.
+
+## A new look.
+Use unpainted machines and parts everywhere.
