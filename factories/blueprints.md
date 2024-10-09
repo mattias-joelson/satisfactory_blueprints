@@ -277,8 +277,10 @@ Uses parts from
 - `prod-mk5-modular_engine`
 - `prod-mk5-adaptive_control_unit`
 - `prod-mk5-thermal_propulsion_rock`
+- `prod-mk5-ballistic_warp_drive`
 - `prod-mk5-heavy_modular_frame`
 - `prod-mk5-high-speed_connector`
+- `prod-mk5-singularity_cell`
 - `prod-mk5-SAM_fluctuator`
 - `prod-mk5-turbo_motor`
 - `prod-mk5-computer`
@@ -311,6 +313,7 @@ Uses parts from
 - `prod-mk5-mk2-packaged_water_RL`
 
 ### Blender mk5
+- `prod-mk5-mk2-bichemical_sculptor`
 - `prod-mk5-mk2-nitric_acid`
 - `prod-mk5-mk2-cooling_system`
 - `prod-mk5-mk2-fused_modular_frame`
