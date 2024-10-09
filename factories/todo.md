@@ -27,9 +27,6 @@
 - build infrastructure for portals
 - set up portals
 
-## Blueprints
-- SAM fluctuator, wire mk1 belt and not mk5
-
 ## Support Railway
 - at least missing around bauxite loop
 
