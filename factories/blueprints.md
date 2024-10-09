@@ -10,10 +10,10 @@ floor and the interconnection between them are handled on the basement floor.
 
 ### Production Floor Grid
 
-| blueprint                          | floors             | electric connection | pillar top with sockets | used for                                                                               |
-|------------------------------------|--------------------|---------------------|-------------------------|----------------------------------------------------------------------------------------|
+| blueprint                          |       floors       | electric connection | pillar top with sockets | used for                                                                               |
+|------------------------------------|:------------------:|:-------------------:|:-----------------------:|----------------------------------------------------------------------------------------|
 | `prod-floor-corner`                | :white_check_mark: |                     |                         | Corners of module floors.                                                              |
-| `prod-floor-corner_pillar`         | :white_check_mark: | :white_check_mark:  | :white_check_mark:      | Corner of module floors, connect electricity on basement floor and underneath factory. |
+| `prod-floor-corner_pillar`         | :white_check_mark: | :white_check_mark:  |   :white_check_mark:    | Corner of module floors, connect electricity on basement floor and underneath factory. |
 | `prod-floor-connect`               | :white_check_mark: |                     |                         | Between module floors.                                                                 |
 | `prod-floor-connect_stairs`        | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor and basement.                   |
 | `prod-floor-connect_stairwell`     | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor, basement and below.            |
@@ -53,32 +53,32 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 |-------------------------------|-------|
 | `prod-parts-production_floor` |       |
 
-| blueprint              | input holes | intermediate input hole | input pipe holes | output hole        | output pipe hole   | used for                                                                                               |
-|------------------------|------------:|-------------------------|-----------------:|--------------------|--------------------|--------------------------------------------------------------------------------------------------------|
+| blueprint              | input holes | intermediate input hole | input pipe holes |    output hole     |  output pipe hole  | used for                                                                                               |
+|------------------------|:-----------:|:-----------------------:|:----------------:|:------------------:|:------------------:|--------------------------------------------------------------------------------------------------------|
 | `prod-floor-empty`     |             |                         |                  |                    |                    | no wiring, used for non-electric modules (train stations, mall)                                        |
-| `prod-floor-1-1`       |           1 |                         |                  | :white_check_mark: |                    | for one-ingredient parts (smelter, constructor)                                                        |
-| `prod-floor-1-1-cable` |           1 |                         |                  | :white_check_mark: |                    | for cable                                                                                              |
-| `prod-floor-2-1`       |           2 |                         |                  | :white_check_mark: |                    | for two-ingredient parts (foundry, assembler)                                                          |
-| `prod-floor-2i-1`      |           2 | :white_check_mark:      |                  | :white_check_mark: |                    | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
-| `prod-floor-3-1`       |           3 |                         |                  | :white_check_mark: |                    | for three-ingredient parts (manufacturer)                                                              |
-| `prod-floor-3i-1`      |           3 | :white_check_mark:      |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
-| `prod-floor-4-1`       |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
-| `prod-floor-4i-1`      |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
-| `prod-floor-1-2-0-1`   |           1 |                         |                2 |                    | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-2-1-1-0`   |           2 |                         |                1 | :white_check_mark: |                    | for blender                                                                                            |
-| `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
-| `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-1-0--1`    |           1 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-1-1--1`    |           1 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-0--0-1`    |           0 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
-| `prod-floor-1--0-1`    |           1 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
-| `prod-floor-1--1-0`    |           1 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
-| `prod-floor-2--1-0`    |           2 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
-| `prod-floor-2--1-1`    |           2 |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
-| `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
+| `prod-floor-1-1`       |      1      |                         |                  | :white_check_mark: |                    | for one-ingredient parts (smelter, constructor)                                                        |
+| `prod-floor-1-1-cable` |      1      |                         |                  | :white_check_mark: |                    | for cable                                                                                              |
+| `prod-floor-2-1`       |      2      |                         |                  | :white_check_mark: |                    | for two-ingredient parts (foundry, assembler)                                                          |
+| `prod-floor-2i-1`      |      2      |   :white_check_mark:    |                  | :white_check_mark: |                    | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
+| `prod-floor-3-1`       |      3      |                         |                  | :white_check_mark: |                    | for three-ingredient parts (manufacturer)                                                              |
+| `prod-floor-3i-1`      |      3      |   :white_check_mark:    |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
+| `prod-floor-4-1`       |      4      |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
+| `prod-floor-4i-1`      |      4      |   :white_check_mark:    |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
+| `prod-floor-1-2-0-1`   |      1      |                         |        2         |                    | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-1-1-0`   |      2      |                         |        1         | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-1-1-1`   |      2      |                         |        1         | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-2-1-0`   |      2      |                         |        2         | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-2-1-1`   |      2      |                         |        2         | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-1-0--1`    |      1      |                         |        0         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-1-1--1`    |      1      |                         |        1         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-0--1`    |      2      |                         |        0         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-1--1`    |      2      |                         |        1         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-0--0-1`    |      0      |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--0-1`    |      1      |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--1-0`    |      1      |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
+| `prod-floor-2--1-0`    |      2      |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
+| `prod-floor-2--1-1`    |      2      |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-storage`   |     18      |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line)
@@ -201,6 +201,10 @@ Uses parts from
 | `prod-mk5-mk2-blender`             | `prod-floor-2-2-1-1`    | 1 blender              |
 | `prod-mk5-mk2-particle_accelerato` | `prod-floor-2-1-1`      | 1 particle accelerator |
 | `prod-mk5-mk2-converter`           | `prod-floor-2--1-1`     | 2 converter            |
+
+> [!IMPORTANT]
+> `prod-mk5-mk2-particle_accelerato` is actually 4 foundations wide and 5 long. This mean that it will occupy the
+> connect part one the cable connection side.
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -394,17 +398,17 @@ Uses parts from
 All railway blueprints are 3 x 3 foundations using concrete only. Blueprints with electric connection should be
 connected with cable so that the pillar sockets provide electricity.
 
-| blueprint                         | walled foundation  | railway            | block signals      | electric connection | pillar top with sockets | used for                                                                                  |
-|-----------------------------------|--------------------|--------------------|--------------------|---------------------|-------------------------|-------------------------------------------------------------------------------------------|
+| blueprint                         | walled foundation  |      railway       |   block signals    | electric connection | pillar top with sockets | used for                                                                                  |
+|-----------------------------------|:------------------:|:------------------:|:------------------:|:-------------------:|:-----------------------:|-------------------------------------------------------------------------------------------|
 | `rail-straight`                   | :white_check_mark: |                    |                    |                     |                         | Straight blocks.                                                                          |
-| `rail-straight-block_pillar`      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :white_check_mark:      | Straight blocks, every fourth blueprint.                                                  |
-| `rail-straight-block_temp_pillar` | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  | :white_check_mark:      | Straight blocks, every fourth blueprint. NOTE! Placeholder for block signals.             |
+| `rail-straight-block_pillar`      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  |   :white_check_mark:    | Straight blocks, every fourth blueprint.                                                  |
+| `rail-straight-block_temp_pillar` | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  |   :white_check_mark:    | Straight blocks, every fourth blueprint. NOTE! Placeholder for block signals.             |
 | `rail-straight-no_wall`           | :white_check_mark: |                    |                    |                     |                         | Double sided stations.                                                                    |
-| `rail-straight-no_wall_pillar`    | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Double sided stations.                                                                    |
+| `rail-straight-no_wall_pillar`    | :white_check_mark: |                    |                    | :white_check_mark:  |   :white_check_mark:    | Double sided stations.                                                                    |
 | `rail-straight-one_wall`          | :white_check_mark: |                    |                    |                     |                         | Single sided stations.                                                                    |
-| `rail-straight-one_wall_pillar`   | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Single sided stations.                                                                    |
+| `rail-straight-one_wall_pillar`   | :white_check_mark: |                    |                    | :white_check_mark:  |   :white_check_mark:    | Single sided stations.                                                                    |
 |                                   |                    |                    |                    |                     |                         |                                                                                           |
-| `rail-entry_pillar`               | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Pillar support where signaling is done by hand (instead of `rail-straight-block_pillar`). |
+| `rail-entry_pillar`               | :white_check_mark: |                    |                    | :white_check_mark:  |   :white_check_mark:    | Pillar support where signaling is done by hand (instead of `rail-straight-block_pillar`). |
 | `rail-curve-branch`               | :white_check_mark: | :white_check_mark: |                    |                     |                         | Curve block, single sided stations.                                                       |
 | `rail-curve-back`                 | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Curve block.                                                                              |
 | `rail-curve-corner`               | :white_check_mark: |                    |                    |                     |                         | Curve and junction block.                                                                 |
