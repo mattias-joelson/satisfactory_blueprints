@@ -624,3 +624,17 @@ pump and connect to nearest `pow-npp_floor-corner_outlet`.
 
 ### Storage
 - `pow-power_storage`
+
+## Sign
+- `sign-copper_ingot`
+- `sign-steel_ingot`
+- `sign-iron_rod`
+- `sign-copper_sheet`
+- `sign-steel_pipe`
+- `sign-rotor`
+- `sign-stator`
+- `sign-motor`
+- `sign-heat_sink`
+- `sign-thermal_propulsion_rocket`
+- `sign-turbo_motor`
+- `sign-cooling_system`
