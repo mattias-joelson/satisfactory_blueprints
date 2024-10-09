@@ -1,64 +1,83 @@
 # TODO
 
-## Project Assembly Tier 4
-- 500 **assembly director system**
-  - 500 supercomputer
-  - 1 000 **adaptive control unit**
-      - 5 000 circuit board
-      - 1 000 heavy modular frame
-      - 2 000 computer
-      - 5 000 **automated wiring**
-- 500 **magnetic field generator**
-    + 500 electromagnetic control rod
-        + 750 stator
-        + 500 AI limiter
-    + 1250 **versatile framework**
-- 100 **nuclear pasta**
-    - 20 000 copper powder
-        - 120 000 copper ingot
-    - 100 pressure conversion cube
-        - 100 fused modular frame
-        - 200 radio control unit
-- 250 **thermal propulsion rocket**
-    - 250 turbo motor
-    - 250 fused modular frame
-    - 750 cooling system
-    - 625 **modular engine**
-        + 1 250 motor
-        + 9 375 rubber
-        + 1 250 **smart plating**
+##  Achievements
+- Efficiency First
+- Consume (mercer spheres)
+- My Skin Feels Itchy (somersloops)
+- Data Driven (hard drives)
+- Satisfactory Brought it Back (MAM)
+- Establish Dominance (hit creature)
+- Look Both Ways Next Time (get knocked over)
+- Do You Need That? (golden nut)
+- What a Thrill (reach maximum world height)
+- Are you sure that's coffee?
+- No Refunds
+
+## MAM
+- Ionized Fuel
 
 ## Geysers
+- build all
 
-## Main Starter Base
-- signs
-- geysers
-- power storage
+## Nuclear Plant
+- build remaining four rows of plants
+- build uranium mining stations
 
-# Oil Factory
-- priority switch
-- 625 modular engine
-- signs
-- geysers
+## Teleportation
+- build infrastructure for portals
+- set up portals
 
-# Coal
-- priority switch
-- support
+## Blueprints
+- SAM fluctuator, wire mk1 belt and not mk5
 
-# Mining Stations (bauxite, coal, etc)
+## Support Railway
+- at least missing around bauxite loop
 
-# Aluminum Factory
-- priority switch
-- signs
+## Satisfactory Tools
+- save setups of different factories
 
-# Electronics Factory
-- support
+## Encapsulate Production Floor
+- create needed blueprints
+- encapsulate the stations and factories
 
-# Frame Factory
-- build
-- signs
-- support
+## Documentation
+- Finish explanation of production floor grid cost
 
-# Motor Factory
-- build
-- `prod-mk5-thermal_propulsion_rock`
+## Finish Stations
+| station      | priority switch | support | signs | radar tower |
+|--------------|-----------------|---------|-------|-------------|
+| Main         |                 |         |       |             |
+| Oil          |                 |         |       |             |
+| Coal / NucSt |                 |         |       |             |
+| Aluminum     |                 |         |       |             |
+| Electronics  |                 |         |       |             |
+| Frame        |                 |         |       |             |
+| Motor        |                 |         |       |             |
+| Nitro        |                 |         |       |             |
+| Coal2        |                 |         |       |             |
+| CI           |                 |         |       |             |
+| RQ           |                 |         |       |             |
+| BA1          |                 |         |       |             |
+| CQ1          |                 |         |       |             |
+| CQ2          |                 |         |       |             |
+| NucU2        |                 |         |       |             |
+| NucU1        |                 |         |       |             |
+| NucCa        |                 |         |       |             |
+| NucCoCS      |                 |         |       |             |
+| NucNG        |                 |         |       |             |
+| NucSu        |                 |         |       |             |
+| NucNF        |                 |         |       |             |
+| NucRA        |                 |         |       |             |
+| Alien Matter |                 |         |       |             |
+|              |                 |         |       |             |
+
+## Other Things Related to Stations
+
+### CQ2
+- mine coal
+
+### Aluminum
+- contention on AAS/AC/CI/SAM station
+
+### NucSt
+- contention on main line
