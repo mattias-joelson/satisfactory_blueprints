@@ -102,6 +102,7 @@ Uses parts from
 ### Module
 - `prod-module-storage` - 18 storage containers
 
+
 ## Production mk3
 
 | template blueprint         | module production floor | notes           |
@@ -189,6 +190,7 @@ Uses parts from
 - `prod-mk3-mk1-aluminum_scrap_LR`
 - `prod-mk3-mk2-smokeless_powder_LR`
 - `prod-mk3-mk2-smokeless_powder_RL`
+
 
 ## Production mk5
 
@@ -338,6 +340,7 @@ Uses parts from
 - `prod-mk5-mk2-dark_matter_residue`
 - `prod-mk5-ficsite_ingot_AI`
 
+
 ## Logistics
 
 ### Production Floor Basement
@@ -355,6 +358,7 @@ Uses parts from
 ### Balancer mk6
 - `logi-balancer-4_4_mk6`
 
+
 ## Fluid
 
 ### Pumps
@@ -365,30 +369,10 @@ Uses parts from
 - `fluid-pump-mk2-vertical-1`
 - `fluid-pump-mk2-vertical-2`
 
-### Control - Priority Junction
-- fluid-ctrl-prio_junction-mk1-L-L
-- fluid-ctrl-prio_junction-mk1-L-R
-- fluid-ctrl-prio_junction-mk1-R-L
-- fluid-ctrl-prio_junction-mk1-R-R
-- fluid-ctrl-prio_junction-mk2-L-L
-- fluid-ctrl-prio_junction-mk2-L-R
-- fluid-ctrl-prio_junction-mk2-R-L
-- fluid-ctrl-prio_junction-mk2-R-R
-
-### Control - Overflow Junction
-- fluid-ctrl-overflow_junction-mk1
-- fluid-ctrl-3_junction_mk1
-
 ### Station
-- fluid-load-mk1
 - `fluid-load-mk2`
-- fluid-unload-mk1
 - `fluid-unload-mk2`
 
-
-### Buffer
-- fluid-buffer-mk1 - 4 fluid buffer, pipes mk1 (300)
-- fluid-buffer-mk2 - 4 fluid buffer, pipes mk2 (600)
 
 ## Railway System
 
