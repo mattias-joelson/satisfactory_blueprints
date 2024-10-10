@@ -34,10 +34,11 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 - AWESOME Shop - Customizer - Concrete Wall Material
 
-### Production Floor Support
-- `prod-found-pillar_base`
-- `prod-found-pillar_base_ext`
-- `prod-found-pillar_support`
+### Production Floor Grid Support
+| blueprint                  | usage                                                                                              |
+|----------------------------|----------------------------------------------------------------------------------------------------|
+| `prod-grid-support_base_1` | Base for production floor grid support. Flat surface.                                              |
+| `prod-grid-support_base_5` | Base for production floor grid support. Uneven surface, includes top of branching support columns. |
 
 Uses parts from
 - Tier 1 - Base Building (foundation, ramp, wall)
