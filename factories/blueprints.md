@@ -586,6 +586,10 @@ height by extending 4 m foundations.
 - `pow-npp_floor-placement`
 - `pow-npp_floor-plant`
 - `pow-npp_floor-empty` (for floor with no nuclear plant)
+- `pow-npp_side-corner_support`
+- `pow-npp_side-corner_support_c`
+- `pow-npp_side-corner_outlet_c`
+- `pow-npp_side-connect`
 
 The nuclear power plants does not fit well on 4x4 foundation so blueprints mk2 where needed. First build the grid and
 place `pow-npp_floor-placement` between the lines to simplify water extractor placement. Note that arrow for
