@@ -4,6 +4,7 @@
 - logi-parts-vertical_merger_mk5
 - prod-part-outlets
 - prod-part-pillar_base
-- prod-parts-production_module
+- prod-part-pillar_support
+- prod-part-production_module
 - rail-part-straight
 - rail-part-slope
