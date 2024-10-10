@@ -21,6 +21,11 @@ floor and the interconnection between them are handled on the basement floor.
 | `prod-floor-corner_outside`        | Decoration outside of factory floor corners.                                                                       |
 | `prod-floor-corner_pillar_outside` | Decoration outside of factory floor corners (for pillars).                                                         |
 | `prod-floor-connect_outside`       | Decoration outside of factory floor connections.                                                                   |
+|                                    |                                                                                                                    |
+| `prod-grid-stairs`                 | Catwalk stairs between module floors.                                                                              |
+| `prod-grid-stairs_top`             | Catwalk stairs between module floors, top floor.                                                                         |
+| `prod-grid-stairs_outside`         | Catwalk stairs between module floors, outermost.                                                                         |
+| `prod-grid-stairs_outside_top`     | Catwalk stairs between module floors, outermost, top floor.                                                              |
 
 Uses parts from
 - HUB Upgrade 2 (power line)
@@ -90,12 +95,7 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 
 ### Module
-- `prod-module-stairs` - catwalk stairs between modules
-- `prod-module-stairs_top` - catwalk stairs between modules, top floor
-- `prod-module-stairs_outside` - catwalk stairs between modules, outermost
-- `prod-module-stairs_outside_top` - catwalk stairs between modules, outermost, top floor
 - `prod-module-storage` - 18 storage containers
-
 
 ## Production mk3
 
