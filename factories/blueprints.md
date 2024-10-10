@@ -368,6 +368,7 @@ Uses parts from
 - logi-balancer-2_4_mk5
 - `logi-balancer-3_3_mk5`
 - `logi-balancer-4_4_mk5`
+- `logi-balancer-4_4_mk6`
 
 ## Fluid
 
