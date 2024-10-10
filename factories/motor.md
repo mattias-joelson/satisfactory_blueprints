@@ -88,9 +88,9 @@
 | `prod-floor-1-1`                |      9 |
 | `prod-floor-empty`              |     12 |
 |                                 |        |
-| `prod-floor-corner`             |     40 |
-| `prod-floor-corner_pillar`      |     18 |
-| `prod-floor-connect`            |     52 |
+| `prod-grid-corner`              |     40 |
+| `prod-grid-corner_outlet`       |     18 |
+| `prod-grid-connect`             |     52 |
 | `prod-floor-connect_stairs`     |     47 |
 |                                 |        |
 | `rail-straight-one_wall`        |      4 |

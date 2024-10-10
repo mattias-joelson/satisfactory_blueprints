@@ -10,17 +10,17 @@ floor and the interconnection between them are handled on the basement floor.
 
 ### Production Floor Grid
 
-| blueprint                          |       floors       | electric connection | pillar top with sockets | used for                                                                               |
-|------------------------------------|:------------------:|:-------------------:|:-----------------------:|----------------------------------------------------------------------------------------|
-| `prod-floor-corner`                | :white_check_mark: |                     |                         | Corners of module floors.                                                              |
-| `prod-floor-corner_pillar`         | :white_check_mark: | :white_check_mark:  |   :white_check_mark:    | Corner of module floors, connect electricity on basement floor and underneath factory. |
-| `prod-floor-connect`               | :white_check_mark: |                     |                         | Between module floors.                                                                 |
-| `prod-floor-connect_stairs`        | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor and basement.                   |
-| `prod-floor-connect_stairwell`     | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor, basement and below.            |
-|                                    |                    |                     |                         |                                                                                        |
-| `prod-floor-corner_outside`        |                    |                     |                         | Decoration outside of factory floor corners.                                           |
-| `prod-floor-corner_pillar_outside` |                    |                     |                         | Decoration outside of factory floor corners (for pillars).                             |
-| `prod-floor-connect_outside`       |                    |                     |                         | Decoration outside of factory floor connections.                                       |
+| blueprint                          | usage                                                                                                              |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| `prod-grid-corner`                 | Corners of production floor grid.                                                                                  |
+| `prod-grid-corner_outlet`          | Corner of production floor grid with power outlets. Connects electricity on basement floor and underneath factory. |
+| `prod-grid-connect`                | Connects production floor grid corners.                                                                            |
+| `prod-grid-connect_stairs`         | Connects production floor grid corners. Stairs between production floor and basement.                              |
+| `prod-grid-connect_stairwell`      | Connects production floor grid corners. Stairs between production floor, basement and underside.                   |
+|                                    |                                                                                                                    |
+| `prod-floor-corner_outside`        | Decoration outside of factory floor corners.                                                                       |
+| `prod-floor-corner_pillar_outside` | Decoration outside of factory floor corners (for pillars).                                                         |
+| `prod-floor-connect_outside`       | Decoration outside of factory floor connections.                                                                   |
 
 Uses parts from
 - HUB Upgrade 2 (power line)
@@ -511,10 +511,10 @@ Uses parts from
 |---------------------------------|-------:|
 | `prod-floor-empty`              |      4 |
 |                                 |        |
-| `prod-floor-corner`             |      9 |
-| `prod-floor-corner_pillar`      |      6 |
-| `prod-floor-connect`            |     14 |
-| `prod-floor-connect_stairs`     |      8 |
+| `prod-grid-corner`              |      9 |
+| `prod-grid-corner_outlet`       |      6 |
+| `prod-grid-connect`             |     14 |
+| `prod-grid-connect_stairs`      |      8 |
 |                                 |        |
 | `rail-straight-one_wall`        |      4 |
 | `rail-curve-branch`             |      2 |
