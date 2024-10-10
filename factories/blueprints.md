@@ -345,29 +345,14 @@ Uses parts from
 - `logi-high_smart_splitter`
 - `logi-high_splitter`
 
-### Parts
-- logi-parts-vertical_splitter_mk2
-- logi-parts-vertical_splitter_mk3
-- logi-parts-vertical_splitter_mk5
-- logi-parts-vertical_merger_mk2
-- logi-parts-vertical_merger_mk3
-- logi-parts-vertical_merger_mk5
-
-### Balancer mk3
-- logi-balancer-2_2_mk3
-- logi-balancer-2_2_mk3_high
-- logi-balancer-2_3_mk3
-- logi-balancer-2_4_mk3
-- logi-balancer-3_3_mk3
-- logi-balancer-4_4_mk3
-
 ### Balancer mk5
-- logi-balancer-2_2_mk5
 - `logi-balancer-2_2_mk5_high`
 - `logi-balancer-2_3_mk5`
-- logi-balancer-2_4_mk5
+- `logi-balancer-2_4_mk5`
 - `logi-balancer-3_3_mk5`
 - `logi-balancer-4_4_mk5`
+
+### Balancer mk6
 - `logi-balancer-4_4_mk6`
 
 ## Fluid
