@@ -338,6 +338,11 @@ Uses parts from
 
 ## Logistics
 
+### Production Floor Basement
+- `logi-merger`
+- `logi-smart_splitter`
+- `logi-splitter`
+
 ### Parts
 - logi-parts-vertical_splitter_mk2
 - logi-parts-vertical_splitter_mk3
@@ -400,7 +405,7 @@ Uses parts from
 ## Railway System
 
 All railway blueprints are 3 x 3 foundations using concrete only. Blueprints with electric connection should be
-connected with cable so that the pillar sockets provide electricity.
+connected with cable so that the support sockets provide electricity.
 
 | blueprint                          | walled foundation  |      railway       |   block signals    | electric connection | support top with outlets | used for                                                                      |
 |------------------------------------|:------------------:|:------------------:|:------------------:|:-------------------:|:------------------------:|-------------------------------------------------------------------------------|
