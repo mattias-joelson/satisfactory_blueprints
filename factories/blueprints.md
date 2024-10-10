@@ -576,44 +576,46 @@ height by extending 4 m foundations.
 - `pow-mk5-mk2-encased_uranium_cell`
 - `pow-mk5-mk2-non-fissile_uranium`
 - `pow-mk5-plutonium_pellet`
-- `pow-npp_floor-corner_outlet`
-- `pow-npp_floor-corner`
-- `pow-npp_floor-connect`
-- `pow-npp_floor-connect_plants`
-- `pow-npp_floor-connect_plants_L` (for single row of plants)
+
+## Nuclear Power Plant Grid and Plant Floor
+- `pow-npp_grid-corner`
+- `pow-npp_grid-corner_outlet`
+- `pow-npp_grid-connect`
+- `pow-npp_grid-connect_plants`
+- `pow-npp_grid-connect_plants_L` (for single row of plants)
 - `pow-npp_floor-placement`
-- `pow-npp_floor`
-- `pow-npp_floor_empty` (for floor with no nuclear plant)
+- `pow-npp_floor-plant`
+- `pow-npp_floor-empty` (for floor with no nuclear plant)
 
 The nuclear power plants does not fit well on 4x4 foundation so blueprints mk2 where needed. First build the grid and
 place `pow-npp_floor-placement` between the lines to simplify water extractor placement. Note that arrow for
-`pow-npp_floor-connect_plants` points towards waste direction.
+`pow-npp_grid-connect_plants` points towards waste direction.
 
-|                               |                                |                          |                                |                               |
-|-------------------------------|--------------------------------|--------------------------|--------------------------------|-------------------------------|
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`   | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
-| `pow-npp_floor-connect`       | `pow-npp_floor-placement`      | `pow-npp_floor-connect`  | `pow-npp_floor-placement`      | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner`        | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`   | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`        |
-| `pow-npp_floor-connect`       | `pow-npp_floor-placement`      | `pow-npp_floor-connect`  | `pow-npp_floor-placement`      | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`   | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+|                              |                               |                        |                               |                              |
+|------------------------------|-------------------------------|------------------------|-------------------------------|------------------------------|
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
+| `pow-npp_grid-connect`       | `pow-npp_floor-placement`     | `pow-npp_grid-connect` | `pow-npp_floor-placement`     | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner`        | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`  | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`        |
+| `pow-npp_grid-connect`       | `pow-npp_floor-placement`     | `pow-npp_grid-connect` | `pow-npp_floor-placement`     | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
 
 Align the water extractors on the pipe junctions. To get the correct distance zoop a line of foundations between the
-`pow-npp_floor-corner` to move up against. For optimal alignment nudge that line two small steps towards yourself. Then remove
-the alignment foundations and place the neighbouring water extractors. They will snap to the ones already placed.
+`pow-npp_grid-corner` to move up against. For optimal alignment nudge that line two small steps towards yourself. Then
+remove the alignment foundations and place the neighbouring water extractors. They will snap to the ones already placed.
 
-Dismantle the `pow-npp_floor-placement` and place the actual `pow-npp_floor` for the power plants. Entrance to the
+Dismantle the `pow-npp_floor-placement` and place the actual `pow-npp_floor-plant` for the power plants. Entrance to the
 basement is to the right when looking on the plant inputs.
 
-|                               |                                |                         |                                |                               |
-|-------------------------------|--------------------------------|-------------------------|--------------------------------|-------------------------------|
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`  | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
-| `pow-npp_floor-connect`       | `pow-npp_floor`                | `pow-npp_floor-connect` | `pow-npp_floor`                | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner`        | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`  | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`        |
-| `pow-npp_floor-connect`       | `pow-npp_floor`                | `pow-npp_floor-connect` | `pow-npp_floor`                | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`  | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+|                              |                               |                        |                               |                              |
+|------------------------------|-------------------------------|------------------------|-------------------------------|------------------------------|
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
+| `pow-npp_grid-connect`       | `pow-npp_floor-plant`         | `pow-npp_grid-connect` | `pow-npp_floor-plant`         | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner`        | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`  | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`        |
+| `pow-npp_grid-connect`       | `pow-npp_floor-plant`         | `pow-npp_grid-connect` | `pow-npp_floor-plant`         | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
 
-Finish off by placing the power plants and connect them. Also hook up the water extractors to the same power pole as the
-pump and connect to nearest `pow-npp_floor-corner_outlet`.
+Connect water extractors and pump with pipes mk1 and connect the water extractors to the same power pole as the
+pump and connect to nearest `pow-npp_grid-corner_outlet`. Finish off by placing the power plants and connect them.
 
 ### Storage
 - `pow-power_storage`
