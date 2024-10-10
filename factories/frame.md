@@ -67,7 +67,7 @@
 | `prod-floor-4i-1`                  |      1 |
 | `prod-floor-2-1-1-0`               |      1 |
 |                                    |        |
-| `prod-floor-corner`                |     30 |
-| `prod-floor-corner_pillar`         |     15 |
-| `prod-floor-connect`               |     40 |
-| `prod-floor-connect_stairs`        |     36 |
+| `prod-grid-corner`                 |     30 |
+| `prod-grid-corner_outlet`          |     15 |
+| `prod-grid-connect`                |     40 |
+| `prod-grid-connect_stairs`         |     36 |
