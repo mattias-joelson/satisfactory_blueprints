@@ -34,33 +34,36 @@
 ## Documentation
 - Finish explanation of production floor grid cost
 
+## Nuclear Power Plant
+- what level is floor? 18?
+
 ## Finish Stations
-| station      |  priority switch   |      support       |       signs        |    radar tower     |       stairs       |   depot uploader   |
-|--------------|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
-| Main         |                    |                    |                    |                    |                    |                    |
-| Oil          |                    |                    |                    |                    |                    |                    |
-| Coal / NucSt |                    |                    |                    |                    |                    |                    |
-| Aluminum     |                    |                    |                    |                    |                    |                    |
-| Electronics  |                    |                    |                    |                    |                    |                    |
-| Frame        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Motor        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Nitro        | :white_check_mark: | :white_check_mark: | :white_check_mark: |        N/A         |        N/A         |        N/A         |
-| Coal2        | :white_check_mark: | :white_check_mark: | :white_check_mark: |        N/A         |        N/A         |        N/A         |
-| CI           |                    |                    |                    |                    |                    |                    |
-| RQ           |                    |                    |                    |                    |                    |                    |
-| Ba1          | :white_check_mark: | :white_check_mark: | :white_check_mark: |        N/A         |        N/A         |        N/A         |
-| CQ1          |                    |                    |                    |                    |                    |                    |
-| CQ2          |                    |                    |                    |                    |                    |                    |
-| NucU2        |                    |                    |                    |                    |                    |                    |
-| NucU1        |                    |                    |                    |                    |                    |                    |
-| NucCa        |                    |                    |                    |                    |                    |                    |
-| NucCoCS      |                    |                    |                    |                    |                    |                    |
-| NucNG        |                    |                    |                    |                    |                    |                    |
-| NucSu        |                    |                    |                    |                    |                    |                    |
-| NucNF        |                    |                    |                    |                    |                    |                    |
-| NucRA        |                    |                    |                    |                    |                    |                    |
-| Alien Matter |                    |                    |                    |                    |                    |                    |
-|              |                    |                    |                    |                    |                    |                    |
+| station      |  priority switch   |      support       | side |       signs        |    radar tower     |       stairs       |   depot uploader   |
+|--------------|:------------------:|:------------------:|:----:|:------------------:|:------------------:|:------------------:|:------------------:|
+| Main         |                    |                    |      |                    |                    |                    |                    |
+| Oil          |                    |                    |      |                    |                    |                    |                    |
+| Coal / NucSt |                    |                    |      |                    |                    |                    |                    |
+| Aluminum     |                    |                    |      |                    |                    |                    |                    |
+| Electronics  |                    |                    |      |                    |                    |                    |                    |
+| Frame        | :white_check_mark: | :white_check_mark: |      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Motor        | :white_check_mark: | :white_check_mark: |      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Nitro        | :white_check_mark: | :white_check_mark: |      | :white_check_mark: |        N/A         |        N/A         |        N/A         |
+| Coal2        | :white_check_mark: | :white_check_mark: |      | :white_check_mark: |        N/A         |        N/A         |        N/A         |
+| CI           |                    |                    |      |                    |                    |                    |                    |
+| RQ           |                    |                    |      |                    |                    |                    |                    |
+| Ba1          | :white_check_mark: | :white_check_mark: |      | :white_check_mark: |        N/A         |        N/A         |        N/A         |
+| CQ1          |                    |                    |      |                    |                    |                    |                    |
+| CQ2          |                    |                    |      |                    |                    |                    |                    |
+| NucU2        |                    |                    |      |                    |                    |                    |                    |
+| NucU1        |                    |                    |      |                    |                    |                    |                    |
+| NucCa        |                    |                    |      |                    |                    |                    |                    |
+| NucCoCS      |                    |                    |      |                    |                    |                    |                    |
+| NucNG        |                    |                    |      |                    |                    |                    |                    |
+| NucSu        |                    |                    |      |                    |                    |                    |                    |
+| NucNF        |                    |                    |      |                    |                    |                    |                    |
+| NucRA        |                    |                    |      |                    |                    |                    |                    |
+| Alien Matter |                    |                    |      |                    |                    |                    |                    |
+|              |                    |                    |      |                    |                    |                    |                    |
 
 ## Other Things Related to Stations
 
