@@ -339,9 +339,9 @@ Uses parts from
 ## Logistics
 
 ### Production Floor Basement
-- `logi-merger`
-- `logi-smart_splitter`
-- `logi-splitter`
+- `logi-high_merger`
+- `logi-high_smart_splitter`
+- `logi-high_splitter`
 
 ### Parts
 - logi-parts-vertical_splitter_mk2
