@@ -10,22 +10,25 @@ floor and the interconnection between them are handled on the basement floor.
 
 ### Production Floor Grid
 
-| blueprint                          | usage                                                                                                              |
-|------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| `prod-grid-corner`                 | Corners of production floor grid.                                                                                  |
-| `prod-grid-corner_outlet`          | Corner of production floor grid with power outlets. Connects electricity on basement floor and underneath factory. |
-| `prod-grid-connect`                | Connects production floor grid corners.                                                                            |
-| `prod-grid-connect_stairs`         | Connects production floor grid corners. Stairs between production floor and basement.                              |
-| `prod-grid-connect_stairwell`      | Connects production floor grid corners. Stairs between production floor, basement and underside.                   |
-|                                    |                                                                                                                    |
-| `prod-floor-corner_outside`        | Decoration outside of factory floor corners.                                                                       |
-| `prod-floor-corner_pillar_outside` | Decoration outside of factory floor corners (for pillars).                                                         |
-| `prod-floor-connect_outside`       | Decoration outside of factory floor connections.                                                                   |
-|                                    |                                                                                                                    |
-| `prod-grid-stairs`                 | Catwalk stairs between module floors.                                                                              |
-| `prod-grid-stairs_top`             | Catwalk stairs between module floors, top floor.                                                                         |
-| `prod-grid-stairs_outside`         | Catwalk stairs between module floors, outermost.                                                                         |
-| `prod-grid-stairs_outside_top`     | Catwalk stairs between module floors, outermost, top floor.                                                              |
+| blueprint                        | usage                                                                                                              |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| `prod-grid-corner`               | Corners of production floor grid.                                                                                  |
+| `prod-grid-corner_outlet`        | Corner of production floor grid with power outlets. Connects electricity on basement floor and underneath factory. |
+| `prod-grid-connect`              | Connects production floor grid corners.                                                                            |
+| `prod-grid-connect_stairs`       | Connects production floor grid corners. Stairs between production floor and basement.                              |
+| `prod-grid-connect_stairwell`    | Connects production floor grid corners. Stairs between production floor, basement and underside.                   |
+|                                  |                                                                                                                    |
+| `prod-grid-corner_side`          | Side decoration for production floor grid corner.                                                                  |
+| `prod-grid-corner_support_side`  | Decoration outside of factory floor corners (for pillars).                                                         |
+| `prod-grid-connect_side`         | Side decoration for production floor grid connection.                                                              |
+|                                  |                                                                                                                    |
+|                                  |                                                                                                                    |
+|                                  |                                                                                                                    |
+|                                  |                                                                                                                    |
+| `prod-grid-stairs`               | Catwalk stairs between module floors.                                                                              |
+| `prod-grid-stairs_top`           | Catwalk stairs between module floors, top floor.                                                                   |
+| `prod-grid-stairs_outside`       | Catwalk stairs between module floors, outermost.                                                                   |
+| `prod-grid-stairs_outside_top`   | Catwalk stairs between module floors, outermost, top floor.                                                        |
 
 Uses parts from
 - HUB Upgrade 2 (power line)
