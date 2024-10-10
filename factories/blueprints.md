@@ -27,8 +27,8 @@ floor and the interconnection between them are handled on the basement floor.
 |                                   |                                                                                                                     |
 | `prod-grid-stairs`                | Catwalk stairs between module floors.                                                                               |
 | `prod-grid-stairs_top`            | Catwalk stairs between module floors, top floor.                                                                    |
-| `prod-grid-stairs_outside`        | Catwalk stairs between module floors, outermost.                                                                    |
-| `prod-grid-stairs_outside_top`    | Catwalk stairs between module floors, outermost, top floor.                                                         |
+| `prod-grid-stairs_side`           | Catwalk stairs between module floors, only module on one side.                                                      |
+| `prod-grid-stairs_side_top`       | Catwalk stairs between module floors, only module on one side, top floor.                                           |
 
 Uses parts from
 - HUB Upgrade 2 (power line)
