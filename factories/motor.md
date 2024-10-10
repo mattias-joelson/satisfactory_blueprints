@@ -58,41 +58,41 @@
 | iron ore     | 2-2 |
 
 ## Needed to Build
-| blueprints                      | amount |
-|---------------------------------|-------:|
-| `prod-mk5-turbo_motor`          |      4 |
-| `prod-mk5-mk2-cooling_system`   |     12 |
-| `prod-mk5-heat_sink`            |      4 |
-| `prod-mk5-copper_sheet`         |      4 |
-| `prod-mk5-motor`                |      2 |
-| `prod-mk5-stator`               |      7 |
-| `prod-mk5-copper_ingot`         |      3 |
-| `prod-mk5-steel_pipe`           |      2 |
-| `prod-mk5-steel_ingot`          |      2 |
-| `prod-mk5-rotor`                |     13 |
-| `prod-mk5-iron_rod`             |      7 |
-| `prod-mk5-iron_ingot`           |      3 |
-|                                 |        |
-| water extractor                 |      3 |
-| train station                   |      3 |
-| freight platform                |      6 |
-| fluid freight platform          |      3 |
-| `fluid-unload-mk2`              |      3 |
-| empty platform with catwalk     |      3 |
-|                                 |        |
-| `prod-floor-empty`              |     24 |
-| `prod-floor-4-1`                |      1 |
-| `prod-floor-2-2-1-0`            |      3 |
-| `prod-floor-2-1`                |      3 |
-| `prod-floor-2i-1`               |      2 |
-| `prod-floor-1-1`                |      9 |
-| `prod-floor-empty`              |     12 |
-|                                 |        |
-| `prod-grid-corner`              |     40 |
-| `prod-grid-corner_outlet`       |     18 |
-| `prod-grid-connect`             |     52 |
-| `prod-floor-connect_stairs`     |     47 |
-|                                 |        |
-| `rail-straight-one_wall`        |      4 |
-| `rail-curve-branch`             |      2 |
-| `rail-straight-one_wall_pillar` |      1 |
+| blueprints                    | amount |
+|-------------------------------|-------:|
+| `prod-mk5-turbo_motor`        |      4 |
+| `prod-mk5-mk2-cooling_system` |     12 |
+| `prod-mk5-heat_sink`          |      4 |
+| `prod-mk5-copper_sheet`       |      4 |
+| `prod-mk5-motor`              |      2 |
+| `prod-mk5-stator`             |      7 |
+| `prod-mk5-copper_ingot`       |      3 |
+| `prod-mk5-steel_pipe`         |      2 |
+| `prod-mk5-steel_ingot`        |      2 |
+| `prod-mk5-rotor`              |     13 |
+| `prod-mk5-iron_rod`           |      7 |
+| `prod-mk5-iron_ingot`         |      3 |
+|                               |        |
+| water extractor               |      3 |
+| train station                 |      3 |
+| freight platform              |      6 |
+| fluid freight platform        |      3 |
+| `fluid-unload-mk2`            |      3 |
+| empty platform with catwalk   |      3 |
+|                               |        |
+| `prod-floor-empty`            |     24 |
+| `prod-floor-4-1`              |      1 |
+| `prod-floor-2-2-1-0`          |      3 |
+| `prod-floor-2-1`              |      3 |
+| `prod-floor-2i-1`             |      2 |
+| `prod-floor-1-1`              |      9 |
+| `prod-floor-empty`            |     12 |
+|                               |        |
+| `prod-grid-corner`            |     40 |
+| `prod-grid-corner_outlet`     |     18 |
+| `prod-grid-connect`           |     52 |
+| `prod-floor-connect_stairs`   |     47 |
+|                               |        |
+| `rail-stat-one_wall`          |      4 |
+| `rail-curve-branch`           |      2 |
+| `rail-stat-one_wall_support`  |      1 |

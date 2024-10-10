@@ -399,28 +399,30 @@ Uses parts from
 All railway blueprints are 3 x 3 foundations using concrete only. Blueprints with electric connection should be
 connected with cable so that the pillar sockets provide electricity.
 
-| blueprint                         | walled foundation  |      railway       |   block signals    | electric connection | pillar top with sockets | used for                                                                      |
-|-----------------------------------|:------------------:|:------------------:|:------------------:|:-------------------:|:-----------------------:|-------------------------------------------------------------------------------|
-| `rail-straight`                   | :white_check_mark: |                    |                    |                     |                         | Straight blocks.                                                              |
-| `rail-straight-block_pillar`      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  |   :white_check_mark:    | Straight blocks, every fourth blueprint.                                      |
-| `rail-straight-block_temp_pillar` | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  |   :white_check_mark:    | Straight blocks, every fourth blueprint. NOTE! Placeholder for block signals. |
-| `rail-straight-no_wall`           | :white_check_mark: |                    |                    |                     |                         | Double sided stations.                                                        |
-| `rail-straight-no_wall_pillar`    | :white_check_mark: |                    |                    | :white_check_mark:  |   :white_check_mark:    | Double sided stations.                                                        |
-| `rail-straight-one_wall`          | :white_check_mark: |                    |                    |                     |                         | Single sided stations.                                                        |
-| `rail-straight-one_wall_pillar`   | :white_check_mark: |                    |                    | :white_check_mark:  |   :white_check_mark:    | Single sided stations.                                                        |
-|                                   |                    |                    |                    |                     |                         |                                                                               |
-| `rail-curve-entry_support`        | :white_check_mark: |                    |                    | :white_check_mark:  |   :white_check_mark:    | Curve and junction entry.                                                     |
-| `rail-curve-branch`               | :white_check_mark: | :white_check_mark: |                    |                     |                         | Curve block, single sided stations.                                           |
-| `rail-curve-back`                 | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Curve block.                                                                  |
-| `rail-curve-corner`               | :white_check_mark: |                    |                    |                     |                         | Curve and junction block.                                                     |
-| `rail-junc-branch`                | :white_check_mark: | :white_check_mark: |                    |                     |                         | Junction block, double sided stations.                                        |
-| `rail-junc-back`                  | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Junction block.                                                               |
-|                                   |                    |                    |                    |                     |                         |                                                                               |
-| `rail-slope-1st`                  | :white_check_mark: | :white_check_mark: |                    |                     |                         | Slope block.                                                                  |
-| `rail-slope-2nd`                  | :white_check_mark: |                    |                    |                     |                         | Slope block.                                                                  |
-| `rail-slope-3rd`                  | :white_check_mark: | :white_check_mark: |                    |                     |                         | Slope block.                                                                  |
-| `rail-slope-adjuster`             |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                            |
-| `rail-slope-adjuster_large`       |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                            |
+| blueprint                          | walled foundation  |      railway       |   block signals    | electric connection | support top with outlets | used for                                                                      |
+|------------------------------------|:------------------:|:------------------:|:------------------:|:-------------------:|:------------------------:|-------------------------------------------------------------------------------|
+| `rail-straight`                    | :white_check_mark: |                    |                    |                     |                          | Straight blocks.                                                              |
+| `rail-straight-block_support`      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  |    :white_check_mark:    | Straight blocks, every fourth blueprint.                                      |
+| `rail-straight-block_temp_support` | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  |    :white_check_mark:    | Straight blocks, every fourth blueprint. NOTE! Placeholder for block signals. |
+|                                    |                    |                    |                    |                     |                          |                                                                               |
+| `rail-stat-entry_support`          | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  |    :white_check_mark:    | Station entry block.                                                          |
+| `rail-stat-no_wall`                | :white_check_mark: |                    |                    |                     |                          | Double sided stations.                                                        |
+| `rail-stat-no_wall_support`        | :white_check_mark: |                    |                    | :white_check_mark:  |    :white_check_mark:    | Double sided stations.                                                        |
+| `rail-stat-one_wall`               | :white_check_mark: |                    |                    |                     |                          | Single sided stations.                                                        |
+| `rail-stat-one_wall_support`       | :white_check_mark: |                    |                    | :white_check_mark:  |    :white_check_mark:    | Single sided stations.                                                        |
+|                                    |                    |                    |                    |                     |                          |                                                                               |
+| `rail-curve-entry_support`         | :white_check_mark: |                    |                    | :white_check_mark:  |    :white_check_mark:    | Curve and junction entry.                                                     |
+| `rail-curve-branch`                | :white_check_mark: | :white_check_mark: |                    |                     |                          | Curve block, single sided stations.                                           |
+| `rail-curve-back`                  | :white_check_mark: |                    |                    | :white_check_mark:  |                          | Curve block.                                                                  |
+| `rail-curve-corner`                | :white_check_mark: |                    |                    |                     |                          | Curve and junction block.                                                     |
+| `rail-junc-branch`                 | :white_check_mark: | :white_check_mark: |                    |                     |                          | Junction block, double sided stations.                                        |
+| `rail-junc-back`                   | :white_check_mark: |                    |                    | :white_check_mark:  |                          | Junction block.                                                               |
+|                                    |                    |                    |                    |                     |                          |                                                                               |
+| `rail-slope-1st`                   | :white_check_mark: | :white_check_mark: |                    |                     |                          | Slope block.                                                                  |
+| `rail-slope-2nd`                   | :white_check_mark: |                    |                    |                     |                          | Slope block.                                                                  |
+| `rail-slope-3rd`                   | :white_check_mark: | :white_check_mark: |                    |                     |                          | Slope block.                                                                  |
+| `rail-slope-adjuster`              |                    |                    |                    |                     |                          | For placing parts of slope blocks.                                            |
+| `rail-slope-adjuster_large`        |                    |                    |                    |                     |                          | For placing parts of slope blocks.                                            |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line)
@@ -438,17 +440,17 @@ Uses parts from
 
 ### Building Straight Block
 
-|                              |
-|------------------------------|
-| `rail-straight-block_pillar` |
-| `rail-straight`              |
-| `rail-straight`              |
-| `rail-straight`              |
-| `rail-straight-block_pillar` |
+|                               |
+|-------------------------------|
+| `rail-straight-block_support` |
+| `rail-straight`               |
+| `rail-straight`               |
+| `rail-straight`               |
+| `rail-straight-block_support` |
 
-- Connect `rail-straight-block_pillar` with cable.
-- Build railway between `rail-straight-block_pillar`.
-- Build pillars.
+- Connect `rail-straight-block_support` with cable.
+- Build railway between `rail-straight-block_support`.
+- Build support.
 
 ### Building Curve Block
 
@@ -494,72 +496,74 @@ Uses parts from
 
 ### Building Train Stations
 
-| single sided                    | | double sided                   |
-|---------------------------------|-|--------------------------------|
-| `rail-entry_pillar`             | | `rail-entry_pillar`            |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-curve-branch`             | | `rail-junc-branch`             |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-straight-one_wall_pillar` | | `rail-straight-no_wall_pillar` |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-curve-branch`             | | `rail-junc-branch`             |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-entry_pillar`             | | `rail-entry_pillar`            |
+| single sided                 | | double sided                |
+|------------------------------|-|-----------------------------|
+| `rail-stat-entry_support`    | | `rail-stat-entry_support`   |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-curve-branch`          | | `rail-junc-branch`          |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-stat-one_wall_support` | | `rail-stat-no_wall_support` |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-curve-branch`          | | `rail-junc-branch`          |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-stat-entry_support`    | | `rail-stat-entry_support`   |
 
-- Connect `rail-entry_pillar`and `rail-straight-one_wall_pillar`/`rail-straight-no_wall_pillar` with cable.
+- Connect `rail-stat-entry_support`and `rail-stat-one_wall_support`/`rail-stat-no_wall_support` with cable.
 - Build station railway.
 - Add path and block signals.
-- Build pillars.
+- Build support.
 
-| blueprints single sided         | amount |
-|---------------------------------|-------:|
-| `prod-floor-empty`              |      4 |
-|                                 |        |
-| `prod-grid-corner`              |      9 |
-| `prod-grid-corner_outlet`       |      6 |
-| `prod-grid-connect`             |     14 |
-| `prod-grid-connect_stairs`      |      8 |
-|                                 |        |
-| `rail-straight-one_wall`        |      4 |
-| `rail-curve-branch`             |      2 |
-| `rail-straight-one_wall_pillar` |      1 |
+| blueprints single sided      | amount |
+|------------------------------|-------:|
+| `prod-floor-empty`           |      4 |
+|                              |        |
+| `prod-grid-corner`           |      9 |
+| `prod-grid-corner_outlet`    |      6 |
+| `prod-grid-connect`          |     14 |
+| `prod-grid-connect_stairs`   |      8 |
+|                              |        |
+| `rail-stat-one_wall`         |      4 |
+| `rail-curve-branch`          |      2 |
+| `rail-stat-one_wall_support` |      1 |
 
 ### Building Slopes
 
-| up                           | | down                         |
-|------------------------------|-|------------------------------|
-| `rail-straight-block_pillar` | | `rail-straight-block_pillar` |
-| `rail-slope-1st`             | | `rail-slope-3rd`             |
-| `rail-slope-2nd`             | | `rail-slope-2nd`             |
-| `rail-slope-3rd`             | | `rail-slope-1st`             |
-| `rail-straight-block_pillar` | | `rail-straight-block_pillar` |
+| up                            | | down                          |
+|-------------------------------|-|-------------------------------|
+| `rail-straight-block_support` | | `rail-straight-block_support` |
+| `rail-slope-1st`              | | `rail-slope-3rd`              |
+| `rail-slope-2nd`              | | `rail-slope-2nd`              |
+| `rail-slope-3rd`              | | `rail-slope-1st`              |
+| `rail-straight-block_support` | | `rail-straight-block_support` |
 
 The `rail-slope-adjuster_large` can be used to snap horizontal railway system blueprints on the underside on the correct
 height by extending 4 m foundations.
 
 #### Build Slope Up
-- Place `rail-straight-block_pillar`, `rail-slope-1st` and `rail-slope-2nd`.
+- Place `rail-straight-block_support`, `rail-slope-1st` and `rail-slope-2nd`.
 - Build 3 double ramp 4 m upwards.
 - Place `rail-slope-adjuster` snapping to double ramp.
 - Place another `rail-slope-adjuster` on top of previous.
 - Remove first `rail-slope-adjuster`.
-- Place `rail-straight-block_pillar` snapping to underside of `rail-slope-adjuster`.
+- Place `rail-straight-block_support` snapping to underside of `rail-slope-adjuster`.
+- Connect `rail-straight-block_support` with cable.
 - Remove second `rail-slope-adjuster` and extra double ramp.
-- Place `rail-slope-3rd` from snapping to `rail-straight-block_pillar`.
+- Place `rail-slope-3rd` from snapping to `rail-straight-block_support`.
 - Connect railway. The railway on `rail-slope-1st` and `rail-slope-3rd` are to minimise slope curvature (only first and last twelve meter affected). They could in theory be removed after slope curves are built.
-- Build pillars.
+- Build support.
 
 #### Build Slope Down
-- Place `rail-straight-block_pillar` and `rail-slope-3rd`.
+- Place `rail-straight-block_support` and `rail-slope-3rd`.
 - Build 6 double ramp 4 m downwards. Build an L of 2 m foundations from double ramp and to the side.
 - Place `rail-slope-adjuster` snapping to the 2 m foundations.
 - Place another `rail-slope-adjuster` on top of previous.
 - Remove first `rail-slope-adjuster` and extra foundations on the side.
-- Place `rail-straight-block_pillar` snapping to underside of `rail-slope-adjuster`.
+- Place `rail-straight-block_support` snapping to underside of `rail-slope-adjuster`.
+- Connect `rail-straight-block_support` with cable.
 - Remove second `rail-slope-adjuster` and extra double ramps.
-- Place `rail-slope-1st` and `rail-slope-2nd` snapping to `rail-straight-block_pillar`.
+- Place `rail-slope-1st` and `rail-slope-2nd` snapping to `rail-straight-block_support`.
 - Connect railway. The railway on `rail-slope-1st` and `rail-slope-3rd` are to minimise slope curvature (only first and last twelve meter affected). They could in theory be removed after slope curves are built.
-- Build pillars.
+- Build support.
 
 ## Power
 
