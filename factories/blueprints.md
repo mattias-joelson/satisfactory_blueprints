@@ -24,6 +24,8 @@ floor and the interconnection between them are handled on the basement floor.
 | `prod-side-corner_support_c`  | Side decoration for production floor grid corner where corner has support, actual corner of production grid.        |
 | `prod-side-corner_outlet_c`   | Side decoration for production floor grid corner where outlet corner has support, actual corner of production grid. |
 | `prod-side-connect`           | Side decoration for production floor grid connection.                                                               |
+| `prod-side-connect_input_1`   | A block in `prod-side-connect` can be exchanged for single conveyor belt "input".                                   |
+| `prod-side-connect_input_2`   | A block in `prod-side-connect` can be exchanged for double conveyor belt "input".                                   |
 |                               |                                                                                                                     |
 | `prod-grid-stairs`            | Catwalk stairs between module floors.                                                                               |
 | `prod-grid-stairs_top`        | Catwalk stairs between module floors, top floor.                                                                    |
