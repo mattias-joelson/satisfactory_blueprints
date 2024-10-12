@@ -627,6 +627,7 @@ pump and connect to nearest `pow-npp_grid-corner_outlet`. Finish off by placing 
 - `pow-power_storage`
 
 ## Sign
+- `sign-iron_ingot`
 - `sign-copper_ingot`
 - `sign-steel_ingot`
 - `sign-iron_rod`
