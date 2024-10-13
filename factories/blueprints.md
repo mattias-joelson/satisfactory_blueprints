@@ -10,29 +10,31 @@ floor and the interconnection between them are handled on the basement floor.
 
 ### Production Floor Grid
 
-| blueprint                       | usage                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| `prod-grid-corner`              | Corners of production floor grid.                                                                                   |
-| `prod-grid-corner_outlet`       | Corner of production floor grid with power outlets. Connects electricity on basement floor and underneath factory.  |
-| `prod-grid-connect`             | Connects production floor grid corners.                                                                             |
-| `prod-grid-connect_stairs`      | Connects production floor grid corners. Stairs between production floor and basement.                               |
-| `prod-grid-connect_stairwell`   | Connects production floor grid corners. Stairs between production floor, basement and underside.                    |
-|                                 |                                                                                                                     |
-| `prod-side-corner`              | Side decoration for production floor grid corner.                                                                   |
-| `prod-side-corner_c`            | Side decoration for production floor grid corner, actual corner of production grid.                                 |
-| `prod-side-corner_support`      | Side decoration for production floor grid corner where corner has support.                                          |
-| `prod-side-corner_support_c`    | Side decoration for production floor grid corner where corner has support, actual corner of production grid.        |
-| `prod-side-corner_outlet_c`     | Side decoration for production floor grid corner where outlet corner has support, actual corner of production grid. |
-| `prod-side-connect`             | Side decoration for production floor grid connection.                                                               |
-| `prod-side-connect_input_mk5`   | A block in `prod-side-connect` can be exchanged for single mk5 conveyor belt "input".                               |
-| `prod-side-connect_input_mk5_2` | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input".                               |
-| `prod-side-connect_input_mk2`   | A block in `prod-side-connect` can be exchanged for single mk2 pipe "input".                                        |
-| `prod-side-connect_input_mk2_2` | A block in `prod-side-connect` can be exchanged for double mk2 pipe "input".                                        |
-|                                 |                                                                                                                     |
-| `prod-grid-stairs`              | Catwalk stairs between module floors.                                                                               |
-| `prod-grid-stairs_top`          | Catwalk stairs between module floors, top floor.                                                                    |
-| `prod-grid-stairs_side`         | Catwalk stairs between module floors, only module on one side.                                                      |
-| `prod-grid-stairs_side_top`     | Catwalk stairs between module floors, only module on one side, top floor.                                           |
+| blueprint                        | usage                                                                                                               |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `prod-grid-corner`               | Corners of production floor grid.                                                                                   |
+| `prod-grid-corner_outlet`        | Corner of production floor grid with power outlets. Connects electricity on basement floor and underneath factory.  |
+| `prod-grid-connect`              | Connects production floor grid corners.                                                                             |
+| `prod-grid-connect_stairs`       | Connects production floor grid corners. Stairs between production floor and basement.                               |
+| `prod-grid-connect_stairwell`    | Connects production floor grid corners. Stairs between production floor, basement and underside.                    |
+|                                  |                                                                                                                     |
+| `prod-side-corner`               | Side decoration for production floor grid corner.                                                                   |
+| `prod-side-corner_c`             | Side decoration for production floor grid corner, actual corner of production grid.                                 |
+| `prod-side-corner_support`       | Side decoration for production floor grid corner where corner has support.                                          |
+| `prod-side-corner_support_c`     | Side decoration for production floor grid corner where corner has support, actual corner of production grid.        |
+| `prod-side-corner_outlet_c`      | Side decoration for production floor grid corner where outlet corner has support, actual corner of production grid. |
+| `prod-side-connect`              | Side decoration for production floor grid connection.                                                               |
+| `prod-side-connect_input_mk5`    | A block in `prod-side-connect` can be exchanged for single mk5 conveyor belt "input".                               |
+| `prod-side-connect_input_mk5_2`  | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input".                               |
+| `prod-side-connect_input_mk5_2L` | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input", opposite direction.           |
+| `prod-side-connect_input_mk5_2R` | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input", opposite direction.           |
+| `prod-side-connect_input_mk2`    | A block in `prod-side-connect` can be exchanged for single mk2 pipe "input".                                        |
+| `prod-side-connect_input_mk2_2`  | A block in `prod-side-connect` can be exchanged for double mk2 pipe "input".                                        |
+|                                  |                                                                                                                     |
+| `prod-grid-stairs`               | Catwalk stairs between module floors.                                                                               |
+| `prod-grid-stairs_top`           | Catwalk stairs between module floors, top floor.                                                                    |
+| `prod-grid-stairs_side`          | Catwalk stairs between module floors, only module on one side.                                                      |
+| `prod-grid-stairs_side_top`      | Catwalk stairs between module floors, only module on one side, top floor.                                           |
 
 Uses parts from
 - HUB Upgrade 2 (power line)
