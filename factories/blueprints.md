@@ -217,7 +217,7 @@ Uses parts from
 
 > [!IMPORTANT]
 > `prod-mk5-mk2-particle_accelerato` is actually 4 foundations wide and 5 long. This mean that it will occupy the
-> connect part one the cable connection side.
+> connect part on the cable connection side.
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
