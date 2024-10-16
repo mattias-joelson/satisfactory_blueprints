@@ -10,17 +10,31 @@ floor and the interconnection between them are handled on the basement floor.
 
 ### Production Floor Grid
 
-| blueprint                          | floors             | electric connection | pillar top with sockets | used for                                                                               |
-|------------------------------------|--------------------|---------------------|-------------------------|----------------------------------------------------------------------------------------|
-| `prod-floor-corner`                | :white_check_mark: |                     |                         | Corners of module floors.                                                              |
-| `prod-floor-corner_pillar`         | :white_check_mark: | :white_check_mark:  | :white_check_mark:      | Corner of module floors, connect electricity on basement floor and underneath factory. |
-| `prod-floor-connect`               | :white_check_mark: |                     |                         | Between module floors.                                                                 |
-| `prod-floor-connect_stairs`        | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor and basement.                   |
-| `prod-floor-connect_stairwell`     | :white_check_mark: |                     |                         | Between module floors. Stairs between production floor, basement and below.            |
-|                                    |                    |                     |                         |                                                                                        |
-| `prod-floor-corner_outside`        |                    |                     |                         | Decoration outside of factory floor corners.                                           |
-| `prod-floor-corner_pillar_outside` |                    |                     |                         | Decoration outside of factory floor corners (for pillars).                             |
-| `prod-floor-connect_outside`       |                    |                     |                         | Decoration outside of factory floor connections.                                       |
+| blueprint                        | usage                                                                                                               |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `prod-grid-corner`               | Corners of production floor grid.                                                                                   |
+| `prod-grid-corner_outlet`        | Corner of production floor grid with power outlets. Connects electricity on basement floor and underneath factory.  |
+| `prod-grid-connect`              | Connects production floor grid corners.                                                                             |
+| `prod-grid-connect_stairs`       | Connects production floor grid corners. Stairs between production floor and basement.                               |
+| `prod-grid-connect_stairwell`    | Connects production floor grid corners. Stairs between production floor, basement and underside.                    |
+|                                  |                                                                                                                     |
+| `prod-side-corner`               | Side decoration for production floor grid corner.                                                                   |
+| `prod-side-corner_c`             | Side decoration for production floor grid corner, actual corner of production grid.                                 |
+| `prod-side-corner_support`       | Side decoration for production floor grid corner where corner has support.                                          |
+| `prod-side-corner_support_c`     | Side decoration for production floor grid corner where corner has support, actual corner of production grid.        |
+| `prod-side-corner_outlet_c`      | Side decoration for production floor grid corner where outlet corner has support, actual corner of production grid. |
+| `prod-side-connect`              | Side decoration for production floor grid connection.                                                               |
+| `prod-side-connect_input_mk5`    | A block in `prod-side-connect` can be exchanged for single mk5 conveyor belt "input".                               |
+| `prod-side-connect_input_mk5_2`  | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input".                               |
+| `prod-side-connect_input_mk5_2L` | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input", opposite direction.           |
+| `prod-side-connect_input_mk5_2R` | A block in `prod-side-connect` can be exchanged for double mk5 conveyor belt "input", opposite direction.           |
+| `prod-side-connect_input_mk2`    | A block in `prod-side-connect` can be exchanged for single mk2 pipe "input".                                        |
+| `prod-side-connect_input_mk2_2`  | A block in `prod-side-connect` can be exchanged for double mk2 pipe "input".                                        |
+|                                  |                                                                                                                     |
+| `prod-grid-stairs`               | Catwalk stairs between module floors.                                                                               |
+| `prod-grid-stairs_top`           | Catwalk stairs between module floors, top floor.                                                                    |
+| `prod-grid-stairs_side`          | Catwalk stairs between module floors, only module on one side.                                                      |
+| `prod-grid-stairs_side_top`      | Catwalk stairs between module floors, only module on one side, top floor.                                           |
 
 Uses parts from
 - HUB Upgrade 2 (power line)
@@ -34,10 +48,11 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 - AWESOME Shop - Customizer - Concrete Wall Material
 
-### Production Floor Support
-- `prod-found-pillar_base`
-- `prod-found-pillar_base_ext`
-- `prod-found-pillar_support`
+### Production Floor Grid Support
+| blueprint                  | usage                                                                                              |
+|----------------------------|----------------------------------------------------------------------------------------------------|
+| `prod-grid-support_base_1` | Base for production floor grid support. Flat surface.                                              |
+| `prod-grid-support_base_5` | Base for production floor grid support. Uneven surface, includes top of branching support columns. |
 
 Uses parts from
 - Tier 1 - Base Building (foundation, ramp, wall)
@@ -53,32 +68,33 @@ Two layers of 4m foundation, 8++ m vertical in between. Wall outlet under the to
 |-------------------------------|-------|
 | `prod-parts-production_floor` |       |
 
-| blueprint              | input holes | intermediate input hole | input pipe holes | output hole        | output pipe hole   | used for                                                                                               |
-|------------------------|------------:|-------------------------|-----------------:|--------------------|--------------------|--------------------------------------------------------------------------------------------------------|
-| `prod-floor-empty`     |             |                         |                  |                    |                    | no wiring, used for non-electric modules (train stations, mall)                                        |
-| `prod-floor-1-1`       |           1 |                         |                  | :white_check_mark: |                    | for one-ingredient parts (smelter, constructor)                                                        |
-| `prod-floor-1-1-cable` |           1 |                         |                  | :white_check_mark: |                    | for cable                                                                                              |
-| `prod-floor-2-1`       |           2 |                         |                  | :white_check_mark: |                    | for two-ingredient parts (foundry, assembler)                                                          |
-| `prod-floor-2i-1`      |           2 | :white_check_mark:      |                  | :white_check_mark: |                    | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
-| `prod-floor-3-1`       |           3 |                         |                  | :white_check_mark: |                    | for three-ingredient parts (manufacturer)                                                              |
-| `prod-floor-3i-1`      |           3 | :white_check_mark:      |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
-| `prod-floor-4-1`       |           4 |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
-| `prod-floor-4i-1`      |           4 | :white_check_mark:      |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
-| `prod-floor-1-2-0-1`   |           1 |                         |                2 |                    | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-2-1-1-0`   |           2 |                         |                1 | :white_check_mark: |                    | for blender                                                                                            |
-| `prod-floor-2-1-1-1`   |           2 |                         |                1 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-2-2-1-0`   |           2 |                         |                2 | :white_check_mark: |                    | for blender                                                                                            |
-| `prod-floor-2-2-1-1`   |           2 |                         |                2 | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
-| `prod-floor-1-0--1`    |           1 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-1-1--1`    |           1 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-2-0--1`    |           2 |                         |                0 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-2-1--1`    |           2 |                         |                1 | :white_check_mark: |                    | for particle accelerator                                                                               |
-| `prod-floor-0--0-1`    |           0 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
-| `prod-floor-1--0-1`    |           1 |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
-| `prod-floor-1--1-0`    |           1 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
-| `prod-floor-2--1-0`    |           2 |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
-| `prod-floor-2--1-1`    |           2 |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
-| `prod-floor-storage`   |          18 |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
+| blueprint                 | input holes | intermediate input hole | input pipe holes |    output hole     |  output pipe hole  | used for                                                                                               |
+|---------------------------|:-----------:|:-----------------------:|:----------------:|:------------------:|:------------------:|--------------------------------------------------------------------------------------------------------|
+| `prod-floor-empty`        |             |                         |                  |                    |                    | no wiring, used for non-electric modules (train stations, large balancers)                             |
+| `prod-floor-empty_outlet` |             |                         |                  |                    |                    | wiring and power outlet, used for electric modules (radar tower)                                       |
+| `prod-floor-1-1`          |      1      |                         |                  | :white_check_mark: |                    | for one-ingredient parts (smelter, constructor)                                                        |
+| `prod-floor-1-1-cable`    |      1      |                         |                  | :white_check_mark: |                    | for cable                                                                                              |
+| `prod-floor-2-1`          |      2      |                         |                  | :white_check_mark: |                    | for two-ingredient parts (foundry, assembler)                                                          |
+| `prod-floor-2i-1`         |      2      |   :white_check_mark:    |                  | :white_check_mark: |                    | for two-ingredient parts where one intermediate is manufactured locally (example: rotors using screws) |
+| `prod-floor-3-1`          |      3      |                         |                  | :white_check_mark: |                    | for three-ingredient parts (manufacturer)                                                              |
+| `prod-floor-3i-1`         |      3      |   :white_check_mark:    |                  | :white_check_mark: |                    | for three-ingredient parts where one intermediate is manufactured locally (manufacturer)               |
+| `prod-floor-4-1`          |      4      |                         |                  | :white_check_mark: |                    | for four-ingredient parts (manufacturer)                                                               |
+| `prod-floor-4i-1`         |      4      |   :white_check_mark:    |                  | :white_check_mark: |                    | for four-ingredient parts where one intermediate is manufactured locally (manufacturer)                |
+| `prod-floor-1-2-0-1`      |      1      |                         |        2         |                    | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-1-1-0`      |      2      |                         |        1         | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-1-1-1`      |      2      |                         |        1         | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-2-2-1-0`      |      2      |                         |        2         | :white_check_mark: |                    | for blender                                                                                            |
+| `prod-floor-2-2-1-1`      |      2      |                         |        2         | :white_check_mark: | :white_check_mark: | for blender                                                                                            |
+| `prod-floor-1-0--1`       |      1      |                         |        0         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-1-1--1`       |      1      |                         |        1         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-0--1`       |      2      |                         |        0         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-2-1--1`       |      2      |                         |        1         | :white_check_mark: |                    | for particle accelerator                                                                               |
+| `prod-floor-0--0-1`       |      0      |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--0-1`       |      1      |                         |                  |                    | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-1--1-0`       |      1      |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
+| `prod-floor-2--1-0`       |      2      |                         |                  | :white_check_mark: |                    | for converter                                                                                          |
+| `prod-floor-2--1-1`       |      2      |                         |                  | :white_check_mark: | :white_check_mark: | for converter                                                                                          |
+| `prod-floor-storage`      |     18      |                         |                  |                    |                    | for `prod-module-storage`                                                                              |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line)
@@ -89,10 +105,6 @@ Uses parts from
 - AWESOME Shop - Customizer - Concrete Foundation Material
 
 ### Module
-- `prod-module-stairs` - catwalk stairs between modules
-- `prod-module-stairs_top` - catwalk stairs between modules, top floor
-- `prod-module-stairs_outside` - catwalk stairs between modules, outermost
-- `prod-module-stairs_outside_top` - catwalk stairs between modules, outermost, top floor
 - `prod-module-storage` - 18 storage containers
 
 
@@ -184,6 +196,7 @@ Uses parts from
 - `prod-mk3-mk2-smokeless_powder_LR`
 - `prod-mk3-mk2-smokeless_powder_RL`
 
+
 ## Production mk5
 
 | template blueprint                 | module production floor | notes                  |
@@ -201,6 +214,10 @@ Uses parts from
 | `prod-mk5-mk2-blender`             | `prod-floor-2-2-1-1`    | 1 blender              |
 | `prod-mk5-mk2-particle_accelerato` | `prod-floor-2-1-1`      | 1 particle accelerator |
 | `prod-mk5-mk2-converter`           | `prod-floor-2--1-1`     | 2 converter            |
+
+> [!IMPORTANT]
+> `prod-mk5-mk2-particle_accelerato` is actually 4 foundations wide and 5 long. This mean that it will occupy the
+> connect part on the cable connection side.
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line, smelter)
@@ -328,31 +345,24 @@ Uses parts from
 - `prod-mk5-mk2-dark_matter_residue`
 - `prod-mk5-ficsite_ingot_AI`
 
+
 ## Logistics
 
-### Parts
-- logi-parts-vertical_splitter_mk2
-- logi-parts-vertical_splitter_mk3
-- logi-parts-vertical_splitter_mk5
-- logi-parts-vertical_merger_mk2
-- logi-parts-vertical_merger_mk3
-- logi-parts-vertical_merger_mk5
-
-### Balancer mk3
-- logi-balancer-2_2_mk3
-- logi-balancer-2_2_mk3_high
-- logi-balancer-2_3_mk3
-- logi-balancer-2_4_mk3
-- logi-balancer-3_3_mk3
-- logi-balancer-4_4_mk3
+### Production Floor Basement
+- `logi-high_merger`
+- `logi-high_smart_splitter`
+- `logi-high_splitter`
 
 ### Balancer mk5
-- logi-balancer-2_2_mk5
 - `logi-balancer-2_2_mk5_high`
 - `logi-balancer-2_3_mk5`
-- logi-balancer-2_4_mk5
+- `logi-balancer-2_4_mk5`
 - `logi-balancer-3_3_mk5`
 - `logi-balancer-4_4_mk5`
+
+### Balancer mk6
+- `logi-balancer-4_4_mk6`
+
 
 ## Fluid
 
@@ -364,58 +374,40 @@ Uses parts from
 - `fluid-pump-mk2-vertical-1`
 - `fluid-pump-mk2-vertical-2`
 
-### Control - Priority Junction
-- fluid-ctrl-prio_junction-mk1-L-L
-- fluid-ctrl-prio_junction-mk1-L-R
-- fluid-ctrl-prio_junction-mk1-R-L
-- fluid-ctrl-prio_junction-mk1-R-R
-- fluid-ctrl-prio_junction-mk2-L-L
-- fluid-ctrl-prio_junction-mk2-L-R
-- fluid-ctrl-prio_junction-mk2-R-L
-- fluid-ctrl-prio_junction-mk2-R-R
-
-### Control - Overflow Junction
-- fluid-ctrl-overflow_junction-mk1
-- fluid-ctrl-3_junction_mk1
-
 ### Station
-- fluid-load-mk1
 - `fluid-load-mk2`
-- fluid-unload-mk1
 - `fluid-unload-mk2`
 
-
-### Buffer
-- fluid-buffer-mk1 - 4 fluid buffer, pipes mk1 (300)
-- fluid-buffer-mk2 - 4 fluid buffer, pipes mk2 (600)
 
 ## Railway System
 
 All railway blueprints are 3 x 3 foundations using concrete only. Blueprints with electric connection should be
-connected with cable so that the pillar sockets provide electricity.
+connected with cable so that the support sockets provide electricity.
 
-| blueprint                         | walled foundation  | railway            | block signals      | electric connection | pillar top with sockets | used for                                                                                  |
-|-----------------------------------|--------------------|--------------------|--------------------|---------------------|-------------------------|-------------------------------------------------------------------------------------------|
-| `rail-straight`                   | :white_check_mark: |                    |                    |                     |                         | Straight blocks.                                                                          |
-| `rail-straight-block_pillar`      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :white_check_mark:      | Straight blocks, every fourth blueprint.                                                  |
-| `rail-straight-block_temp_pillar` | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  | :white_check_mark:      | Straight blocks, every fourth blueprint. NOTE! Placeholder for block signals.             |
-| `rail-straight-no_wall`           | :white_check_mark: |                    |                    |                     |                         | Double sided stations.                                                                    |
-| `rail-straight-no_wall_pillar`    | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Double sided stations.                                                                    |
-| `rail-straight-one_wall`          | :white_check_mark: |                    |                    |                     |                         | Single sided stations.                                                                    |
-| `rail-straight-one_wall_pillar`   | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Single sided stations.                                                                    |
-|                                   |                    |                    |                    |                     |                         |                                                                                           |
-| `rail-entry_pillar`               | :white_check_mark: |                    |                    | :white_check_mark:  | :white_check_mark:      | Pillar support where signaling is done by hand (instead of `rail-straight-block_pillar`). |
-| `rail-curve-branch`               | :white_check_mark: | :white_check_mark: |                    |                     |                         | Curve block, single sided stations.                                                       |
-| `rail-curve-back`                 | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Curve block.                                                                              |
-| `rail-curve-corner`               | :white_check_mark: |                    |                    |                     |                         | Curve and junction block.                                                                 |
-| `rail-junc-branch`                | :white_check_mark: | :white_check_mark: |                    |                     |                         | Junction block, double sided stations.                                                    |
-| `rail-junc-back`                  | :white_check_mark: |                    |                    | :white_check_mark:  |                         | Junction block.                                                                           |
-|                                   |                    |                    |                    |                     |                         |                                                                                           |
-| `rail-slope-1st`                  | :white_check_mark: | :white_check_mark: |                    |                     |                         | Slope block.                                                                              |
-| `rail-slope-2nd`                  | :white_check_mark: |                    |                    |                     |                         | Slope block.                                                                              |
-| `rail-slope-3rd`                  | :white_check_mark: | :white_check_mark: |                    |                     |                         | Slope block.                                                                              |
-| `rail-slope-adjuster`             |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
-| `rail-slope-adjuster_large`       |                    |                    |                    |                     |                         | For placing parts of slope blocks.                                                        |
+| blueprint                          | walled foundation  |      railway       |   block signals    | electric connection | support top with outlets | used for                                                                      |
+|------------------------------------|:------------------:|:------------------:|:------------------:|:-------------------:|:------------------------:|-------------------------------------------------------------------------------|
+| `rail-straight`                    | :white_check_mark: |                    |                    |                     |                          | Straight blocks.                                                              |
+| `rail-straight-block_support`      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:  |    :white_check_mark:    | Straight blocks, every fourth blueprint.                                      |
+| `rail-straight-block_temp_support` | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  |    :white_check_mark:    | Straight blocks, every fourth blueprint. NOTE! Placeholder for block signals. |
+|                                    |                    |                    |                    |                     |                          |                                                                               |
+| `rail-stat-entry_support`          | :white_check_mark: | :white_check_mark: |                    | :white_check_mark:  |    :white_check_mark:    | Station entry block.                                                          |
+| `rail-stat-no_wall`                | :white_check_mark: |                    |                    |                     |                          | Double sided stations.                                                        |
+| `rail-stat-no_wall_support`        | :white_check_mark: |                    |                    | :white_check_mark:  |    :white_check_mark:    | Double sided stations.                                                        |
+| `rail-stat-one_wall`               | :white_check_mark: |                    |                    |                     |                          | Single sided stations.                                                        |
+| `rail-stat-one_wall_support`       | :white_check_mark: |                    |                    | :white_check_mark:  |    :white_check_mark:    | Single sided stations.                                                        |
+|                                    |                    |                    |                    |                     |                          |                                                                               |
+| `rail-curve-entry_support`         | :white_check_mark: |                    |                    | :white_check_mark:  |    :white_check_mark:    | Curve and junction entry.                                                     |
+| `rail-curve-branch`                | :white_check_mark: | :white_check_mark: |                    |                     |                          | Curve block, single sided stations.                                           |
+| `rail-curve-back`                  | :white_check_mark: |                    |                    | :white_check_mark:  |                          | Curve block.                                                                  |
+| `rail-curve-corner`                | :white_check_mark: |                    |                    |                     |                          | Curve and junction block.                                                     |
+| `rail-junc-branch`                 | :white_check_mark: | :white_check_mark: |                    |                     |                          | Junction block, double sided stations.                                        |
+| `rail-junc-back`                   | :white_check_mark: |                    |                    | :white_check_mark:  |                          | Junction block.                                                               |
+|                                    |                    |                    |                    |                     |                          |                                                                               |
+| `rail-slope-1st`                   | :white_check_mark: | :white_check_mark: |                    |                     |                          | Slope block.                                                                  |
+| `rail-slope-2nd`                   | :white_check_mark: |                    |                    |                     |                          | Slope block.                                                                  |
+| `rail-slope-3rd`                   | :white_check_mark: | :white_check_mark: |                    |                     |                          | Slope block.                                                                  |
+| `rail-slope-adjuster`              |                    |                    |                    |                     |                          | For placing parts of slope blocks.                                            |
+| `rail-slope-adjuster_large`        |                    |                    |                    |                     |                          | For placing parts of slope blocks.                                            |
 
 Uses parts from
 - Tier 0 - HUB Upgrade 2 (power line)
@@ -433,125 +425,130 @@ Uses parts from
 
 ### Building Straight Block
 
-|                              |
-|------------------------------|
-| `rail-straight-block_pillar` |
-| `rail-straight`              |
-| `rail-straight`              |
-| `rail-straight`              |
-| `rail-straight-block_pillar` |
+|                               |
+|-------------------------------|
+| `rail-straight-block_support` |
+| `rail-straight`               |
+| `rail-straight`               |
+| `rail-straight`               |
+| `rail-straight-block_support` |
 
-- Connect `rail-straight-block_pillar` with cable.
-- Build railway between `rail-straight-block_pillar`.
-- Build pillars.
+- Connect `rail-straight-block_support` with cable.
+- Build railway between `rail-straight-block_support`.
+- Build support.
 
 ### Building Curve Block
 
-|                     |                     |                     |
-|---------------------|---------------------|---------------------|
-| `rail-entry_pillar` | `rail-curve-branch` | `rail-curve-back`   |
-|                     | `rail-curve-corner` | `rail-curve-branch` |
-|                     |                     | `rail-entry_pillar` |
+|                            |                     |                            |
+|----------------------------|---------------------|----------------------------|
+| `rail-curve-entry_support` | `rail-curve-branch` | `rail-curve-back`          |
+|                            | `rail-curve-corner` | `rail-curve-branch`        |
+|                            |                     | `rail-curve-entry_support` |
 
-- Connect `rail-entry_pillar` and `rail-curve-back` with cable.
-- Build railway from `rail-curve-branch` to start of `rail-entry_pillar`.
+- Connect `rail-curve-entry_support` and `rail-curve-back` with cable.
+- Build railway from `rail-curve-branch` to start of `rail-curve-entry_support`.
 - Build railway outer curve between `rail-curve-branch` blueprints `rail-curve-branch`.
 - Build railway inner curve between `rail-curve-branch` blueprints.
 - Remove straight railway on `rail-curve-branch`.
-- Add block signals.
-- Build pillars.
+- Add block signals at entrance of `rail-curve-entry_support`.
+- Build support.
 
 > [!IMPORTANT]
-> Inside curve is too short for a 1+4 train. If curve block is built between straight blocks then either
-> `rail-entry-pillar` can be used.
+> Inside curve is too short for a 1+4 train. If curve block is built between straight segments then block signals can be
+> placed at entrance of `rail-curve-entry_support`. If immediately by another curve, adjustments are needed and a train
+> might occupy two blocks.
 
 ### Building T-Junction Block
 
-|                     |                     |                     |                     |                     |
-|---------------------|---------------------|---------------------|---------------------|---------------------|
-| `rail-entry_pillar` | `rail-junc-branch`  | `rail-junc-back`    | `rail-junc-branch`  | `rail-entry_pillar` |
-|                     | `rail-curve-corner` | `rail-junc-branch`  | `rail-curve-corner` |                     |
-|                     |                     | `rail-entry_pillar` |
+|                            |                     |                            |                     |                            |
+|----------------------------|---------------------|----------------------------|---------------------|----------------------------|
+| `rail-curve-entry_support` | `rail-curve-branch` | `rail-junc-back`           | `rail-curve-branch` | `rail-curve-entry_support` |
+|                            | `rail-curve-corner` | `rail-junc-branch`         | `rail-curve-corner` |                            |
+|                            |                     | `rail-curve-entry_support` |                     |                            |
 
-- Connect `rail-entry_pillar` and `rail-junc-back` with cable.
-- Build railway from `rail-junc-branch` to start of `rail-entry_pillar`.
-- Build outside curve from center `rail-junc-branch` to side `rail-junc-branch`. They cross each other.
-- Build inside curve from center `rail-junc-branch` to side `rail-entry_pillar`.
+- Connect `rail-curve-entry_support` and `rail-junc-back` with cable.
+- Build railway from `rail-junc-branch` to entrance of `rail-curve-entry_support`.
+- Build railway from `rail-curve-branch` to entrance of `rail-curve-entry_support`.
+- Build straight railway from `rail-curve-branch` to entrance of `rail-curve-branch`.
+- Build outside curves from center `rail-junc-branch` to side `rail-curve-branch`. They cross each other.
+- Build inside curves from center `rail-junc-branch` to side `rail-curve-entry_support`.
 - Add path and block signals.
-- Build pillars.
+- Build support.
 
 > [!IMPORTANT]
-> If junction is immediate followed by another junction then the part between them is too short for a 1+4 train and path
-> signals need to be used.
+> If junction is immediately followed by another junction then the part between them is too short for a 1+4 train and
+> path signals need to be used.
 
 ### Building Train Stations
 
-| single sided                    | | double sided                   |
-|---------------------------------|-|--------------------------------|
-| `rail-entry_pillar`             | | `rail-entry_pillar`            |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-curve-branch`             | | `rail-junc-branch`             |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-straight-one_wall_pillar` | | `rail-straight-no_wall_pillar` |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-curve-branch`             | | `rail-junc-branch`             |
-| `rail-straight-one_wall`        | | `rail-straight-no_wall`        |
-| `rail-entry_pillar`             | | `rail-entry_pillar`            |
+| single sided                 | | double sided                |
+|------------------------------|-|-----------------------------|
+| `rail-stat-entry_support`    | | `rail-stat-entry_support`   |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-curve-branch`          | | `rail-junc-branch`          |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-stat-one_wall_support` | | `rail-stat-no_wall_support` |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-curve-branch`          | | `rail-junc-branch`          |
+| `rail-stat-one_wall`         | | `rail-stat-no_wall`         |
+| `rail-stat-entry_support`    | | `rail-stat-entry_support`   |
 
-- Connect `rail-entry_pillar`and `rail-straight-one_wall_pillar`/`rail-straight-no_wall_pillar` with cable.
+- Connect `rail-stat-entry_support`and `rail-stat-one_wall_support`/`rail-stat-no_wall_support` with cable.
 - Build station railway.
 - Add path and block signals.
-- Build pillars.
+- Build support.
 
-| blueprints single sided         | amount |
-|---------------------------------|-------:|
-| `prod-floor-empty`              |      4 |
-|                                 |        |
-| `prod-floor-corner`             |      9 |
-| `prod-floor-corner_pillar`      |      6 |
-| `prod-floor-connect`            |     14 |
-| `prod-floor-connect_stairs`     |      8 |
-|                                 |        |
-| `rail-straight-one_wall`        |      4 |
-| `rail-curve-branch`             |      2 |
-| `rail-straight-one_wall_pillar` |      1 |
+| blueprints single sided      | amount |
+|------------------------------|-------:|
+| `prod-floor-empty`           |      4 |
+|                              |        |
+| `prod-grid-corner`           |      9 |
+| `prod-grid-corner_outlet`    |      6 |
+| `prod-grid-connect`          |     14 |
+| `prod-grid-connect_stairs`   |      8 |
+|                              |        |
+| `rail-stat-one_wall`         |      4 |
+| `rail-curve-branch`          |      2 |
+| `rail-stat-one_wall_support` |      1 |
 
 ### Building Slopes
 
-| up                           | | down                         |
-|------------------------------|-|------------------------------|
-| `rail-straight-block_pillar` | | `rail-straight-block_pillar` |
-| `rail-slope-1st`             | | `rail-slope-3rd`             |
-| `rail-slope-2nd`             | | `rail-slope-2nd`             |
-| `rail-slope-3rd`             | | `rail-slope-1st`             |
-| `rail-straight-block_pillar` | | `rail-straight-block_pillar` |
+| up                            | | down                          |
+|-------------------------------|-|-------------------------------|
+| `rail-straight-block_support` | | `rail-straight-block_support` |
+| `rail-slope-1st`              | | `rail-slope-3rd`              |
+| `rail-slope-2nd`              | | `rail-slope-2nd`              |
+| `rail-slope-3rd`              | | `rail-slope-1st`              |
+| `rail-straight-block_support` | | `rail-straight-block_support` |
 
 The `rail-slope-adjuster_large` can be used to snap horizontal railway system blueprints on the underside on the correct
 height by extending 4 m foundations.
 
 #### Build Slope Up
-- Place `rail-straight-block_pillar`, `rail-slope-1st` and `rail-slope-2nd`.
+- Place `rail-straight-block_support`, `rail-slope-1st` and `rail-slope-2nd`.
 - Build 3 double ramp 4 m upwards.
 - Place `rail-slope-adjuster` snapping to double ramp.
 - Place another `rail-slope-adjuster` on top of previous.
 - Remove first `rail-slope-adjuster`.
-- Place `rail-straight-block_pillar` snapping to underside of `rail-slope-adjuster`.
+- Place `rail-straight-block_support` snapping to underside of `rail-slope-adjuster`.
+- Connect `rail-straight-block_support` with cable.
 - Remove second `rail-slope-adjuster` and extra double ramp.
-- Place `rail-slope-3rd` from snapping to `rail-straight-block_pillar`.
+- Place `rail-slope-3rd` from snapping to `rail-straight-block_support`.
 - Connect railway. The railway on `rail-slope-1st` and `rail-slope-3rd` are to minimise slope curvature (only first and last twelve meter affected). They could in theory be removed after slope curves are built.
-- Build pillars.
+- Build support.
 
 #### Build Slope Down
-- Place `rail-straight-block_pillar` and `rail-slope-3rd`.
+- Place `rail-straight-block_support` and `rail-slope-3rd`.
 - Build 6 double ramp 4 m downwards. Build an L of 2 m foundations from double ramp and to the side.
 - Place `rail-slope-adjuster` snapping to the 2 m foundations.
 - Place another `rail-slope-adjuster` on top of previous.
 - Remove first `rail-slope-adjuster` and extra foundations on the side.
-- Place `rail-straight-block_pillar` snapping to underside of `rail-slope-adjuster`.
+- Place `rail-straight-block_support` snapping to underside of `rail-slope-adjuster`.
+- Connect `rail-straight-block_support` with cable.
 - Remove second `rail-slope-adjuster` and extra double ramps.
-- Place `rail-slope-1st` and `rail-slope-2nd` snapping to `rail-straight-block_pillar`.
+- Place `rail-slope-1st` and `rail-slope-2nd` snapping to `rail-straight-block_support`.
 - Connect railway. The railway on `rail-slope-1st` and `rail-slope-3rd` are to minimise slope curvature (only first and last twelve meter affected). They could in theory be removed after slope curves are built.
-- Build pillars.
+- Build support.
 
 ## Power
 
@@ -583,44 +580,65 @@ height by extending 4 m foundations.
 - `pow-mk5-mk2-encased_uranium_cell`
 - `pow-mk5-mk2-non-fissile_uranium`
 - `pow-mk5-plutonium_pellet`
-- `pow-npp_floor-corner_outlet`
-- `pow-npp_floor-corner`
-- `pow-npp_floor-connect`
-- `pow-npp_floor-connect_plants`
-- `pow-npp_floor-connect_plants_L` (for single row of plants)
+
+## Nuclear Power Plant Grid and Plant Floor
+- `pow-npp_grid-corner`
+- `pow-npp_grid-corner_outlet`
+- `pow-npp_grid-connect`
+- `pow-npp_grid-connect_plants`
+- `pow-npp_grid-connect_plants_L` (for single row of plants)
 - `pow-npp_floor-placement`
-- `pow-npp_floor`
-- `pow-npp_floor_empty` (for floor with no nuclear plant)
+- `pow-npp_floor-plant`
+- `pow-npp_floor-empty` (for floor with no nuclear plant)
+- `pow-npp_side-corner_support`
+- `pow-npp_side-corner_support_c`
+- `pow-npp_side-corner_outlet_c`
+- `pow-npp_side-connect`
 
 The nuclear power plants does not fit well on 4x4 foundation so blueprints mk2 where needed. First build the grid and
 place `pow-npp_floor-placement` between the lines to simplify water extractor placement. Note that arrow for
-`pow-npp_floor-connect_plants` points towards waste direction.
+`pow-npp_grid-connect_plants` points towards waste direction.
 
-|                               |                                |                          |                                |                               |
-|-------------------------------|--------------------------------|--------------------------|--------------------------------|-------------------------------|
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`   | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
-| `pow-npp_floor-connect`       | `pow-npp_floor-placement`      | `pow-npp_floor-connect`  | `pow-npp_floor-placement`      | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner`        | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`   | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`        |
-| `pow-npp_floor-connect`       | `pow-npp_floor-placement`      | `pow-npp_floor-connect`  | `pow-npp_floor-placement`      | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`   | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+|                              |                               |                        |                               |                              |
+|------------------------------|-------------------------------|------------------------|-------------------------------|------------------------------|
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
+| `pow-npp_grid-connect`       | `pow-npp_floor-placement`     | `pow-npp_grid-connect` | `pow-npp_floor-placement`     | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner`        | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`  | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`        |
+| `pow-npp_grid-connect`       | `pow-npp_floor-placement`     | `pow-npp_grid-connect` | `pow-npp_floor-placement`     | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
 
 Align the water extractors on the pipe junctions. To get the correct distance zoop a line of foundations between the
-`pow-npp_floor-corner` to move up against. For optimal alignment nudge that line two small steps towards yourself. Then remove
-the alignment foundations and place the neighbouring water extractors. They will snap to the ones already placed.
+`pow-npp_grid-corner` to move up against. For optimal alignment nudge that line two small steps towards yourself. Then
+remove the alignment foundations and place the neighbouring water extractors. They will snap to the ones already placed.
 
-Dismantle the `pow-npp_floor-placement` and place the actual `pow-npp_floor` for the power plants. Entrance to the
+Dismantle the `pow-npp_floor-placement` and place the actual `pow-npp_floor-plant` for the power plants. Entrance to the
 basement is to the right when looking on the plant inputs.
 
-|                               |                                |                         |                                |                               |
-|-------------------------------|--------------------------------|-------------------------|--------------------------------|-------------------------------|
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`  | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
-| `pow-npp_floor-connect`       | `pow-npp_floor`                | `pow-npp_floor-connect` | `pow-npp_floor`                | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner`        | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`  | `pow-npp_floor-connect_plants` | `pow-npp_floor-corner`        |
-| `pow-npp_floor-connect`       | `pow-npp_floor`                | `pow-npp_floor-connect` | `pow-npp_floor`                | `pow-npp_floor-connect`       |
-| `pow-npp_floor-corner_outlet` | `pow-npp_floor-connect`        | `pow-npp_floor-corner`  | `pow-npp_floor-connect`        | `pow-npp_floor-corner_outlet` |
+|                              |                               |                        |                               |                              |
+|------------------------------|-------------------------------|------------------------|-------------------------------|------------------------------|
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
+| `pow-npp_grid-connect`       | `pow-npp_floor-plant`         | `pow-npp_grid-connect` | `pow-npp_floor-plant`         | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner`        | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`  | `pow-npp_grid-connect_plants` | `pow-npp_grid-corner`        |
+| `pow-npp_grid-connect`       | `pow-npp_floor-plant`         | `pow-npp_grid-connect` | `pow-npp_floor-plant`         | `pow-npp_grid-connect`       |
+| `pow-npp_grid-corner_outlet` | `pow-npp_grid-connect`        | `pow-npp_grid-corner`  | `pow-npp_grid-connect`        | `pow-npp_grid-corner_outlet` |
 
-Finish off by placing the power plants and connect them. Also hook up the water extractors to the same power pole as the
-pump and connect to nearest `pow-npp_floor-corner_outlet`.
+Connect water extractors and pump with pipes mk1 and connect the water extractors to the same power pole as the
+pump and connect to nearest `pow-npp_grid-corner_outlet`. Finish off by placing the power plants and connect them.
 
 ### Storage
 - `pow-power_storage`
+
+## Sign
+- `sign-iron_ingot`
+- `sign-copper_ingot`
+- `sign-steel_ingot`
+- `sign-iron_rod`
+- `sign-copper_sheet`
+- `sign-steel_pipe`
+- `sign-rotor`
+- `sign-stator`
+- `sign-motor`
+- `sign-heat_sink`
+- `sign-thermal_propulsion_rocket`
+- `sign-turbo_motor`
+- `sign-cooling_system`
